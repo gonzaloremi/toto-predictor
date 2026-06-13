@@ -24,7 +24,7 @@ function FormBadge({ result }: { result: string }) {
     L: 'bg-red-600 text-white',
   };
   return (
-    <span className={`w-6 h-6 rounded text-xs font-bold inline-flex items-center justify-center ${colors[result] ?? 'bg-gray-600'}`}>
+    <span className={`w-5 h-5 rounded text-[10px] font-bold inline-flex items-center justify-center shrink-0 ${colors[result] ?? 'bg-gray-600'}`}>
       {RESULT_FR[result] ?? result}
     </span>
   );
@@ -108,20 +108,19 @@ function TeamStatsCard({ team, stats, wcHistory, lastMatches }: {
 function LastMatchesCard({ team, lastMatches }: { team: string; lastMatches: TeamLastMatch[] }) {
   if (!lastMatches.length) return null;
   return (
-    <div className="bg-wc-dark/50 rounded-lg p-4 border border-wc-border">
-      <div className="flex items-center gap-2 mb-3">
-        <span className="text-2xl">{getFlag(team)}</span>
-        <h4 className="font-bold">{team}</h4>
-        <span className="text-xs text-wc-muted ml-auto">10 derniers matchs</span>
+    <div className="bg-wc-dark/50 rounded-lg p-3 border border-wc-border">
+      <div className="flex items-center gap-1.5 mb-2">
+        <span className="text-lg">{getFlag(team)}</span>
+        <h4 className="font-bold text-sm truncate">{team}</h4>
       </div>
-      <div className="space-y-1">
+      <div className="space-y-0.5">
         {lastMatches.slice(0, 10).map((m, i) => (
-          <div key={i} className="flex items-center justify-between text-xs gap-2">
-            <span className="text-wc-muted w-20 shrink-0">{m.date}</span>
-            <span className="truncate flex-1">
-              {m.home ? 'vs' : '@'} {m.opponent}
+          <div key={i} className="flex items-center justify-between text-[10px] gap-1">
+            <span className="text-wc-muted shrink-0">{m.date.slice(5)}</span>
+            <span className="truncate flex-1 text-wc-text/80">
+              {m.opponent}
             </span>
-            <span className="font-mono font-bold">{m.score[0]}-{m.score[1]}</span>
+            <span className="font-mono font-bold shrink-0">{m.score[0]}-{m.score[1]}</span>
             <FormBadge result={m.result} />
           </div>
         ))}
@@ -134,7 +133,7 @@ export default function QuantitativeSection({ team1, team2, data }: Props) {
   return (
     <div className="space-y-4">
       {/* Last matches first */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-3">
         <LastMatchesCard team={team1} lastMatches={data.team1LastMatches} />
         <LastMatchesCard team={team2} lastMatches={data.team2LastMatches} />
       </div>
@@ -231,7 +230,7 @@ export default function QuantitativeSection({ team1, team2, data }: Props) {
       )}
 
       {/* Stats & bilan CdM */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-3">
         <TeamStatsCard
           team={team1}
           stats={data.team1Stats}
