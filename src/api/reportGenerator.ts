@@ -2,6 +2,7 @@ import type { MatchReport, HeadToHeadRecord, TeamLastMatch, TeamWcHistory, TeamS
 import { fetchOdds, fetchPressAnalysis, fetchHistoricalBehavior, fetchEurosportContext } from './perplexity';
 import { synthesizeReport } from './openai';
 import { fetchFigaroPronostic, figaroToPromptContext } from './figaro';
+import { saveToStore } from './storage';
 
 export interface EurosportContext {
   content: string;
@@ -44,6 +45,8 @@ export async function getEurosportContext(
   const cache = getEurosportCache();
   cache[String(matchId)] = ctx;
   localStorage.setItem(EUROSPORT_CACHE_KEY, JSON.stringify(cache));
+  // Persist to Supabase
+  saveToStore('eurosport_cache', String(matchId), ctx, EUROSPORT_CACHE_KEY);
   return ctx;
 }
 
@@ -88,6 +91,8 @@ function saveReport(report: MatchReport) {
   const cache = getCachedReports();
   cache[String(report.matchId)] = report;
   localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+  // Persist to Supabase
+  saveToStore('reports', String(report.matchId), report, CACHE_KEY);
 }
 
 export function getReport(matchId: number): MatchReport | null {

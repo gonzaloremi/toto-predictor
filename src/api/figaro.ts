@@ -4,6 +4,7 @@
 // Le fetch passe par le proxy Vite (/api/figaro) pour contourner CORS.
 
 import { summarizeFigaroArticle } from './openai';
+import { saveToStore } from './storage';
 
 // Certaines equipes ont plusieurs slugs possibles (orthographe incertaine cote Figaro)
 const FR_SLUGS: Record<string, string[]> = {
@@ -84,6 +85,8 @@ function saveToCache(matchId: number, data: FigaroPronostic) {
   const cache = getCache();
   cache[String(matchId)] = data;
   localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+  // Persist to Supabase
+  saveToStore('figaro_cache', String(matchId), data, CACHE_KEY);
 }
 
 // La date de l'URL Figaro peut differer d'un jour de notre calendrier (fuseau horaire)

@@ -1,6 +1,7 @@
 import type { ScheduleMatch } from '../types';
 import { getQuantitativeData, getWilooContext, getEurosportContext } from './reportGenerator';
 import { fetchFigaroPronostic, figaroToPromptContext } from './figaro';
+import { saveToStore } from './storage';
 import oddsData from '../data/generated/tournament-odds.json';
 
 const teamsOdds = oddsData.teams as Record<string, { odds: number; rank: number; probability: number }>;
@@ -42,6 +43,8 @@ function saveBriefing(briefing: Briefing) {
   const cache = getCache();
   cache[String(briefing.matchId)] = briefing;
   localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+  // Persist to Supabase in background
+  saveToStore('briefings', String(briefing.matchId), briefing, CACHE_KEY);
 }
 
 function formatQuantiContext(team1: string, team2: string): string {
