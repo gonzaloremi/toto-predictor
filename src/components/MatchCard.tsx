@@ -1,5 +1,7 @@
 import type { ScheduleMatch } from '../types';
 import { getFlag, isRealTeam } from '../data/nameMapping';
+import { useWeather } from '../hooks/useWeather';
+import { getMatchTimes } from '../utils/matchTime';
 import oddsData from '../data/generated/tournament-odds.json';
 
 interface TeamOdds {
@@ -29,6 +31,20 @@ interface Props {
   hasReport?: boolean;
 }
 
+function MatchCardWeather({ match }: { match: ScheduleMatch }) {
+  const weather = useWeather(match.ground, match.date, match.time);
+  return (
+    <div className="flex items-center justify-between mt-1">
+      <span className="text-[11px] text-wc-muted">{match.ground}</span>
+      {weather && (
+        <span className="text-[11px] text-wc-muted">
+          {weather.icon} {weather.temp}°C
+        </span>
+      )}
+    </div>
+  );
+}
+
 export default function MatchCard({ match, time, onSelect, isSelected, hasReport }: Props) {
   const team1Real = isRealTeam(match.team1);
   const team2Real = isRealTeam(match.team2);
@@ -48,7 +64,10 @@ export default function MatchCard({ match, time, onSelect, isSelected, hasReport
       `}
     >
       <div className="flex items-center justify-between mb-1">
-        <span className="text-xs font-semibold text-wc-text">{time}</span>
+        <div className="flex items-center gap-2">
+          <span className="text-xs font-semibold text-wc-text">🇫🇷 {getMatchTimes(match.date, match.time, match.ground).france}</span>
+          <span className="text-[10px] text-wc-muted">{getMatchTimes(match.date, match.time, match.ground).local} loc.</span>
+        </div>
         <div className="flex items-center gap-1.5">
           {hasReport && (
             <span className="text-[10px] bg-wc-green/20 text-green-400 px-1.5 py-0.5 rounded font-medium">
@@ -74,7 +93,7 @@ export default function MatchCard({ match, time, onSelect, isSelected, hasReport
           <span className="text-lg">{team2Real ? getFlag(match.team2) : '❓'}</span>
         </div>
       </div>
-      <div className="text-[11px] text-wc-muted mt-1">{match.ground}</div>
+      <MatchCardWeather match={match} />
     </button>
   );
 }

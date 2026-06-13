@@ -12,8 +12,25 @@ import QuantitativeSection from './QuantitativeSection';
 import { getQuantitativeData } from '../api/reportGenerator';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { getMatchTimes } from '../utils/matchTime';
 
 const teamsOdds = oddsData.teams as Record<string, { odds: number; rank: number; probability: number }>;
+
+import { useWeather } from '../hooks/useWeather';
+
+function WeatherBadge({ match }: { match: ScheduleMatch }) {
+  const weather = useWeather(match.ground, match.date, match.time);
+  if (!weather) return null;
+
+  return (
+    <div className="flex items-center gap-2 bg-wc-dark/40 border border-wc-border/50 rounded-full px-3 py-1">
+      <span className="text-lg">{weather.icon}</span>
+      <span className="text-sm font-bold">{weather.temp}°C</span>
+      <span className="text-[10px] text-wc-muted">💨 {weather.wind} km/h</span>
+      <span className="text-[10px] text-wc-muted">💧 {weather.humidity}%</span>
+    </div>
+  );
+}
 
 function OddsBadge({ team }: { team: string }) {
   const info = teamsOdds[team];
@@ -36,13 +53,13 @@ export default function MatchReportView({ match }: Props) {
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState('');
   const [error, setError] = useState('');
-  const [activeTab, setActiveTab] = useState<TabKey>('briefing');
+  const [activeTab, setActiveTab] = useState<TabKey>('stats');
 
   useEffect(() => {
     const cached = getCachedBriefing(match.id);
     setBriefing(cached);
     setError('');
-    setActiveTab('briefing');
+    setActiveTab('stats');
 
     if (!cached) {
       setLoading(true);
@@ -65,10 +82,19 @@ export default function MatchReportView({ match }: Props) {
     <div className="bg-wc-card border border-wc-border rounded-xl overflow-hidden">
       {/* Header */}
       <div className="bg-wc-green/20 border-b border-wc-border p-5">
-        <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
           <span className="text-xs text-wc-muted">
             {match.date} · {match.group ?? match.round}
           </span>
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-wc-text font-medium">
+              🇫🇷 {getMatchTimes(match.date, match.time, match.ground).france}
+            </span>
+            <span className="text-xs text-wc-muted">
+              {getMatchTimes(match.date, match.time, match.ground).local} loc.
+            </span>
+            <WeatherBadge match={match} />
+          </div>
           <span className="text-xs text-wc-muted">{match.ground}</span>
         </div>
         <div className="flex items-center justify-center gap-6">

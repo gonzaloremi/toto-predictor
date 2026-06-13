@@ -101,20 +101,30 @@ function TeamStatsCard({ team, stats, wcHistory, lastMatches }: {
         </div>
       )}
 
-      <div className="mt-3 border-t border-wc-border pt-2">
-        <div className="text-xs text-wc-muted font-bold mb-2">Derniers matchs</div>
-        <div className="space-y-1 max-h-48 overflow-y-auto">
-          {lastMatches.slice(0, 10).map((m, i) => (
-            <div key={i} className="flex items-center justify-between text-xs gap-2">
-              <span className="text-wc-muted w-20 shrink-0">{m.date}</span>
-              <span className="truncate flex-1">
-                {m.home ? 'vs' : '@'} {m.opponent}
-              </span>
-              <span className="font-mono font-bold">{m.score[0]}-{m.score[1]}</span>
-              <FormBadge result={m.result} />
-            </div>
-          ))}
-        </div>
+    </div>
+  );
+}
+
+function LastMatchesCard({ team, lastMatches }: { team: string; lastMatches: TeamLastMatch[] }) {
+  if (!lastMatches.length) return null;
+  return (
+    <div className="bg-wc-dark/50 rounded-lg p-4 border border-wc-border">
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-2xl">{getFlag(team)}</span>
+        <h4 className="font-bold">{team}</h4>
+        <span className="text-xs text-wc-muted ml-auto">10 derniers matchs</span>
+      </div>
+      <div className="space-y-1">
+        {lastMatches.slice(0, 10).map((m, i) => (
+          <div key={i} className="flex items-center justify-between text-xs gap-2">
+            <span className="text-wc-muted w-20 shrink-0">{m.date}</span>
+            <span className="truncate flex-1">
+              {m.home ? 'vs' : '@'} {m.opponent}
+            </span>
+            <span className="font-mono font-bold">{m.score[0]}-{m.score[1]}</span>
+            <FormBadge result={m.result} />
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -123,20 +133,10 @@ function TeamStatsCard({ team, stats, wcHistory, lastMatches }: {
 export default function QuantitativeSection({ team1, team2, data }: Props) {
   return (
     <div className="space-y-4">
-      {/* Team stats side by side */}
+      {/* Last matches first */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <TeamStatsCard
-          team={team1}
-          stats={data.team1Stats}
-          wcHistory={data.team1WcHistory}
-          lastMatches={data.team1LastMatches}
-        />
-        <TeamStatsCard
-          team={team2}
-          stats={data.team2Stats}
-          wcHistory={data.team2WcHistory}
-          lastMatches={data.team2LastMatches}
-        />
+        <LastMatchesCard team={team1} lastMatches={data.team1LastMatches} />
+        <LastMatchesCard team={team2} lastMatches={data.team2LastMatches} />
       </div>
 
       {/* Head to head */}
@@ -167,7 +167,7 @@ export default function QuantitativeSection({ team1, team2, data }: Props) {
             </div>
           </div>
 
-          <div className="text-sm text-wc-muted mb-2">
+              <div className="text-sm text-wc-muted mb-2">
             Buts : {team1} {data.headToHead.goals[team1] ?? 0} - {data.headToHead.goals[team2] ?? 0} {team2}
           </div>
 
@@ -229,6 +229,22 @@ export default function QuantitativeSection({ team1, team2, data }: Props) {
           Aucune confrontation directe entre {team1} et {team2}
         </div>
       )}
+
+      {/* Stats & bilan CdM */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <TeamStatsCard
+          team={team1}
+          stats={data.team1Stats}
+          wcHistory={data.team1WcHistory}
+          lastMatches={data.team1LastMatches}
+        />
+        <TeamStatsCard
+          team={team2}
+          stats={data.team2Stats}
+          wcHistory={data.team2WcHistory}
+          lastMatches={data.team2LastMatches}
+        />
+      </div>
     </div>
   );
 }
