@@ -23,8 +23,9 @@ function parseMatchUTC(date: string, time: string): Date | null {
   const hours = parseInt(m[1]);
   const minutes = parseInt(m[2]);
   const offset = m[3] ? parseInt(m[3]) : 0;
-  const utcHours = hours - offset;
-  return new Date(`${date}T${String(utcHours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:00Z`);
+  const d = new Date(`${date}T00:00:00Z`);
+  d.setUTCHours(hours - offset, minutes);
+  return d;
 }
 
 function formatInTz(utc: Date, tz: string): string {

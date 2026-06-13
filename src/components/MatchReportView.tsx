@@ -73,9 +73,9 @@ export default function MatchReportView({ match }: Props) {
   const quantData = getQuantitativeData(match.team1, match.team2);
 
   const tabs: { key: TabKey; label: string }[] = [
+    { key: 'stats', label: 'Stats détaillées' },
     { key: 'briefing', label: 'Briefing' },
     { key: 'sources', label: 'Sources' },
-    { key: 'stats', label: 'Stats détaillées' },
   ];
 
   return (
