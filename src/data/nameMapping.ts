@@ -49,6 +49,47 @@ const FLAG_MAP: Record<string, string> = {
   'Uzbekistan': '🇺🇿',
 };
 
+const FR_NAME: Record<string, string> = {
+  'Algeria': 'Algérie',
+  'Argentina': 'Argentine',
+  'Australia': 'Australie',
+  'Austria': 'Autriche',
+  'Belgium': 'Belgique',
+  'Bosnia & Herzegovina': 'Bosnie',
+  'Brazil': 'Brésil',
+  'Cape Verde': 'Cap-Vert',
+  'Colombia': 'Colombie',
+  'Croatia': 'Croatie',
+  'Czech Republic': 'Rép. tchèque',
+  'DR Congo': 'RD Congo',
+  'Egypt': 'Égypte',
+  'England': 'Angleterre',
+  'Germany': 'Allemagne',
+  'Ivory Coast': 'Côte d\'Ivoire',
+  'Japan': 'Japon',
+  'Jordan': 'Jordanie',
+  'Mexico': 'Mexique',
+  'Morocco': 'Maroc',
+  'Netherlands': 'Pays-Bas',
+  'New Zealand': 'Nouvelle-Zélande',
+  'Norway': 'Norvège',
+  'Saudi Arabia': 'Arabie saoudite',
+  'Scotland': 'Écosse',
+  'South Africa': 'Afrique du Sud',
+  'South Korea': 'Corée du Sud',
+  'Spain': 'Espagne',
+  'Sweden': 'Suède',
+  'Switzerland': 'Suisse',
+  'Tunisia': 'Tunisie',
+  'Turkey': 'Turquie',
+  'USA': 'États-Unis',
+  'Uzbekistan': 'Ouzbékistan',
+};
+
+export function getFr(team: string): string {
+  return FR_NAME[team] ?? team;
+}
+
 export function getFlag(team: string): string {
   return FLAG_MAP[team] ?? '🏳️';
 }

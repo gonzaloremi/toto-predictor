@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import type { ScheduleMatch } from '../types';
-import { getFlag } from '../data/nameMapping';
+import { getFlag, getFr } from '../data/nameMapping';
 import { getWilooContext, getEurosportContext } from '../api/reportGenerator';
 import type { WilooTeamSummary, EurosportContext } from '../api/reportGenerator';
 import { generateBriefing, getCachedBriefing } from '../api/briefing';
@@ -99,27 +99,33 @@ export default function MatchReportView({ match }: Props) {
         </div>
         <div className="flex items-center justify-center gap-6">
           <div className="flex items-center gap-3">
-            <span className="text-3xl">{getFlag(match.team1)}</span>
+            <span className="text-4xl">{getFlag(match.team1)}</span>
             <div>
-              <span className="text-xl font-bold">{match.team1}</span>
+              <span className="text-xl font-bold italic">{getFr(match.team1)}</span>
               <div><OddsBadge team={match.team1} /></div>
             </div>
           </div>
-          <span className="text-wc-muted font-bold text-lg">vs</span>
+          <span className="text-wc-muted font-bold italic text-lg">vs</span>
           <div className="flex items-center gap-3">
             <div className="text-right">
-              <span className="text-xl font-bold">{match.team2}</span>
+              <span className="text-xl font-bold italic">{getFr(match.team2)}</span>
               <div><OddsBadge team={match.team2} /></div>
             </div>
-            <span className="text-3xl">{getFlag(match.team2)}</span>
+            <span className="text-4xl">{getFlag(match.team2)}</span>
           </div>
         </div>
         {briefing && (
-          <div className="mt-3 text-center">
-            <span className="inline-block bg-wc-gold/20 text-wc-gold px-4 py-1.5 rounded-full text-sm font-bold">
-              Pronostic : {match.team1} {briefing.score[0]} - {briefing.score[1]} {match.team2}
-              {' · '}{'⭐'.repeat(briefing.confidence)}{'☆'.repeat(5 - briefing.confidence)}
-            </span>
+          <div className="mt-4 text-center">
+            <div className="inline-flex items-center gap-2.5 bg-wc-gold/15 border border-wc-gold/30 px-5 py-2 rounded-full">
+              <span className="text-sm font-bold italic text-wc-gold">Prono</span>
+              <span className="text-lg">{getFlag(match.team1)}</span>
+              <div className="flex items-center gap-1">
+                <span className="w-7 h-7 rounded-lg bg-wc-gold/25 text-wc-gold font-black text-base flex items-center justify-center">{briefing.score[0]}</span>
+                <span className="text-wc-muted text-xs">-</span>
+                <span className="w-7 h-7 rounded-lg bg-wc-gold/25 text-wc-gold font-black text-base flex items-center justify-center">{briefing.score[1]}</span>
+              </div>
+              <span className="text-lg">{getFlag(match.team2)}</span>
+            </div>
           </div>
         )}
       </div>
@@ -130,7 +136,7 @@ export default function MatchReportView({ match }: Props) {
           <button
             key={tab.key}
             onClick={() => setActiveTab(tab.key)}
-            className={`px-4 py-3 text-sm font-medium whitespace-nowrap transition ${
+            className={`px-5 py-3 text-sm font-bold italic whitespace-nowrap transition ${
               activeTab === tab.key
                 ? 'text-wc-gold border-b-2 border-wc-gold'
                 : 'text-wc-muted hover:text-wc-text'
@@ -192,20 +198,26 @@ function BriefingTab({ briefing, loading, progress, error, match }: {
       {/* Score hero */}
       <div className="flex items-center justify-center gap-6 py-3">
         <div className="text-center">
-          <span className="text-3xl">{getFlag(match.team1)}</span>
-          <div className="text-sm font-bold mt-1">{match.team1}</div>
+          <span className="text-4xl">{getFlag(match.team1)}</span>
+          <div className="text-sm font-bold italic mt-1">{getFr(match.team1)}</div>
         </div>
         <div className="text-center">
-          <div className="text-4xl font-black text-wc-gold">
-            {briefing.score[0]} - {briefing.score[1]}
+          <div className="flex items-center justify-center gap-2">
+            <span className="w-12 h-12 rounded-xl bg-wc-gold/20 text-wc-gold font-black text-2xl flex items-center justify-center">
+              {briefing.score[0]}
+            </span>
+            <span className="text-wc-muted font-bold">-</span>
+            <span className="w-12 h-12 rounded-xl bg-wc-gold/20 text-wc-gold font-black text-2xl flex items-center justify-center">
+              {briefing.score[1]}
+            </span>
           </div>
-          <div className="text-sm text-wc-muted mt-1">
+          <div className="text-sm text-wc-muted mt-2">
             Confiance : {'⭐'.repeat(briefing.confidence)}{'☆'.repeat(5 - briefing.confidence)}
           </div>
         </div>
         <div className="text-center">
-          <span className="text-3xl">{getFlag(match.team2)}</span>
-          <div className="text-sm font-bold mt-1">{match.team2}</div>
+          <span className="text-4xl">{getFlag(match.team2)}</span>
+          <div className="text-sm font-bold italic mt-1">{getFr(match.team2)}</div>
         </div>
       </div>
 

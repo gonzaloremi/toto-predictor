@@ -58,17 +58,16 @@ export default function MatchList({ onSelectMatch, selectedMatchId }: Props) {
   const nextDate = useMemo(() => findNextMatchDate(sortedDates), [sortedDates]);
 
   useEffect(() => {
-    const el = scrollTargetRef.current;
-    if (el) {
-      el.scrollIntoView({ behavior: 'instant', block: 'start' });
-    }
-  }, []);
+    requestAnimationFrame(() => {
+      scrollTargetRef.current?.scrollIntoView({ behavior: 'instant', block: 'start' });
+    });
+  }, [nextDate]);
 
   return (
     <div className="space-y-8">
       {sortedDates.map((date) => (
         <section key={date} ref={date === nextDate ? scrollTargetRef : undefined}>
-          <h2 className="text-lg font-bold text-wc-gold mb-3 sticky top-0 bg-wc-bg/90 backdrop-blur-sm py-2 z-10">
+          <h2 className="text-sm font-semibold italic text-wc-gold uppercase tracking-widest mb-3 py-2">
             {formatDateHeader(date)}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">

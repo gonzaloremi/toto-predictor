@@ -12,26 +12,23 @@ export default function App() {
   }, [selectedMatch]);
 
   return (
-    <div className="min-h-screen bg-wc-dark">
+    <div className="min-h-screen">
       {/* Header */}
       <header className="border-b border-wc-border bg-wc-card/80 sticky top-0 z-50 backdrop-blur-sm">
-        <div className="max-w-[1600px] mx-auto px-4 py-3 flex items-center justify-between relative">
-          <button onClick={() => setSelectedMatch(null)} className="flex items-center gap-3 cursor-pointer">
-            <span className="text-2xl">⚽</span>
-            <div className="text-left">
-              <h1 className="text-lg font-bold text-wc-gold">WC 2026 Predictor</h1>
-              <p className="text-xs text-wc-muted">Pronostics Coupe du Monde</p>
-            </div>
-          </button>
+        <div className="max-w-[1600px] mx-auto px-4 py-3 flex items-center relative">
           {selectedMatch && (
             <button
               onClick={() => setSelectedMatch(null)}
-              className="absolute left-4 top-1/2 -translate-y-1/2 text-lg text-wc-muted hover:text-wc-text transition"
+              className="absolute left-4 text-lg text-wc-muted hover:text-wc-text transition cursor-pointer"
               aria-label="Retour aux matchs"
             >
               ←
             </button>
           )}
+          <button onClick={() => setSelectedMatch(null)} className="flex items-center gap-2 cursor-pointer mx-auto">
+            <span className="text-2xl">⚽</span>
+            <h1 className="text-xl font-extrabold italic text-wc-gold tracking-tight">Toto Brief</h1>
+          </button>
         </div>
       </header>
 

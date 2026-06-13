@@ -3,16 +3,19 @@
 @theme {
   --color-wc-green: #0a6847;
   --color-wc-gold: #d4a843;
-  --color-wc-dark: #0f172a;
-  --color-wc-card: #1e293b;
-  --color-wc-border: #334155;
+  --color-wc-dark: #041030;
+  --color-wc-card: #0a1e50;
+  --color-wc-border: #1e5aaa;
   --color-wc-text: #e2e8f0;
   --color-wc-muted: #94a3b8;
+  --font-family-sans: 'Barlow', system-ui, -apple-system, sans-serif;
 }
 
 body {
   margin: 0;
-  background: var(--color-wc-dark);
+  background: linear-gradient(150deg, #041030 0%, #0a2463 30%, #1e56c4 60%, #3b82f6 85%, #0a2463 100%);
+  background-attachment: fixed;
   color: var(--color-wc-text);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: var(--font-family-sans);
+  min-height: 100vh;
 }
