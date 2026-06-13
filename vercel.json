@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx tsx scripts/fetch-data.ts && npx tsx scripts/process-data.ts && tsc -b && vite build",
+  "buildCommand": "vite build",
   "outputDirectory": "dist",
   "framework": "vite"
 }
