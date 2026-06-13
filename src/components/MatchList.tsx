@@ -66,7 +66,7 @@ export default function MatchList({ onSelectMatch, selectedMatchId }: Props) {
   return (
     <div className="space-y-8">
       {sortedDates.map((date) => (
-        <section key={date} ref={date === nextDate ? scrollTargetRef : undefined}>
+        <section key={date} ref={date === nextDate ? scrollTargetRef : undefined} style={{ scrollMarginTop: '60px' }}>
           <h2 className="text-sm font-semibold italic text-wc-gold uppercase tracking-widest mb-3 py-2">
             {formatDateHeader(date)}
           </h2>
