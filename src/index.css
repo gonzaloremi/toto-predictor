@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wc-green: #0a6847;
+  --color-wc-gold: #d4a843;
+  --color-wc-dark: #0f172a;
+  --color-wc-card: #1e293b;
+  --color-wc-border: #334155;
+  --color-wc-text: #e2e8f0;
+  --color-wc-muted: #94a3b8;
+}
+
+body {
+  margin: 0;
+  background: var(--color-wc-dark);
+  color: var(--color-wc-text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

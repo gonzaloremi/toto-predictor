@@ -1,0 +1,8018 @@
+{
+  "Algeria": [
+    {
+      "date": "2026-06-10",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-03",
+      "opponent": "Netherlands",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Guatemala",
+      "home": true,
+      "score": [
+        7,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "DR Congo",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-31",
+      "opponent": "Equatorial Guinea",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-28",
+      "opponent": "Burkina Faso",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-24",
+      "opponent": "Sudan",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-12",
+      "opponent": "United Arab Emirates",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-09",
+      "opponent": "Iraq",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Bahrain",
+      "home": false,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "Sudan",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Zimbabwe",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    }
+  ],
+  "Argentina": [
+    {
+      "date": "2026-06-09",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "Honduras",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Zambia",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Mauritania",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Angola",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Puerto Rico",
+      "home": false,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Ecuador",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Colombia",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Chile",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Brazil",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Uruguay",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Peru",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-14",
+      "opponent": "Paraguay",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    }
+  ],
+  "Australia": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Switzerland",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Curaçao",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "FIFA Series",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Cameroon",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA Series",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Colombia",
+      "home": false,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "New Zealand",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Soccer Ashes",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Soccer Ashes",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Japan",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "China",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Indonesia",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Bahrain",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    }
+  ],
+  "Austria": [
+    {
+      "date": "2026-06-01",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "South Korea",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Ghana",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Bosnia & Herzegovina",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Cyprus",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Romania",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "San Marino",
+      "home": true,
+      "score": [
+        10,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Bosnia & Herzegovina",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "Cyprus",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "San Marino",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "Romania",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Serbia",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Serbia",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-17",
+      "opponent": "Slovenia",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-14",
+      "opponent": "Kazakhstan",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "Belgium": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-02",
+      "opponent": "Croatia",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        5,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Liechtenstein",
+      "home": true,
+      "score": [
+        7,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Kazakhstan",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Wales",
+      "home": false,
+      "score": [
+        4,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "North Macedonia",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Kazakhstan",
+      "home": true,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Liechtenstein",
+      "home": false,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-09",
+      "opponent": "Wales",
+      "home": true,
+      "score": [
+        4,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "North Macedonia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Ukraine",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Ukraine",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2024-11-17",
+      "opponent": "Israel",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    }
+  ],
+  "Bosnia & Herzegovina": [
+    {
+      "date": "2026-06-12",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "Panama",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-29",
+      "opponent": "North Macedonia",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Italy",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Wales",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Austria",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Romania",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Malta",
+      "home": false,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Cyprus",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Austria",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "San Marino",
+      "home": false,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Slovenia",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "San Marino",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-24",
+      "opponent": "Cyprus",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Romania",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Brazil": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Panama",
+      "home": true,
+      "score": [
+        6,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Croatia",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "France",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Japan",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "Kirin Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "South Korea",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Chile",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Ecuador",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Argentina",
+      "home": false,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Colombia",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    }
+  ],
+  "Canada": [
+    {
+      "date": "2026-06-12",
+      "opponent": "Bosnia & Herzegovina",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-05",
+      "opponent": "Republic of Ireland",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "Uzbekistan",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Colombia",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Australia",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Wales",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Romania",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-29",
+      "opponent": "Guatemala",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-24",
+      "opponent": "El Salvador",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Gold Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-21",
+      "opponent": "Curaçao",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-17",
+      "opponent": "Honduras",
+      "home": true,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "Gold Cup",
+      "result": "W"
+    }
+  ],
+  "Cape Verde": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Bermuda",
+      "home": false,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Serbia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-30",
+      "opponent": "Finland",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA Series",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Chile",
+      "home": false,
+      "score": [
+        2,
+        4
+      ],
+      "tournament": "FIFA Series",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Iran",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Eswatini",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-08",
+      "opponent": "Libya",
+      "home": false,
+      "score": [
+        3,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Cameroon",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Mauritius",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-08",
+      "opponent": "Georgia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-03",
+      "opponent": "Malaysia",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-05-29",
+      "opponent": "Malaysia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Angola",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Mauritius",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Colombia": [
+    {
+      "date": "2026-06-07",
+      "opponent": "Jordan",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "Costa Rica",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-29",
+      "opponent": "France",
+      "home": true,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Croatia",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Australia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Venezuela",
+      "home": false,
+      "score": [
+        6,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Bolivia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Argentina",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Peru",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    }
+  ],
+  "Croatia": [
+    {
+      "date": "2026-06-07",
+      "opponent": "Slovenia",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-02",
+      "opponent": "Belgium",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Colombia",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Montenegro",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Faroe Islands",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Gibraltar",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Czech Republic",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Montenegro",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Faroe Islands",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-09",
+      "opponent": "Czech Republic",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Gibraltar",
+      "home": false,
+      "score": [
+        7,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "France",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "France",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Portugal",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    }
+  ],
+  "Curaçao": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Aruba",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Scotland",
+      "home": false,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Australia",
+      "home": false,
+      "score": [
+        1,
+        5
+      ],
+      "tournament": "FIFA Series",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "China",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA Series",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Jamaica",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Bermuda",
+      "home": false,
+      "score": [
+        7,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Trinidad and Tobago",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Jamaica",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Bermuda",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Trinidad and Tobago",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-24",
+      "opponent": "Honduras",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Gold Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-21",
+      "opponent": "Canada",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-17",
+      "opponent": "El Salvador",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Haiti",
+      "home": false,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Saint Lucia",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Czech Republic": [
+    {
+      "date": "2026-06-11",
+      "opponent": "South Korea",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-04",
+      "opponent": "Guatemala",
+      "home": false,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Kosovo",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Denmark",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Republic of Ireland",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Gibraltar",
+      "home": true,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "San Marino",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Faroe Islands",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Croatia",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Saudi Arabia",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Montenegro",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-09",
+      "opponent": "Croatia",
+      "home": false,
+      "score": [
+        1,
+        5
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Montenegro",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Gibraltar",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-22",
+      "opponent": "Faroe Islands",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "DR Congo": [
+    {
+      "date": "2026-06-09",
+      "opponent": "Chile",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-03",
+      "opponent": "Denmark",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Jamaica",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-25",
+      "opponent": "Bermuda",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Algeria",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "Botswana",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-27",
+      "opponent": "Senegal",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-23",
+      "opponent": "Benin",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-16",
+      "opponent": "Nigeria",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Cameroon",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Sudan",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Togo",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "South Sudan",
+      "home": false,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-08",
+      "opponent": "Madagascar",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    }
+  ],
+  "Ecuador": [
+    {
+      "date": "2026-06-07",
+      "opponent": "Guatemala",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Saudi Arabia",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Netherlands",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Morocco",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Argentina",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Paraguay",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Peru",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Brazil",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Chile",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Colombia",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Egypt": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-05-28",
+      "opponent": "Russia",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Senegal",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Ivory Coast",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-05",
+      "opponent": "Benin",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-29",
+      "opponent": "Angola",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-26",
+      "opponent": "South Africa",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-22",
+      "opponent": "Zimbabwe",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-09",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "United Arab Emirates",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-02",
+      "opponent": "Kuwait",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Cape Verde",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "D"
+    }
+  ],
+  "England": [
+    {
+      "date": "2026-06-10",
+      "opponent": "Costa Rica",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Japan",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-16",
+      "opponent": "Albania",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Serbia",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Latvia",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Wales",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Serbia",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "Andorra",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "Andorra",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-24",
+      "opponent": "Latvia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Albania",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-17",
+      "opponent": "Republic of Ireland",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "France": [
+    {
+      "date": "2026-06-08",
+      "opponent": "Northern Ireland",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-04",
+      "opponent": "Ivory Coast",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-29",
+      "opponent": "Colombia",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-16",
+      "opponent": "Azerbaijan",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Ukraine",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Iceland",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Azerbaijan",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Ukraine",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-08",
+      "opponent": "Germany",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        4,
+        5
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Croatia",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Croatia",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2024-11-17",
+      "opponent": "Italy",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "Germany": [
+    {
+      "date": "2026-06-06",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Finland",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-30",
+      "opponent": "Ghana",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Switzerland",
+      "home": false,
+      "score": [
+        4,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Slovakia",
+      "home": true,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Luxembourg",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Northern Ireland",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Luxembourg",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Northern Ireland",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Slovakia",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-08",
+      "opponent": "France",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-04",
+      "opponent": "Portugal",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Italy",
+      "home": true,
+      "score": [
+        3,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Italy",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Hungary",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    }
+  ],
+  "Ghana": [
+    {
+      "date": "2026-06-02",
+      "opponent": "Wales",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-22",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-30",
+      "opponent": "Germany",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Austria",
+      "home": false,
+      "score": [
+        1,
+        5
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "South Korea",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Japan",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Kirin Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Comoros",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-08",
+      "opponent": "Central African Republic",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Mali",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Chad",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-05-31",
+      "opponent": "Trinidad and Tobago",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Unity Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-05-28",
+      "opponent": "Nigeria",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Unity Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-24",
+      "opponent": "Madagascar",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Chad",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Niger",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "African Cup of Nations qualification",
+      "result": "L"
+    }
+  ],
+  "Haiti": [
+    {
+      "date": "2026-06-05",
+      "opponent": "Peru",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-02",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Nicaragua",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Costa Rica",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Honduras",
+      "home": false,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Nicaragua",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Costa Rica",
+      "home": false,
+      "score": [
+        3,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Honduras",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-22",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Gold Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-19",
+      "opponent": "Trinidad and Tobago",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-15",
+      "opponent": "Saudi Arabia",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Curaçao",
+      "home": true,
+      "score": [
+        1,
+        5
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "Aruba",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Iran": [
+    {
+      "date": "2026-06-04",
+      "opponent": "Mali",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-29",
+      "opponent": "Gambia",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Costa Rica",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Uzbekistan",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Cape Verde",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Tanzania",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Russia",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "North Korea",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Qatar",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Uzbekistan",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "United Arab Emirates",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Kyrgyzstan",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-14",
+      "opponent": "North Korea",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-10-15",
+      "opponent": "Qatar",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Iraq": [
+    {
+      "date": "2026-06-09",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-04",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-29",
+      "opponent": "Andorra",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Bolivia",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-12",
+      "opponent": "Jordan",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-09",
+      "opponent": "Algeria",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Sudan",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "Bahrain",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "United Arab Emirates",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "United Arab Emirates",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Indonesia",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Thailand",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "King's Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Hong Kong",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "King's Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Jordan",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Ivory Coast": [
+    {
+      "date": "2026-06-04",
+      "opponent": "France",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Scotland",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "South Korea",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Egypt",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Burkina Faso",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-31",
+      "opponent": "Gabon",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-28",
+      "opponent": "Cameroon",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-24",
+      "opponent": "Mozambique",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Oman",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Kenya",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Seychelles",
+      "home": false,
+      "score": [
+        7,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Gabon",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Burundi",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Canadian Shield",
+      "result": "D"
+    }
+  ],
+  "Japan": [
+    {
+      "date": "2026-05-31",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "England",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Scotland",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Bolivia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Kirin Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Ghana",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Kirin Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Brazil",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "Kirin Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Kirin Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Indonesia",
+      "home": true,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Australia",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Saudi Arabia",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Bahrain",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "China",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-15",
+      "opponent": "Indonesia",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Jordan": [
+    {
+      "date": "2026-06-07",
+      "opponent": "Colombia",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Switzerland",
+      "home": false,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Costa Rica",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-18",
+      "opponent": "Morocco",
+      "home": true,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-15",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-12",
+      "opponent": "Iraq",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-09",
+      "opponent": "Egypt",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Kuwait",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "United Arab Emirates",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Mali",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Tunisia",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Albania",
+      "home": false,
+      "score": [
+        2,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Bolivia",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Dominican Republic",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    }
+  ],
+  "Mexico": [
+    {
+      "date": "2026-06-11",
+      "opponent": "South Africa",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-04",
+      "opponent": "Serbia",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Australia",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-22",
+      "opponent": "Ghana",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Belgium",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Portugal",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-02-25",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-25",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-22",
+      "opponent": "Panama",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Colombia",
+      "home": true,
+      "score": [
+        0,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "South Korea",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "Japan",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    }
+  ],
+  "Morocco": [
+    {
+      "date": "2026-06-07",
+      "opponent": "Norway",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-02",
+      "opponent": "Madagascar",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-26",
+      "opponent": "Burundi",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2026-01-09",
+      "opponent": "Cameroon",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Tanzania",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-29",
+      "opponent": "Zambia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-26",
+      "opponent": "Mali",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "Comoros",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-18",
+      "opponent": "Jordan",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-15",
+      "opponent": "United Arab Emirates",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-11",
+      "opponent": "Syria",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    }
+  ],
+  "Netherlands": [
+    {
+      "date": "2026-06-08",
+      "opponent": "Uzbekistan",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-03",
+      "opponent": "Algeria",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Norway",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Lithuania",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Poland",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Finland",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Malta",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Lithuania",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Poland",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Malta",
+      "home": true,
+      "score": [
+        8,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "Finland",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        3,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Spain",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Bosnia & Herzegovina",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    }
+  ],
+  "New Zealand": [
+    {
+      "date": "2026-06-06",
+      "opponent": "England",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-02",
+      "opponent": "Haiti",
+      "home": false,
+      "score": [
+        0,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-30",
+      "opponent": "Chile",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA Series",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Finland",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA Series",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Ecuador",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Colombia",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Norway",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Poland",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Australia",
+      "home": true,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "Soccer Ashes",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Australia",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Soccer Ashes",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Ukraine",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Canadian Shield",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "Ivory Coast",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Canadian Shield",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-24",
+      "opponent": "New Caledonia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Fiji",
+      "home": true,
+      "score": [
+        7,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Samoa",
+      "home": true,
+      "score": [
+        8,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Norway": [
+    {
+      "date": "2026-06-07",
+      "opponent": "Morocco",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "Sweden",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Switzerland",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Netherlands",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-16",
+      "opponent": "Italy",
+      "home": false,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Estonia",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Israel",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Moldova",
+      "home": true,
+      "score": [
+        11,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Finland",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-09",
+      "opponent": "Estonia",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Italy",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Israel",
+      "home": false,
+      "score": [
+        4,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-22",
+      "opponent": "Moldova",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-17",
+      "opponent": "Kazakhstan",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "Panama": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Bosnia & Herzegovina",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-03",
+      "opponent": "Dominican Republic",
+      "home": true,
+      "score": [
+        4,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        2,
+        6
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "South Africa",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "South Africa",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-01-22",
+      "opponent": "Mexico",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "El Salvador",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Guatemala",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Suriname",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "El Salvador",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Guatemala",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Suriname",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-28",
+      "opponent": "Honduras",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-24",
+      "opponent": "Jamaica",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "W"
+    }
+  ],
+  "Paraguay": [
+    {
+      "date": "2026-06-12",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-05",
+      "opponent": "Nicaragua",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Morocco",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Greece",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "South Korea",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Japan",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Kirin Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Peru",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Colombia",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Chile",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    }
+  ],
+  "Portugal": [
+    {
+      "date": "2026-06-10",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "Chile",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-16",
+      "opponent": "Armenia",
+      "home": true,
+      "score": [
+        9,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "Republic of Ireland",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Hungary",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Republic of Ireland",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Hungary",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "Armenia",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-08",
+      "opponent": "Spain",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-04",
+      "opponent": "Germany",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Denmark",
+      "home": true,
+      "score": [
+        5,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Denmark",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Croatia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    }
+  ],
+  "Qatar": [
+    {
+      "date": "2026-06-06",
+      "opponent": "El Salvador",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-28",
+      "opponent": "Republic of Ireland",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "Syria",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-01",
+      "opponent": "Palestine",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Zimbabwe",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "United Arab Emirates",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-08",
+      "opponent": "Oman",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Russia",
+      "home": true,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-03",
+      "opponent": "Bahrain",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-08-24",
+      "opponent": "Lebanon",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Uzbekistan",
+      "home": false,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Iran",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Kyrgyzstan",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "North Korea",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Saudi Arabia": [
+    {
+      "date": "2026-06-09",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-05",
+      "opponent": "Puerto Rico",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Ecuador",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Serbia",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        0,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-15",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-11",
+      "opponent": "Palestine",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-08",
+      "opponent": "Morocco",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-05",
+      "opponent": "Comoros",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-02",
+      "opponent": "Oman",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Algeria",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Ivory Coast",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Iraq",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-08",
+      "opponent": "Indonesia",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Czech Republic",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    }
+  ],
+  "Scotland": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Curaçao",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Ivory Coast",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Japan",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Denmark",
+      "home": true,
+      "score": [
+        4,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Greece",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-12",
+      "opponent": "Belarus",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-09",
+      "opponent": "Greece",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Belarus",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Denmark",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-09",
+      "opponent": "Liechtenstein",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Iceland",
+      "home": true,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Greece",
+      "home": true,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Greece",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Poland",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "Senegal": [
+    {
+      "date": "2026-06-09",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Gambia",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Peru",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Morocco",
+      "home": false,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-09",
+      "opponent": "Mali",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Sudan",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "Benin",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-27",
+      "opponent": "DR Congo",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-23",
+      "opponent": "Botswana",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Kenya",
+      "home": false,
+      "score": [
+        8,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Mauritania",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "South Sudan",
+      "home": false,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "South Africa": [
+    {
+      "date": "2026-06-11",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "Jamaica",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-29",
+      "opponent": "Nicaragua",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Panama",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Panama",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Cameroon",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-29",
+      "opponent": "Zimbabwe",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-26",
+      "opponent": "Egypt",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-22",
+      "opponent": "Angola",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Zambia",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Rwanda",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Zimbabwe",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Nigeria",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Lesotho",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Mozambique",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    }
+  ],
+  "South Korea": [
+    {
+      "date": "2026-06-11",
+      "opponent": "Czech Republic",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-03",
+      "opponent": "El Salvador",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "Trinidad and Tobago",
+      "home": true,
+      "score": [
+        5,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Austria",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Ivory Coast",
+      "home": false,
+      "score": [
+        0,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Ghana",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Bolivia",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Brazil",
+      "home": true,
+      "score": [
+        0,
+        5
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Kuwait",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Iraq",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Oman",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    }
+  ],
+  "Spain": [
+    {
+      "date": "2026-06-08",
+      "opponent": "Peru",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-04",
+      "opponent": "Iraq",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Serbia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Turkey",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Georgia",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Bulgaria",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Georgia",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Turkey",
+      "home": false,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Bulgaria",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-08",
+      "opponent": "Portugal",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "France",
+      "home": true,
+      "score": [
+        5,
+        4
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Netherlands",
+      "home": true,
+      "score": [
+        3,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Netherlands",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Switzerland",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "Sweden": [
+    {
+      "date": "2026-06-04",
+      "opponent": "Greece",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "Norway",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Poland",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Ukraine",
+      "home": false,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Slovenia",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Switzerland",
+      "home": false,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Kosovo",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Switzerland",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Kosovo",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Slovenia",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Algeria",
+      "home": true,
+      "score": [
+        4,
+        3
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-06",
+      "opponent": "Hungary",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Northern Ireland",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-22",
+      "opponent": "Luxembourg",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Azerbaijan",
+      "home": true,
+      "score": [
+        6,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    }
+  ],
+  "Switzerland": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Australia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Norway",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Germany",
+      "home": true,
+      "score": [
+        3,
+        4
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Kosovo",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Sweden",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Slovenia",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Sweden",
+      "home": false,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-08",
+      "opponent": "Slovenia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-05",
+      "opponent": "Kosovo",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        4,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Luxembourg",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Northern Ireland",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-18",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    }
+  ],
+  "Tunisia": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Belgium",
+      "home": false,
+      "score": [
+        0,
+        5
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "Austria",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Haiti",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Mali",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "Tanzania",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-27",
+      "opponent": "Nigeria",
+      "home": false,
+      "score": [
+        2,
+        3
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "L"
+    },
+    {
+      "date": "2025-12-23",
+      "opponent": "Uganda",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "African Cup of Nations",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "Qatar",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "Arab Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "Palestine",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Arab Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-12-01",
+      "opponent": "Syria",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Arab Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-12",
+      "opponent": "Mauritania",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Namibia",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ],
+  "Turkey": [
+    {
+      "date": "2026-06-06",
+      "opponent": "Venezuela",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "North Macedonia",
+      "home": true,
+      "score": [
+        4,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Kosovo",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Romania",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Bulgaria",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Georgia",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-11",
+      "opponent": "Bulgaria",
+      "home": false,
+      "score": [
+        6,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-07",
+      "opponent": "Spain",
+      "home": true,
+      "score": [
+        0,
+        6
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Georgia",
+      "home": false,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-06-07",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-23",
+      "opponent": "Hungary",
+      "home": false,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Hungary",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "W"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Montenegro",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "UEFA Nations League",
+      "result": "L"
+    }
+  ],
+  "USA": [
+    {
+      "date": "2026-06-12",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "Germany",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "Portugal",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Belgium",
+      "home": true,
+      "score": [
+        2,
+        5
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Paraguay",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-14",
+      "opponent": "Australia",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Japan",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-06",
+      "opponent": "South Korea",
+      "home": true,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-07-06",
+      "opponent": "Mexico",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Gold Cup",
+      "result": "L"
+    },
+    {
+      "date": "2025-07-02",
+      "opponent": "Guatemala",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-29",
+      "opponent": "Costa Rica",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Gold Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-06-22",
+      "opponent": "Haiti",
+      "home": true,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Gold Cup",
+      "result": "W"
+    }
+  ],
+  "Uruguay": [
+    {
+      "date": "2026-03-31",
+      "opponent": "Algeria",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "England",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "USA",
+      "home": false,
+      "score": [
+        1,
+        5
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Mexico",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Uzbekistan",
+      "home": false,
+      "score": [
+        2,
+        1
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Dominican Republic",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-09-09",
+      "opponent": "Chile",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-09-04",
+      "opponent": "Peru",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "Paraguay",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Bolivia",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-21",
+      "opponent": "Argentina",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "L"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-15",
+      "opponent": "Colombia",
+      "home": true,
+      "score": [
+        3,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2024-10-15",
+      "opponent": "Ecuador",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    }
+  ],
+  "Uzbekistan": [
+    {
+      "date": "2026-06-08",
+      "opponent": "Netherlands",
+      "home": false,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-06-01",
+      "opponent": "Canada",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2026-03-30",
+      "opponent": "Venezuela",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA Series",
+      "result": "D"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Gabon",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA Series",
+      "result": "W"
+    },
+    {
+      "date": "2026-01-26",
+      "opponent": "China",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Iran",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "D"
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Al Ain International Cup",
+      "result": "W"
+    },
+    {
+      "date": "2025-10-13",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        1,
+        2
+      ],
+      "tournament": "Friendly",
+      "result": "L"
+    },
+    {
+      "date": "2025-10-10",
+      "opponent": "Kuwait",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-10",
+      "opponent": "Qatar",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-06-05",
+      "opponent": "United Arab Emirates",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-25",
+      "opponent": "Iran",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "D"
+    },
+    {
+      "date": "2025-03-20",
+      "opponent": "Kyrgyzstan",
+      "home": true,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    },
+    {
+      "date": "2025-01-22",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "Friendly",
+      "result": "D"
+    },
+    {
+      "date": "2024-11-19",
+      "opponent": "North Korea",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup qualification",
+      "result": "W"
+    }
+  ]
+}

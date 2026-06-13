@@ -1,0 +1,674 @@
+{
+  "Algeria": {
+    "recentForm": "WWDWL",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 21,
+      "goalsAgainst": 4
+    },
+    "avgGoalsScored": 2.1,
+    "avgGoalsConceded": 0.4,
+    "wcAppearances": 4
+  },
+  "Argentina": {
+    "recentForm": "WWWWW",
+    "last10": {
+      "played": 10,
+      "won": 8,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 3
+    },
+    "avgGoalsScored": 2.5,
+    "avgGoalsConceded": 0.3,
+    "wcAppearances": 18
+  },
+  "Australia": {
+    "recentForm": "DLWWL",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 1,
+      "lost": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 10
+    },
+    "avgGoalsScored": 1.3,
+    "avgGoalsConceded": 1,
+    "wcAppearances": 6
+  },
+  "Austria": {
+    "recentForm": "WWWDW",
+    "last10": {
+      "played": 10,
+      "won": 8,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 27,
+      "goalsAgainst": 4
+    },
+    "avgGoalsScored": 2.7,
+    "avgGoalsConceded": 0.4,
+    "wcAppearances": 7
+  },
+  "Belgium": {
+    "recentForm": "WWDWW",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 3,
+      "lost": 0,
+      "goalsFor": 37,
+      "goalsAgainst": 6
+    },
+    "avgGoalsScored": 3.7,
+    "avgGoalsConceded": 0.6,
+    "wcAppearances": 14
+  },
+  "Bosnia & Herzegovina": {
+    "recentForm": "DDDDD",
+    "last10": {
+      "played": 10,
+      "won": 2,
+      "drawn": 7,
+      "lost": 1,
+      "goalsFor": 15,
+      "goalsAgainst": 11
+    },
+    "avgGoalsScored": 1.5,
+    "avgGoalsConceded": 1.1,
+    "wcAppearances": 2
+  },
+  "Brazil": {
+    "recentForm": "WWWLD",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 25,
+      "goalsAgainst": 11
+    },
+    "avgGoalsScored": 2.5,
+    "avgGoalsConceded": 1.1,
+    "wcAppearances": 22
+  },
+  "Canada": {
+    "recentForm": "DDWDD",
+    "last10": {
+      "played": 10,
+      "won": 3,
+      "drawn": 6,
+      "lost": 1,
+      "goalsFor": 9,
+      "goalsAgainst": 5
+    },
+    "avgGoalsScored": 0.9,
+    "avgGoalsConceded": 0.5,
+    "wcAppearances": 3
+  },
+  "Cape Verde": {
+    "recentForm": "LWDLD",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 4,
+      "lost": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 12
+    },
+    "avgGoalsScored": 1.6,
+    "avgGoalsConceded": 1.2,
+    "wcAppearances": 0
+  },
+  "Colombia": {
+    "recentForm": "WWLLW",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 25,
+      "goalsAgainst": 10
+    },
+    "avgGoalsScored": 2.5,
+    "avgGoalsConceded": 1,
+    "wcAppearances": 6
+  },
+  "Croatia": {
+    "recentForm": "WLLWW",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 19,
+      "goalsAgainst": 10
+    },
+    "avgGoalsScored": 1.9,
+    "avgGoalsConceded": 1,
+    "wcAppearances": 6
+  },
+  "Curaçao": {
+    "recentForm": "WLLLD",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 14
+    },
+    "avgGoalsScored": 1.9,
+    "avgGoalsConceded": 1.4,
+    "wcAppearances": 0
+  },
+  "Czech Republic": {
+    "recentForm": "LWWDD",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 4,
+      "lost": 2,
+      "goalsFor": 21,
+      "goalsAgainst": 11
+    },
+    "avgGoalsScored": 2.1,
+    "avgGoalsConceded": 1.1,
+    "wcAppearances": 2
+  },
+  "DR Congo": {
+    "recentForm": "LDWWL",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 3,
+      "lost": 2,
+      "goalsFor": 11,
+      "goalsAgainst": 5
+    },
+    "avgGoalsScored": 1.1,
+    "avgGoalsConceded": 0.5,
+    "wcAppearances": 1
+  },
+  "Ecuador": {
+    "recentForm": "WWDDW",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 6,
+      "lost": 0,
+      "goalsFor": 12,
+      "goalsAgainst": 5
+    },
+    "avgGoalsScored": 1.2,
+    "avgGoalsConceded": 0.5,
+    "wcAppearances": 4
+  },
+  "Egypt": {
+    "recentForm": "LWDWD",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 3,
+      "lost": 2,
+      "goalsFor": 13,
+      "goalsAgainst": 6
+    },
+    "avgGoalsScored": 1.3,
+    "avgGoalsConceded": 0.6,
+    "wcAppearances": 3
+  },
+  "England": {
+    "recentForm": "WWLDW",
+    "last10": {
+      "played": 10,
+      "won": 8,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 24,
+      "goalsAgainst": 2
+    },
+    "avgGoalsScored": 2.4,
+    "avgGoalsConceded": 0.2,
+    "wcAppearances": 16
+  },
+  "France": {
+    "recentForm": "WLWWW",
+    "last10": {
+      "played": 10,
+      "won": 8,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 9
+    },
+    "avgGoalsScored": 2.5,
+    "avgGoalsConceded": 0.9,
+    "wcAppearances": 16
+  },
+  "Germany": {
+    "recentForm": "WWWWW",
+    "last10": {
+      "played": 10,
+      "won": 9,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 28,
+      "goalsAgainst": 8
+    },
+    "avgGoalsScored": 2.8,
+    "avgGoalsConceded": 0.8,
+    "wcAppearances": 20
+  },
+  "Ghana": {
+    "recentForm": "DLLLL",
+    "last10": {
+      "played": 10,
+      "won": 3,
+      "drawn": 2,
+      "lost": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 14
+    },
+    "avgGoalsScored": 1.1,
+    "avgGoalsConceded": 1.4,
+    "wcAppearances": 4
+  },
+  "Haiti": {
+    "recentForm": "LWDLW",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 10
+    },
+    "avgGoalsScored": 1.5,
+    "avgGoalsConceded": 1,
+    "wcAppearances": 1
+  },
+  "Iran": {
+    "recentForm": "WWWLD",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 17,
+      "goalsAgainst": 6
+    },
+    "avgGoalsScored": 1.7,
+    "avgGoalsConceded": 0.6,
+    "wcAppearances": 6
+  },
+  "Iraq": {
+    "recentForm": "LDWWL",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 11,
+      "goalsAgainst": 10
+    },
+    "avgGoalsScored": 1.1,
+    "avgGoalsConceded": 1,
+    "wcAppearances": 1
+  },
+  "Ivory Coast": {
+    "recentForm": "WWWLW",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 19,
+      "goalsAgainst": 8
+    },
+    "avgGoalsScored": 1.9,
+    "avgGoalsConceded": 0.8,
+    "wcAppearances": 3
+  },
+  "Japan": {
+    "recentForm": "WWWWW",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 19,
+      "goalsAgainst": 6
+    },
+    "avgGoalsScored": 1.9,
+    "avgGoalsConceded": 0.6,
+    "wcAppearances": 7
+  },
+  "Jordan": {
+    "recentForm": "LLDDL",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 2,
+      "lost": 3,
+      "goalsFor": 17,
+      "goalsAgainst": 15
+    },
+    "avgGoalsScored": 1.7,
+    "avgGoalsConceded": 1.5,
+    "wcAppearances": 0
+  },
+  "Mexico": {
+    "recentForm": "WWWWD",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 18,
+      "goalsAgainst": 4
+    },
+    "avgGoalsScored": 1.8,
+    "avgGoalsConceded": 0.4,
+    "wcAppearances": 18
+  },
+  "Morocco": {
+    "recentForm": "DWWWD",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 3,
+      "lost": 0,
+      "goalsFor": 22,
+      "goalsAgainst": 3
+    },
+    "avgGoalsScored": 2.2,
+    "avgGoalsConceded": 0.3,
+    "wcAppearances": 6
+  },
+  "Netherlands": {
+    "recentForm": "WLDWW",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 3,
+      "lost": 1,
+      "goalsFor": 22,
+      "goalsAgainst": 8
+    },
+    "avgGoalsScored": 2.2,
+    "avgGoalsConceded": 0.8,
+    "wcAppearances": 11
+  },
+  "New Zealand": {
+    "recentForm": "LLWLL",
+    "last10": {
+      "played": 10,
+      "won": 1,
+      "drawn": 1,
+      "lost": 8,
+      "goalsFor": 7,
+      "goalsAgainst": 18
+    },
+    "avgGoalsScored": 0.7,
+    "avgGoalsConceded": 1.8,
+    "wcAppearances": 2
+  },
+  "Norway": {
+    "recentForm": "DWDLW",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 3,
+      "lost": 1,
+      "goalsFor": 31,
+      "goalsAgainst": 8
+    },
+    "avgGoalsScored": 3.1,
+    "avgGoalsConceded": 0.8,
+    "wcAppearances": 3
+  },
+  "Panama": {
+    "recentForm": "DWLWD",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 4,
+      "lost": 2,
+      "goalsFor": 18,
+      "goalsAgainst": 16
+    },
+    "avgGoalsScored": 1.8,
+    "avgGoalsConceded": 1.6,
+    "wcAppearances": 1
+  },
+  "Paraguay": {
+    "recentForm": "LWLWW",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 2,
+      "lost": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 13
+    },
+    "avgGoalsScored": 1.3,
+    "avgGoalsConceded": 1.3,
+    "wcAppearances": 9
+  },
+  "Portugal": {
+    "recentForm": "WWWDW",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 26,
+      "goalsAgainst": 9
+    },
+    "avgGoalsScored": 2.6,
+    "avgGoalsConceded": 0.9,
+    "wcAppearances": 8
+  },
+  "Qatar": {
+    "recentForm": "DLLDL",
+    "last10": {
+      "played": 10,
+      "won": 1,
+      "drawn": 4,
+      "lost": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 15
+    },
+    "avgGoalsScored": 0.7,
+    "avgGoalsConceded": 1.5,
+    "wcAppearances": 1
+  },
+  "Saudi Arabia": {
+    "recentForm": "DWLLL",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 1,
+      "lost": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 13
+    },
+    "avgGoalsScored": 1.2,
+    "avgGoalsConceded": 1.3,
+    "wcAppearances": 6
+  },
+  "Scotland": {
+    "recentForm": "WWLLW",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 21,
+      "goalsAgainst": 10
+    },
+    "avgGoalsScored": 2.1,
+    "avgGoalsConceded": 1,
+    "wcAppearances": 8
+  },
+  "Senegal": {
+    "recentForm": "DLWWL",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 2,
+      "lost": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 9
+    },
+    "avgGoalsScored": 1.6,
+    "avgGoalsConceded": 0.9,
+    "wcAppearances": 3
+  },
+  "South Africa": {
+    "recentForm": "LWDLD",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 2,
+      "lost": 4,
+      "goalsFor": 12,
+      "goalsAgainst": 12
+    },
+    "avgGoalsScored": 1.2,
+    "avgGoalsConceded": 1.2,
+    "wcAppearances": 4
+  },
+  "South Korea": {
+    "recentForm": "WWWLL",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 13
+    },
+    "avgGoalsScored": 1.5,
+    "avgGoalsConceded": 1.3,
+    "wcAppearances": 12
+  },
+  "Spain": {
+    "recentForm": "WDDWD",
+    "last10": {
+      "played": 10,
+      "won": 7,
+      "drawn": 3,
+      "lost": 0,
+      "goalsFor": 28,
+      "goalsAgainst": 4
+    },
+    "avgGoalsScored": 2.8,
+    "avgGoalsConceded": 0.4,
+    "wcAppearances": 16
+  },
+  "Sweden": {
+    "recentForm": "DLWWD",
+    "last10": {
+      "played": 10,
+      "won": 2,
+      "drawn": 3,
+      "lost": 5,
+      "goalsFor": 13,
+      "goalsAgainst": 20
+    },
+    "avgGoalsScored": 1.3,
+    "avgGoalsConceded": 2,
+    "wcAppearances": 12
+  },
+  "Switzerland": {
+    "recentForm": "DWDLD",
+    "last10": {
+      "played": 10,
+      "won": 5,
+      "drawn": 4,
+      "lost": 1,
+      "goalsFor": 22,
+      "goalsAgainst": 8
+    },
+    "avgGoalsScored": 2.2,
+    "avgGoalsConceded": 0.8,
+    "wcAppearances": 12
+  },
+  "Tunisia": {
+    "recentForm": "LLDWD",
+    "last10": {
+      "played": 10,
+      "won": 3,
+      "drawn": 4,
+      "lost": 3,
+      "goalsFor": 13,
+      "goalsAgainst": 14
+    },
+    "avgGoalsScored": 1.3,
+    "avgGoalsConceded": 1.4,
+    "wcAppearances": 6
+  },
+  "Turkey": {
+    "recentForm": "WWWWD",
+    "last10": {
+      "played": 10,
+      "won": 8,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 13
+    },
+    "avgGoalsScored": 2.5,
+    "avgGoalsConceded": 1.3,
+    "wcAppearances": 2
+  },
+  "USA": {
+    "recentForm": "WLWLL",
+    "last10": {
+      "played": 10,
+      "won": 6,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 22,
+      "goalsAgainst": 16
+    },
+    "avgGoalsScored": 2.2,
+    "avgGoalsConceded": 1.6,
+    "wcAppearances": 12
+  },
+  "Uruguay": {
+    "recentForm": "DDLDW",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 4,
+      "lost": 2,
+      "goalsFor": 10,
+      "goalsAgainst": 9
+    },
+    "avgGoalsScored": 1,
+    "avgGoalsConceded": 0.9,
+    "wcAppearances": 14
+  },
+  "Uzbekistan": {
+    "recentForm": "LLDWD",
+    "last10": {
+      "played": 10,
+      "won": 4,
+      "drawn": 3,
+      "lost": 3,
+      "goalsFor": 14,
+      "goalsAgainst": 9
+    },
+    "avgGoalsScored": 1.4,
+    "avgGoalsConceded": 0.9,
+    "wcAppearances": 0
+  }
+}

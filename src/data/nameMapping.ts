@@ -1,0 +1,58 @@
+const FLAG_MAP: Record<string, string> = {
+  'Algeria': '🇩🇿',
+  'Argentina': '🇦🇷',
+  'Australia': '🇦🇺',
+  'Austria': '🇦🇹',
+  'Belgium': '🇧🇪',
+  'Bosnia & Herzegovina': '🇧🇦',
+  'Brazil': '🇧🇷',
+  'Canada': '🇨🇦',
+  'Cape Verde': '🇨🇻',
+  'Colombia': '🇨🇴',
+  'Croatia': '🇭🇷',
+  'Curaçao': '🇨🇼',
+  'Czech Republic': '🇨🇿',
+  'DR Congo': '🇨🇩',
+  'Ecuador': '🇪🇨',
+  'Egypt': '🇪🇬',
+  'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+  'France': '🇫🇷',
+  'Germany': '🇩🇪',
+  'Ghana': '🇬🇭',
+  'Haiti': '🇭🇹',
+  'Iran': '🇮🇷',
+  'Iraq': '🇮🇶',
+  'Ivory Coast': '🇨🇮',
+  'Japan': '🇯🇵',
+  'Jordan': '🇯🇴',
+  'Mexico': '🇲🇽',
+  'Morocco': '🇲🇦',
+  'Netherlands': '🇳🇱',
+  'New Zealand': '🇳🇿',
+  'Norway': '🇳🇴',
+  'Panama': '🇵🇦',
+  'Paraguay': '🇵🇾',
+  'Portugal': '🇵🇹',
+  'Qatar': '🇶🇦',
+  'Saudi Arabia': '🇸🇦',
+  'Scotland': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+  'Senegal': '🇸🇳',
+  'South Africa': '🇿🇦',
+  'South Korea': '🇰🇷',
+  'Spain': '🇪🇸',
+  'Sweden': '🇸🇪',
+  'Switzerland': '🇨🇭',
+  'Tunisia': '🇹🇳',
+  'Turkey': '🇹🇷',
+  'USA': '🇺🇸',
+  'Uruguay': '🇺🇾',
+  'Uzbekistan': '🇺🇿',
+};
+
+export function getFlag(team: string): string {
+  return FLAG_MAP[team] ?? '🏳️';
+}
+
+export function isRealTeam(name: string): boolean {
+  return !!FLAG_MAP[name];
+}
