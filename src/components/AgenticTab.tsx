@@ -4,6 +4,8 @@ import { runAgent, type AgentEvent, type StructuredAnalysis, type AgentSource } 
 import { getFlag, getFr } from '../data/nameMapping';
 import { useAuth } from '../contexts/AuthContext';
 import { useCreditsModal } from './CreditsModal';
+import { supabase } from '../lib/supabase';
+import { useBriefings } from '../hooks/useBriefings';
 
 type AgentState = 'idle' | 'running' | 'paused' | 'done' | 'error';
 
@@ -24,18 +26,53 @@ const TOOL_META: Record<string, { icon: string; label: string; desc: string }> =
 export default function AgenticTab({ match }: { match: ScheduleMatch }) {
   const { user, credits, hasFullPass, loading: authLoading, signInWithGoogle, consumeCredit } = useAuth();
   const { openCreditsModal } = useCreditsModal();
-  const [state, setState] = useState<AgentState>('idle');
+  const { addBriefingMatchId, isPending, addPendingMatchId, removePendingMatchId } = useBriefings();
+  const [state, setState] = useState<AgentState>(() => isPending(match.id) ? 'running' : 'idle');
   const [analysis, setAnalysis] = useState<StructuredAnalysis | null>(null);
   const [fallbackText, setFallbackText] = useState('');
   const [log, setLog] = useState<LogEntry[]>([]);
   const [errorMsg, setErrorMsg] = useState('');
   const [showTrace, setShowTrace] = useState(false);
+  const [loadingBriefing, setLoadingBriefing] = useState(true);
   const abortRef = useRef<AbortController | null>(null);
   const logIdRef = useRef(0);
   const logEndRef = useRef<HTMLDivElement>(null);
+  const mountedRef = useRef(true);
+
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => { mountedRef.current = false; };
+  }, []);
 
   const canLaunch = !!user && (hasFullPass || credits > 0);
   const isLoggedIn = !!user;
+
+  useEffect(() => {
+    if (!user) {
+      setLoadingBriefing(false);
+      return;
+    }
+
+    let cancelled = false;
+    async function loadSaved() {
+      const { data } = await supabase
+        .from('user_briefings')
+        .select('analysis, sources')
+        .eq('user_id', user!.id)
+        .eq('match_id', match.id)
+        .single();
+
+      if (cancelled) return;
+      if (data) {
+        setAnalysis(data.analysis as StructuredAnalysis);
+        setState('done');
+      }
+      setLoadingBriefing(false);
+    }
+
+    loadSaved();
+    return () => { cancelled = true; };
+  }, [user, match.id]);
 
   const addLog = useCallback((event: AgentEvent) => {
     const entry: LogEntry = { id: logIdRef.current++, timestamp: new Date(), event };
@@ -64,41 +101,56 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
     setLog([]);
     setErrorMsg('');
     logIdRef.current = 0;
+    addPendingMatchId(match.id);
+
+    const capturedUserId = user.id;
 
     runAgent(
       match,
       (event: AgentEvent) => {
         if (controller.signal.aborted) return;
-        addLog(event);
+        if (mountedRef.current) addLog(event);
         switch (event.type) {
           case 'structured':
-            if (event.structured) setAnalysis(event.structured);
+            if (event.structured) {
+              if (mountedRef.current) setAnalysis(event.structured);
+              supabase
+                .from('user_briefings')
+                .upsert({
+                  user_id: capturedUserId,
+                  match_id: match.id,
+                  analysis: event.structured,
+                  sources: event.structured.sources ?? null,
+                }, { onConflict: 'user_id,match_id' })
+                .then(() => addBriefingMatchId(match.id));
+            }
             break;
           case 'text':
-            setFallbackText((prev) => prev + (event.text ?? ''));
+            if (mountedRef.current) setFallbackText((prev) => prev + (event.text ?? ''));
             break;
           case 'done':
-            setState('done');
+            if (mountedRef.current) setState('done');
+            removePendingMatchId(match.id);
             break;
           case 'error':
-            setState('error');
-            setErrorMsg(event.text ?? 'Erreur inconnue');
+            if (mountedRef.current) {
+              setState('error');
+              setErrorMsg(event.text ?? 'Erreur inconnue');
+            }
+            removePendingMatchId(match.id);
             break;
         }
       },
       controller.signal,
     );
-  }, [match, addLog, user, hasFullPass, consumeCredit]);
+  }, [match, addLog, user, hasFullPass, consumeCredit, addBriefingMatchId, addPendingMatchId, removePendingMatchId]);
 
   const pause = useCallback(() => {
     abortRef.current?.abort();
     setState('paused');
+    removePendingMatchId(match.id);
     addLog({ type: 'thinking', text: 'Agent mis en pause par l\'utilisateur' });
-  }, [addLog]);
-
-  useEffect(() => {
-    return () => { abortRef.current?.abort(); };
-  }, [match.id]);
+  }, [addLog, removePendingMatchId, match.id]);
 
   const toolCallCount = log.filter((l) => l.event.type === 'tool_done').length;
   const iterationCount = log.filter((l) => l.event.type === 'llm_call').length;
@@ -140,21 +192,21 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
               >
                 Se connecter pour lancer
               </button>
-            ) : !canLaunch ? (
+            ) : !canLaunch && !analysis ? (
               <button
                 onClick={openCreditsModal}
                 className="flex items-center gap-1.5 text-xs font-bold text-wc-gold border border-wc-gold/40 hover:bg-wc-gold/10 transition px-3 py-1.5 rounded-lg cursor-pointer"
               >
                 Recharger pour lancer
               </button>
-            ) : (
+            ) : canLaunch ? (
               <button
                 onClick={launch}
                 className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
               >
                 {state === 'idle' ? 'Lancer' : 'Relancer'}
               </button>
-            )
+            ) : null
           )}
           {state === 'running' && (
             <button
@@ -180,8 +232,28 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
         </div>
       )}
 
+      {/* Loading saved briefing */}
+      {loadingBriefing && state === 'idle' && (
+        <div className="py-12 text-center">
+          <p className="text-sm text-wc-muted animate-pulse">Chargement du briefing...</p>
+        </div>
+      )}
+
+      {/* Agent running in background (remounted while pending) */}
+      {!loadingBriefing && state === 'running' && log.length === 0 && !analysis && (
+        <div className="py-12 text-center space-y-3">
+          <div className="inline-flex items-center gap-2">
+            <div className="w-2 h-2 rounded-full bg-wc-gold animate-pulse" />
+            <p className="text-sm text-wc-gold animate-pulse">Briefing en cours de génération...</p>
+          </div>
+          <p className="text-xs text-wc-muted/60">
+            L'agent travaille en arrière-plan. Le briefing apparaîtra automatiquement une fois terminé.
+          </p>
+        </div>
+      )}
+
       {/* Idle */}
-      {state === 'idle' && log.length === 0 && (
+      {!loadingBriefing && state === 'idle' && log.length === 0 && !analysis && (
         <div className="py-12 text-center space-y-3">
           {!isLoggedIn ? (
             <>
@@ -215,12 +287,21 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
             </>
           ) : (
             <>
-              <p className="text-sm text-wc-muted">
-                Analyse de <strong className="text-wc-text">{getFr(match.team1)}</strong> vs <strong className="text-wc-text">{getFr(match.team2)}</strong>
+              <p className="text-lg font-bold text-wc-text">
+                {getFlag(match.team1)} {getFr(match.team1)} vs {getFr(match.team2)} {getFlag(match.team2)}
               </p>
-              <p className="text-xs text-wc-muted/60">
-                Phase 1: GPT-4o-mini collecte les donnees (Wiloo, stats, cotes, groupe).
-                Phase 2: Claude Opus 4.6 synthetise une analyse structuree.
+              <p className="text-sm text-wc-muted max-w-md mx-auto">
+                L'IA analyse Wiloo, So Foot, stats, cotes et historique pour te donner l'avantage sur tes potes.
+              </p>
+              <button
+                onClick={launch}
+                className="inline-flex items-center gap-2.5 text-base font-extrabold text-wc-dark bg-gradient-to-r from-wc-gold to-yellow-400 hover:from-yellow-400 hover:to-wc-gold shadow-lg shadow-wc-gold/20 transition-all px-8 py-3.5 rounded-2xl cursor-pointer mt-3 hover:scale-[1.03] active:scale-[0.98]"
+              >
+                <span className="text-xl">⚡</span>
+                Lancer le briefing
+              </button>
+              <p className="text-[11px] text-wc-muted/50 mt-1">
+                {hasFullPass ? 'Pass illimité ✓' : `${credits} crédit${credits !== 1 ? 's' : ''} restant${credits !== 1 ? 's' : ''}`} · ~45 sec
               </p>
             </>
           )}

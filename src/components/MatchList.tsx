@@ -4,6 +4,7 @@ import MatchCard from './MatchCard';
 import scheduleData from '../data/generated/schedule.json';
 import { getReport } from '../api/reportGenerator';
 import { getCachedBriefing } from '../api/briefing';
+import { useBriefings } from '../hooks/useBriefings';
 
 interface Props {
   onSelectMatch: (match: ScheduleMatch) => void;
@@ -37,6 +38,7 @@ function findNextMatchDate(sortedDates: string[]): string | null {
 export default function MatchList({ onSelectMatch, selectedMatchId }: Props) {
   const schedule = scheduleData as ScheduleMatch[];
   const scrollTargetRef = useRef<HTMLDivElement>(null);
+  const { hasBriefing, isPending } = useBriefings();
 
   const matchesByDate = useMemo(() => {
     const grouped: Record<string, ScheduleMatch[]> = {};
@@ -79,6 +81,8 @@ export default function MatchList({ onSelectMatch, selectedMatchId }: Props) {
                 onSelect={onSelectMatch}
                 isSelected={m.id === selectedMatchId}
                 hasReport={!!(getReport(m.id) || getCachedBriefing(m.id))}
+                hasBriefing={hasBriefing(m.id)}
+                isPending={isPending(m.id)}
               />
             ))}
           </div>

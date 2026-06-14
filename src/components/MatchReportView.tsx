@@ -84,7 +84,7 @@ interface Props {
 type TabKey = 'stats' | 'briefing';
 
 export default function MatchReportView({ match }: Props) {
-  const [activeTab, setActiveTab] = useState<TabKey>('stats');
+  const [activeTab, setActiveTab] = useState<TabKey>('briefing');
 
   const quantData = getQuantitativeData(match.team1, match.team2);
 

@@ -108,7 +108,7 @@ function TeamFullView({ team, stats, wcHistory, lastMatches }: {
             <div key={i} className="flex items-center justify-between text-sm gap-2">
               <span className="text-wc-muted text-xs w-20 shrink-0">{m.date}</span>
               <span className="truncate flex-1">
-                {m.home ? 'vs' : '@'} {m.opponent}
+                {m.home ? 'vs' : '@'} {getFr(m.opponent)}
               </span>
               <span className="font-mono font-bold shrink-0">{m.score[0]}-{m.score[1]}</span>
               <FormBadge result={m.result} />
@@ -124,7 +124,7 @@ function HeadToHeadView({ team1, team2, h2h }: { team1: string; team2: string; h
   if (!h2h || h2h.totalMatches === 0) {
     return (
       <div className="bg-wc-dark/50 rounded-lg p-6 border border-wc-border text-center text-wc-muted">
-        Aucune confrontation directe entre {team1} et {team2}
+        Aucune confrontation directe entre {getFr(team1)} et {getFr(team2)}
       </div>
     );
   }
@@ -134,7 +134,7 @@ function HeadToHeadView({ team1, team2, h2h }: { team1: string; team2: string; h
       <div className="grid grid-cols-3 gap-2 text-center">
         <div className="bg-wc-dark/50 rounded-lg p-3 border border-wc-border">
           <div className="text-2xl font-bold text-green-400">{h2h.wins[team1] ?? 0}</div>
-          <div className="text-xs text-wc-muted">{team1}</div>
+          <div className="text-xs text-wc-muted">{getFr(team1)}</div>
         </div>
         <div className="bg-wc-dark/50 rounded-lg p-3 border border-wc-border">
           <div className="text-2xl font-bold text-yellow-400">{h2h.wins['draws'] ?? h2h.wins.draws ?? 0}</div>
@@ -142,12 +142,12 @@ function HeadToHeadView({ team1, team2, h2h }: { team1: string; team2: string; h
         </div>
         <div className="bg-wc-dark/50 rounded-lg p-3 border border-wc-border">
           <div className="text-2xl font-bold text-green-400">{h2h.wins[team2] ?? 0}</div>
-          <div className="text-xs text-wc-muted">{team2}</div>
+          <div className="text-xs text-wc-muted">{getFr(team2)}</div>
         </div>
       </div>
 
       <div className="text-sm text-wc-muted text-center">
-        Buts : {team1} {h2h.goals[team1] ?? 0} - {h2h.goals[team2] ?? 0} {team2}
+        Buts : {getFr(team1)} {h2h.goals[team1] ?? 0} - {h2h.goals[team2] ?? 0} {getFr(team2)}
       </div>
 
       {h2h.inWorldCup.length > 0 && (

@@ -29,6 +29,8 @@ interface Props {
   onSelect?: (match: ScheduleMatch) => void;
   isSelected?: boolean;
   hasReport?: boolean;
+  hasBriefing?: boolean;
+  isPending?: boolean;
 }
 
 function MatchCardWeather({ match }: { match: ScheduleMatch }) {
@@ -45,7 +47,7 @@ function MatchCardWeather({ match }: { match: ScheduleMatch }) {
   );
 }
 
-export default function MatchCard({ match, time, onSelect, isSelected, hasReport }: Props) {
+export default function MatchCard({ match, time, onSelect, isSelected, hasReport, hasBriefing, isPending }: Props) {
   const team1Real = isRealTeam(match.team1);
   const team2Real = isRealTeam(match.team2);
   const canClick = team1Real && team2Real && onSelect;
@@ -80,9 +82,16 @@ export default function MatchCard({ match, time, onSelect, isSelected, hasReport
           )}
         </div>
         <div className="flex items-center gap-1.5">
-          {hasReport && (
-            <span className="text-[10px] bg-wc-green/20 text-green-400 w-2 h-2 rounded-full" />
-          )}
+          {isPending ? (
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold bg-wc-gold/15 text-wc-gold px-2 py-0.5 rounded-full uppercase tracking-wider leading-none animate-pulse">
+              <svg className="w-2.5 h-2.5 animate-spin" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="2" strokeDasharray="20 10" /></svg>
+              Briefing...
+            </span>
+          ) : hasBriefing ? (
+            <span className="text-[10px] font-bold bg-wc-green/20 text-green-400 px-2 py-0.5 rounded-full uppercase tracking-wider leading-none">
+              Briefing
+            </span>
+          ) : null}
           {match.group && (
             <span className="text-[10px] text-wc-muted bg-wc-border/40 px-2 py-0.5 rounded-full font-medium">
               {match.group}

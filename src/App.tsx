@@ -6,6 +6,7 @@ import LandingPage from './pages/LandingPage';
 import { isRealTeam } from './data/nameMapping';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { CreditsModalProvider, useCreditsModal } from './components/CreditsModal';
+import { BriefingsProvider } from './hooks/useBriefings';
 
 function useHashRoute() {
   const getRoute = (h: string) => {
@@ -163,9 +164,11 @@ function AppContent() {
 export default function App() {
   return (
     <AuthProvider>
-      <CreditsModalProvider>
-        <AppContent />
-      </CreditsModalProvider>
+      <BriefingsProvider>
+        <CreditsModalProvider>
+          <AppContent />
+        </CreditsModalProvider>
+      </BriefingsProvider>
     </AuthProvider>
   );
 }

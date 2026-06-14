@@ -671,7 +671,7 @@ export async function runAgent(
     { role: 'system', content: GATHERING_PROMPT },
     {
       role: 'user',
-      content: `Collecte toutes les données pour ce match :\n\n**${match.team1} vs ${match.team2}**\nDate : ${match.date}\n${match.group ? `Groupe : ${match.group}` : `Tour : ${match.round}`}\nStade : ${match.ground}`,
+      content: `Collecte toutes les données pour ce match :\n\n**${getFr(match.team1)} vs ${getFr(match.team2)}**\n(noms anglais pour les tools : ${match.team1} / ${match.team2})\nDate : ${match.date}\n${match.group ? `Groupe : ${match.group}` : `Tour : ${match.round}`}\nStade : ${match.ground}`,
     },
   ];
 
@@ -771,10 +771,12 @@ export async function runAgent(
 
   const userPrompt = `Analyse ce match de Coupe du Monde 2026 et produis ton analyse structurée en JSON.
 
-**${match.team1} vs ${match.team2}**
+**${getFr(match.team1)} vs ${getFr(match.team2)}**
 Date : ${match.date}
 ${match.group ? `Groupe : ${match.group}` : `Tour : ${match.round}`}
 Stade : ${match.ground}
+
+IMPORTANT : Utilise les noms français des équipes dans toute l'analyse (ex: "Côte d'Ivoire" pas "Ivory Coast", "Pays-Bas" pas "Netherlands", "Équateur" pas "Ecuador").
 
 Voici toutes les données collectées :
 
