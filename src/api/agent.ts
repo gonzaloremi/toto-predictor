@@ -398,34 +398,29 @@ async function executeSearchSofoot(args: { team: string }): Promise<string> {
   }
 
   // Step 2: Fetch each article via the CORS proxy
-  const debugLog: string[] = [`[DEBUG] URLs trouvées: ${JSON.stringify(articleUrls)}`];
   const articles: string[] = [];
   for (const url of articleUrls) {
     try {
       const proxyUrl = `/api/sofoot?url=${encodeURIComponent(url)}`;
-      debugLog.push(`[DEBUG] Fetch ${proxyUrl}`);
       const res = await fetch(proxyUrl);
-      debugLog.push(`[DEBUG] → status=${res.status} ok=${res.ok}`);
       if (!res.ok) continue;
 
       const html = await res.text();
       const text = parseSofootHtml(html);
-      debugLog.push(`[DEBUG] → htmlLen=${html.length} textLen=${text.length} preview="${text.slice(0, 100)}"`);
       if (text.length > 100) {
         articles.push(`=== ${url} ===\n${text}`);
       }
-    } catch (err) {
-      debugLog.push(`[DEBUG] → ERROR: ${String(err)}`);
+    } catch {
       continue;
     }
   }
 
   if (articles.length === 0) {
-    return `Articles So Foot trouvés mais non accessibles pour ${frName}.\n\n${debugLog.join('\n')}`;
+    return `Aucun article So Foot trouvé pour ${frName}.`;
   }
 
-  const full = `## So Foot — ${frName} (${articles.length} articles)\n\n${articles.join('\n\n---\n\n')}\n\n${debugLog.join('\n')}`;
-  return full.length > 15000 ? full.slice(0, 15000) + '\n\n[... tronqué]' : full;
+  const full = `## So Foot — ${frName} (${articles.length} articles)\n\n${articles.join('\n\n---\n\n')}`;
+  return full.length > 25000 ? full.slice(0, 25000) + '\n\n[... tronqué]' : full;
 }
 
 function parseSofootHtml(html: string): string {
@@ -447,8 +442,7 @@ function parseSofootHtml(html: string): string {
     .replace(/ ([.,;:!?])/g, '$1')
     .trim();
 
-  // Take first ~5000 chars to keep it focused
-  return text.length > 5000 ? text.slice(0, 5000) + '...' : text;
+  return text.length > 8000 ? text.slice(0, 8000) + '...' : text;
 }
 
 async function executeTool(name: string, args: Record<string, unknown>): Promise<string> {
