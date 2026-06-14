@@ -81,9 +81,7 @@ export default function MatchCard({ match, time, onSelect, isSelected, hasReport
         </div>
         <div className="flex items-center gap-1.5">
           {hasReport && (
-            <span className="text-[10px] bg-wc-green/20 text-green-400 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
-              Rapport
-            </span>
+            <span className="text-[10px] bg-wc-green/20 text-green-400 w-2 h-2 rounded-full" />
           )}
           {match.group && (
             <span className="text-[10px] text-wc-muted bg-wc-border/40 px-2 py-0.5 rounded-full font-medium">

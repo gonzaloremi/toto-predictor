@@ -2,6 +2,8 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import type { ScheduleMatch } from '../types';
 import { runAgent, type AgentEvent, type StructuredAnalysis, type AgentSource } from '../api/agent';
 import { getFlag, getFr } from '../data/nameMapping';
+import { useAuth } from '../contexts/AuthContext';
+import { useCreditsModal } from './CreditsModal';
 
 type AgentState = 'idle' | 'running' | 'paused' | 'done' | 'error';
 
@@ -20,6 +22,8 @@ const TOOL_META: Record<string, { icon: string; label: string; desc: string }> =
 };
 
 export default function AgenticTab({ match }: { match: ScheduleMatch }) {
+  const { user, credits, hasFullPass, loading: authLoading, signInWithGoogle, consumeCredit } = useAuth();
+  const { openCreditsModal } = useCreditsModal();
   const [state, setState] = useState<AgentState>('idle');
   const [analysis, setAnalysis] = useState<StructuredAnalysis | null>(null);
   const [fallbackText, setFallbackText] = useState('');
@@ -30,6 +34,9 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
   const logIdRef = useRef(0);
   const logEndRef = useRef<HTMLDivElement>(null);
 
+  const canLaunch = !!user && (hasFullPass || credits > 0);
+  const isLoggedIn = !!user;
+
   const addLog = useCallback((event: AgentEvent) => {
     const entry: LogEntry = { id: logIdRef.current++, timestamp: new Date(), event };
     setLog((prev) => [...prev, entry]);
@@ -39,7 +46,14 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
     if (showTrace) logEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [log, showTrace]);
 
-  const launch = useCallback(() => {
+  const launch = useCallback(async () => {
+    if (!user) return;
+
+    if (!hasFullPass) {
+      const ok = await consumeCredit();
+      if (!ok) return;
+    }
+
     abortRef.current?.abort();
     const controller = new AbortController();
     abortRef.current = controller;
@@ -74,7 +88,7 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
       },
       controller.signal,
     );
-  }, [match, addLog]);
+  }, [match, addLog, user, hasFullPass, consumeCredit]);
 
   const pause = useCallback(() => {
     abortRef.current?.abort();
@@ -113,13 +127,34 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
               {showTrace ? 'Masquer trace' : 'Voir trace'}
             </button>
           )}
+          {isLoggedIn && !authLoading && (state === 'idle' || state === 'paused' || state === 'done' || state === 'error') && (
+            <span className="text-[10px] text-wc-muted">
+              {hasFullPass ? 'Pass illimité ✓' : `${credits} crédit${credits !== 1 ? 's' : ''}`}
+            </span>
+          )}
           {(state === 'idle' || state === 'paused' || state === 'done' || state === 'error') && (
-            <button
-              onClick={launch}
-              className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
-            >
-              {state === 'idle' ? 'Lancer' : 'Relancer'}
-            </button>
+            !isLoggedIn ? (
+              <button
+                onClick={signInWithGoogle}
+                className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
+              >
+                Se connecter pour lancer
+              </button>
+            ) : !canLaunch ? (
+              <button
+                onClick={openCreditsModal}
+                className="flex items-center gap-1.5 text-xs font-bold text-wc-gold border border-wc-gold/40 hover:bg-wc-gold/10 transition px-3 py-1.5 rounded-lg cursor-pointer"
+              >
+                Recharger pour lancer
+              </button>
+            ) : (
+              <button
+                onClick={launch}
+                className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
+              >
+                {state === 'idle' ? 'Lancer' : 'Relancer'}
+              </button>
+            )
           )}
           {state === 'running' && (
             <button
@@ -148,13 +183,47 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
       {/* Idle */}
       {state === 'idle' && log.length === 0 && (
         <div className="py-12 text-center space-y-3">
-          <p className="text-sm text-wc-muted">
-            Analyse de <strong className="text-wc-text">{getFr(match.team1)}</strong> vs <strong className="text-wc-text">{getFr(match.team2)}</strong>
-          </p>
-          <p className="text-xs text-wc-muted/60">
-            Phase 1: GPT-4o-mini collecte les donnees (Wiloo, stats, cotes, groupe).
-            Phase 2: Claude Opus 4.6 synthetise une analyse structuree.
-          </p>
+          {!isLoggedIn ? (
+            <>
+              <p className="text-sm text-wc-muted">
+                Connecte-toi pour lancer l'analyse de{' '}
+                <strong className="text-wc-text">{getFr(match.team1)}</strong> vs <strong className="text-wc-text">{getFr(match.team2)}</strong>
+              </p>
+              <p className="text-xs text-wc-muted/60">3 briefings offerts à l'inscription. Sans carte bancaire.</p>
+              <button
+                onClick={signInWithGoogle}
+                className="inline-flex items-center gap-2 text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-5 py-2.5 rounded-xl cursor-pointer mt-2"
+              >
+                Se connecter avec Google
+              </button>
+            </>
+          ) : !canLaunch ? (
+            <>
+              <p className="text-sm text-wc-text">
+                T'as plus de crédits... et tu vas passer à côté de l'analyse de{' '}
+                <strong className="text-wc-gold">{getFr(match.team1)}</strong> vs <strong className="text-wc-gold">{getFr(match.team2)}</strong> ?
+              </p>
+              <p className="text-xs text-wc-muted/60">
+                Sérieusement, t'es à ça de dominer ton classement MPP. Recharge et reviens en force.
+              </p>
+              <button
+                onClick={openCreditsModal}
+                className="inline-flex items-center gap-2 text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-5 py-2.5 rounded-xl cursor-pointer mt-2"
+              >
+                Recharger mes crédits
+              </button>
+            </>
+          ) : (
+            <>
+              <p className="text-sm text-wc-muted">
+                Analyse de <strong className="text-wc-text">{getFr(match.team1)}</strong> vs <strong className="text-wc-text">{getFr(match.team2)}</strong>
+              </p>
+              <p className="text-xs text-wc-muted/60">
+                Phase 1: GPT-4o-mini collecte les donnees (Wiloo, stats, cotes, groupe).
+                Phase 2: Claude Opus 4.6 synthetise une analyse structuree.
+              </p>
+            </>
+          )}
         </div>
       )}
 
