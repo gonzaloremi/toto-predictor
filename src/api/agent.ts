@@ -398,29 +398,34 @@ async function executeSearchSofoot(args: { team: string }): Promise<string> {
   }
 
   // Step 2: Fetch each article via the CORS proxy
+  const debugLog: string[] = [`[DEBUG] URLs trouvées: ${JSON.stringify(articleUrls)}`];
   const articles: string[] = [];
   for (const url of articleUrls) {
     try {
       const path = new URL(url).pathname;
       const proxyUrl = `/api/sofoot${path}`;
+      debugLog.push(`[DEBUG] Fetch ${proxyUrl}`);
       const res = await fetch(proxyUrl);
+      debugLog.push(`[DEBUG] → status=${res.status} ok=${res.ok}`);
       if (!res.ok) continue;
 
       const html = await res.text();
       const text = parseSofootHtml(html);
+      debugLog.push(`[DEBUG] → htmlLen=${html.length} textLen=${text.length} preview="${text.slice(0, 100)}"`);
       if (text.length > 100) {
         articles.push(`=== ${url} ===\n${text}`);
       }
-    } catch {
+    } catch (err) {
+      debugLog.push(`[DEBUG] → ERROR: ${String(err)}`);
       continue;
     }
   }
 
   if (articles.length === 0) {
-    return `Articles So Foot trouvés mais non accessibles pour ${frName}.`;
+    return `Articles So Foot trouvés mais non accessibles pour ${frName}.\n\n${debugLog.join('\n')}`;
   }
 
-  const full = `## So Foot — ${frName} (${articles.length} articles)\n\n${articles.join('\n\n---\n\n')}`;
+  const full = `## So Foot — ${frName} (${articles.length} articles)\n\n${articles.join('\n\n---\n\n')}\n\n${debugLog.join('\n')}`;
   return full.length > 15000 ? full.slice(0, 15000) + '\n\n[... tronqué]' : full;
 }
 
