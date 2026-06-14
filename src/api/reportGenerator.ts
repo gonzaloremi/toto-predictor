@@ -54,7 +54,7 @@ import lastMatchesData from '../data/generated/lastMatches.json';
 import wcHistoryData from '../data/generated/wcHistory.json';
 import headToHeadData from '../data/generated/headToHead.json';
 import teamStatsData from '../data/generated/teamStats.json';
-import wilooSummariesData from '../data/generated/wiloo-summaries.json';
+import { supabase } from '../lib/supabase';
 
 export interface WilooTeamSummary {
   tier: string;
@@ -65,8 +65,31 @@ export interface WilooTeamSummary {
   videos: string[];
 }
 
-export function getWilooContext(team1: string, team2: string): { team1: WilooTeamSummary | null; team2: WilooTeamSummary | null; combined: string } {
-  const data = wilooSummariesData as Record<string, WilooTeamSummary>;
+let wilooCache: Record<string, WilooTeamSummary> | null = null;
+
+async function loadWilooData(): Promise<Record<string, WilooTeamSummary>> {
+  if (wilooCache) return wilooCache;
+
+  const { data, error } = await supabase
+    .from('wiloo_summaries')
+    .select('country, data');
+
+  if (error || !data || data.length === 0) {
+    console.warn('Failed to load wiloo data from Supabase:', error?.message);
+    wilooCache = {};
+    return wilooCache;
+  }
+
+  const result: Record<string, WilooTeamSummary> = {};
+  for (const row of data) {
+    result[row.country] = row.data as WilooTeamSummary;
+  }
+  wilooCache = result;
+  return wilooCache;
+}
+
+export async function getWilooContext(team1: string, team2: string): Promise<{ team1: WilooTeamSummary | null; team2: WilooTeamSummary | null; combined: string }> {
+  const data = await loadWilooData();
   const t1 = data[team1] ?? null;
   const t2 = data[team2] ?? null;
 
@@ -143,7 +166,7 @@ export async function generateReport(
   const history = await fetchHistoricalBehavior(team1, team2);
 
   const quantData = getQuantitativeData(team1, team2);
-  const wiloo = getWilooContext(team1, team2);
+  const wiloo = await getWilooContext(team1, team2);
 
   onProgress?.('Recuperation du pronostic Le Figaro...');
   const figaro = await fetchFigaroPronostic(matchId, team1, team2, date).catch(() => null);

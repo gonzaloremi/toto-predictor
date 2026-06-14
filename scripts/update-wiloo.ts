@@ -12,12 +12,17 @@ import { execSync } from 'child_process';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { createClient } from '@supabase/supabase-js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const TRANSCRIPTS_PATH = join(ROOT, 'src', 'data', 'generated', 'wiloo-transcripts.json');
 const SUMMARIES_PATH = join(ROOT, 'src', 'data', 'generated', 'wiloo-summaries.json');
 const NEW_TRANSCRIPTS_PATH = join(ROOT, 'src', 'data', 'generated', 'wiloo-new-transcripts.json');
+
+const supabaseUrl = 'https://faydwdlxexnzvnzcbdrp.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZheWR3ZGx4ZXhuenZuemNiZHJwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNDIwODIsImV4cCI6MjA5NjkxODA4Mn0.gz0rTuUgZcsWMnU_4EhARVQIQfHOoOSwUlva4KfivrI';
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 interface Transcript {
   videoId: string;
@@ -308,6 +313,24 @@ async function main() {
   allTranscripts.sort((a, b) => b.uploadDate.localeCompare(a.uploadDate));
   writeFileSync(TRANSCRIPTS_PATH, JSON.stringify(allTranscripts, null, 2), 'utf-8');
   console.log(`  Updated: ${TRANSCRIPTS_PATH}`);
+
+  // Step 6: Upsert into Supabase
+  console.log('\n── Syncing to Supabase ──');
+  const rows = Object.entries(summaries).map(([country, data]) => ({
+    country,
+    data,
+    updated_at: new Date().toISOString(),
+  }));
+
+  const { error: upsertError } = await supabase
+    .from('wiloo_summaries')
+    .upsert(rows, { onConflict: 'country' });
+
+  if (upsertError) {
+    console.error(`  Supabase upsert failed: ${upsertError.message}`);
+  } else {
+    console.log(`  Synced ${rows.length} countries to wiloo_summaries`);
+  }
 
   console.log(`\n═══ Done! ${newTranscripts.length} new video(s), ${impactedCountries.length} country summaries updated ═══`);
 }

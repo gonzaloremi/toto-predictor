@@ -101,7 +101,7 @@ export async function generateBriefing(
   onProgress?.('Collecte des données quantitatives...');
   const quantiText = formatQuantiContext(match.team1, match.team2);
 
-  const wiloo = getWilooContext(match.team1, match.team2);
+  const wiloo = await getWilooContext(match.team1, match.team2);
   const wilooText = wiloo.combined || 'Pas d\'analyse Wiloo disponible.';
 
   onProgress?.('Récupération du contexte Figaro + Eurosport...');

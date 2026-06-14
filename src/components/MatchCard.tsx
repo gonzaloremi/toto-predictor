@@ -35,7 +35,7 @@ function MatchCardWeather({ match }: { match: ScheduleMatch }) {
   const weather = useWeather(match.ground, match.date, match.time);
   return (
     <div className="flex items-center justify-between mt-1">
-      <span className="text-[11px] text-wc-muted">{match.ground}</span>
+      <span className="text-[11px] text-wc-muted">{match.ground.replace(/\s*\(.*?\)/g, '')}</span>
       {weather && (
         <span className="text-[11px] text-wc-muted">
           {weather.icon} {weather.temp}°C
