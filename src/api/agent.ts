@@ -402,8 +402,7 @@ async function executeSearchSofoot(args: { team: string }): Promise<string> {
   const articles: string[] = [];
   for (const url of articleUrls) {
     try {
-      const path = new URL(url).pathname;
-      const proxyUrl = `/api/sofoot${path}`;
+      const proxyUrl = `/api/sofoot?url=${encodeURIComponent(url)}`;
       debugLog.push(`[DEBUG] Fetch ${proxyUrl}`);
       const res = await fetch(proxyUrl);
       debugLog.push(`[DEBUG] → status=${res.status} ok=${res.ok}`);

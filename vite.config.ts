@@ -21,7 +21,12 @@ export default defineConfig(({ mode }) => {
         '/api/sofoot': {
           target: 'https://www.sofoot.com',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api\/sofoot/, ''),
+          rewrite: (path) => {
+            const u = new URL(path, 'http://localhost');
+            const target = u.searchParams.get('url');
+            if (target) return new URL(target).pathname;
+            return path.replace(/^\/api\/sofoot/, '');
+          },
           headers: {
             'User-Agent':
               'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
