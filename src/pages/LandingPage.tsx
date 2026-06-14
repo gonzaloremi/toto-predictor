@@ -1,8 +1,22 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+
+function isInAppBrowser(): boolean {
+  const ua = navigator.userAgent || '';
+  return /FBAN|FBAV|Instagram|Line\/|Twitter|LinkedInApp|Snapchat/i.test(ua);
+}
 
 export default function LandingPage({ onEnterApp }: { onEnterApp: () => void }) {
   const { user, signInWithGoogle } = useAuth();
+  const [showBrowserPrompt, setShowBrowserPrompt] = useState(false);
+
+  const handleLogin = useCallback(() => {
+    if (isInAppBrowser()) {
+      setShowBrowserPrompt(true);
+    } else {
+      signInWithGoogle();
+    }
+  }, [signInWithGoogle]);
   const sectionsRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
@@ -35,12 +49,45 @@ export default function LandingPage({ onEnterApp }: { onEnterApp: () => void }) 
     if (user) {
       onEnterApp();
     } else {
-      signInWithGoogle();
+      handleLogin();
     }
   };
 
+  const copyUrl = useCallback(() => {
+    navigator.clipboard.writeText(window.location.origin).catch(() => {});
+  }, []);
+
   return (
     <div className="min-h-screen">
+      {/* In-app browser prompt */}
+      {showBrowserPrompt && (
+        <div className="fixed inset-0 z-[100] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-wc-card border border-wc-border rounded-2xl p-6 max-w-sm w-full space-y-4 text-center">
+            <div className="text-4xl">🔒</div>
+            <h3 className="text-lg font-extrabold text-wc-text">Ouvre dans ton navigateur</h3>
+            <p className="text-sm text-wc-muted">
+              Google bloque la connexion depuis Messenger/Instagram. Ouvre le lien dans Safari ou Chrome pour te connecter.
+            </p>
+            <div className="space-y-2">
+              <button
+                onClick={() => { copyUrl(); }}
+                className="w-full text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-4 py-3 rounded-xl cursor-pointer"
+              >
+                Copier le lien
+              </button>
+              <p className="text-[11px] text-wc-muted/60">
+                Puis colle-le dans Safari ou Chrome
+              </p>
+              <button
+                onClick={() => setShowBrowserPrompt(false)}
+                className="text-xs text-wc-muted hover:text-wc-text transition cursor-pointer"
+              >
+                Fermer
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
       {/* Nav */}
       <nav className="border-b border-wc-border bg-wc-card/80 sticky top-0 z-50 backdrop-blur-sm">
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -64,7 +111,7 @@ export default function LandingPage({ onEnterApp }: { onEnterApp: () => void }) 
               </button>
             ) : (
               <button
-                onClick={signInWithGoogle}
+                onClick={handleLogin}
                 className="text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-4 py-2 rounded-lg cursor-pointer"
               >
                 Essayer gratuitement
