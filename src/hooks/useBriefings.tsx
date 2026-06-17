@@ -25,21 +25,27 @@ export function BriefingsProvider({ children }: { children: ReactNode }) {
   const [pendingMatchIds, setPendingMatchIds] = useState<Set<number>>(new Set());
 
   useEffect(() => {
-    if (!user) {
-      setBriefingMatchIds(new Set());
-      setPendingMatchIds(new Set());
-      return;
-    }
-
     async function fetchBriefingIds() {
-      const { data } = await supabase
-        .from('user_briefings')
-        .select('match_id')
-        .eq('user_id', user!.id);
+      const ids = new Set<number>();
 
-      if (data) {
-        setBriefingMatchIds(new Set(data.map((r) => r.match_id)));
+      // Per-user briefings only (for badge on MatchCard)
+      if (user) {
+        const { data: personal } = await supabase
+          .from('user_briefings')
+          .select('match_id')
+          .eq('user_id', user.id);
+        if (personal) {
+          for (const r of personal) ids.add(r.match_id);
+        }
+      } else {
+        // Anonymous: check localStorage
+        try {
+          const seen = JSON.parse(localStorage.getItem('seen_briefings') || '{}');
+          for (const id of Object.keys(seen)) ids.add(Number(id));
+        } catch {}
       }
+
+      setBriefingMatchIds(ids);
     }
 
     fetchBriefingIds();

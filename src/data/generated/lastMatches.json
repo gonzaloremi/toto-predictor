@@ -1,6 +1,17 @@
 {
   "Algeria": [
     {
+      "date": "2026-06-16",
+      "opponent": "Argentina",
+      "home": false,
+      "score": [
+        0,
+        3
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
       "date": "2026-06-10",
       "opponent": "Bolivia",
       "home": false,
@@ -153,20 +164,20 @@
       ],
       "tournament": "Friendly",
       "result": "W"
-    },
-    {
-      "date": "2025-11-13",
-      "opponent": "Zimbabwe",
-      "home": true,
-      "score": [
-        3,
-        1
-      ],
-      "tournament": "Friendly",
-      "result": "W"
     }
   ],
   "Argentina": [
+    {
+      "date": "2026-06-16",
+      "opponent": "Algeria",
+      "home": true,
+      "score": [
+        3,
+        0
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-09",
       "opponent": "Iceland",
@@ -320,20 +331,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-11-14",
-      "opponent": "Paraguay",
-      "home": false,
-      "score": [
-        1,
-        2
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "L"
     }
   ],
   "Australia": [
+    {
+      "date": "2026-06-13",
+      "opponent": "Turkey",
+      "home": true,
+      "score": [
+        2,
+        0
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Switzerland",
@@ -487,20 +498,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Bahrain",
-      "home": false,
-      "score": [
-        2,
-        2
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "D"
     }
   ],
   "Austria": [
+    {
+      "date": "2026-06-16",
+      "opponent": "Jordan",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-01",
       "opponent": "Tunisia",
@@ -654,20 +665,20 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "D"
-    },
-    {
-      "date": "2024-11-14",
-      "opponent": "Kazakhstan",
-      "home": false,
-      "score": [
-        2,
-        0
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "W"
     }
   ],
   "Belgium": [
+    {
+      "date": "2026-06-15",
+      "opponent": "Egypt",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Tunisia",
@@ -818,17 +829,6 @@
       "score": [
         1,
         3
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "L"
-    },
-    {
-      "date": "2024-11-17",
-      "opponent": "Israel",
-      "home": false,
-      "score": [
-        0,
-        1
       ],
       "tournament": "UEFA Nations League",
       "result": "L"
@@ -1003,6 +1003,17 @@
   ],
   "Brazil": [
     {
+      "date": "2026-06-13",
+      "opponent": "Morocco",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
       "date": "2026-06-06",
       "opponent": "Egypt",
       "home": true,
@@ -1155,17 +1166,6 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Uruguay",
-      "home": true,
-      "score": [
-        1,
-        1
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "D"
     }
   ],
   "Canada": [
@@ -1337,6 +1337,17 @@
   ],
   "Cape Verde": [
     {
+      "date": "2026-06-15",
+      "opponent": "Spain",
+      "home": false,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
       "date": "2026-06-06",
       "opponent": "Bermuda",
       "home": false,
@@ -1486,17 +1497,6 @@
       "score": [
         2,
         1
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
-    },
-    {
-      "date": "2025-03-20",
-      "opponent": "Mauritius",
-      "home": true,
-      "score": [
-        1,
-        0
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
@@ -1838,6 +1838,17 @@
   ],
   "Curaçao": [
     {
+      "date": "2026-06-14",
+      "opponent": "Germany",
+      "home": false,
+      "score": [
+        1,
+        7
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
       "date": "2026-06-06",
       "opponent": "Aruba",
       "home": true,
@@ -1987,17 +1998,6 @@
       "score": [
         5,
         1
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
-    },
-    {
-      "date": "2025-06-06",
-      "opponent": "Saint Lucia",
-      "home": true,
-      "score": [
-        4,
-        0
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
@@ -2339,6 +2339,17 @@
   ],
   "Ecuador": [
     {
+      "date": "2026-06-14",
+      "opponent": "Ivory Coast",
+      "home": false,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
       "date": "2026-06-07",
       "opponent": "Guatemala",
       "home": true,
@@ -2491,20 +2502,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Colombia",
-      "home": false,
-      "score": [
-        1,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Egypt": [
+    {
+      "date": "2026-06-15",
+      "opponent": "Belgium",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Brazil",
@@ -2657,17 +2668,6 @@
         1
       ],
       "tournament": "Arab Cup",
-      "result": "D"
-    },
-    {
-      "date": "2025-11-17",
-      "opponent": "Cape Verde",
-      "home": false,
-      "score": [
-        1,
-        1
-      ],
-      "tournament": "Al Ain International Cup",
       "result": "D"
     }
   ],
@@ -2840,6 +2840,17 @@
   ],
   "France": [
     {
+      "date": "2026-06-16",
+      "opponent": "Senegal",
+      "home": true,
+      "score": [
+        3,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
+    {
       "date": "2026-06-08",
       "opponent": "Northern Ireland",
       "home": true,
@@ -2992,20 +3003,20 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "L"
-    },
-    {
-      "date": "2024-11-17",
-      "opponent": "Italy",
-      "home": false,
-      "score": [
-        3,
-        1
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "W"
     }
   ],
   "Germany": [
+    {
+      "date": "2026-06-14",
+      "opponent": "Curaçao",
+      "home": true,
+      "score": [
+        7,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-06",
       "opponent": "USA",
@@ -3159,17 +3170,6 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "W"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Hungary",
-      "home": false,
-      "score": [
-        1,
-        1
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "D"
     }
   ],
   "Ghana": [
@@ -3341,6 +3341,17 @@
   ],
   "Haiti": [
     {
+      "date": "2026-06-13",
+      "opponent": "Scotland",
+      "home": true,
+      "score": [
+        0,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
+    {
       "date": "2026-06-05",
       "opponent": "Peru",
       "home": true,
@@ -3493,20 +3504,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "L"
-    },
-    {
-      "date": "2025-06-07",
-      "opponent": "Aruba",
-      "home": false,
-      "score": [
-        5,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Iran": [
+    {
+      "date": "2026-06-15",
+      "opponent": "New Zealand",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-04",
       "opponent": "Mali",
@@ -3660,20 +3671,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-10-15",
-      "opponent": "Qatar",
-      "home": true,
-      "score": [
-        4,
-        1
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Iraq": [
+    {
+      "date": "2026-06-16",
+      "opponent": "Norway",
+      "home": true,
+      "score": [
+        1,
+        4
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
     {
       "date": "2026-06-09",
       "opponent": "Venezuela",
@@ -3827,20 +3838,20 @@
       ],
       "tournament": "King's Cup",
       "result": "W"
-    },
+    }
+  ],
+  "Ivory Coast": [
     {
-      "date": "2025-06-10",
-      "opponent": "Jordan",
-      "home": false,
+      "date": "2026-06-14",
+      "opponent": "Ecuador",
+      "home": true,
       "score": [
         1,
         0
       ],
-      "tournament": "FIFA World Cup qualification",
+      "tournament": "FIFA World Cup",
       "result": "W"
-    }
-  ],
-  "Ivory Coast": [
+    },
     {
       "date": "2026-06-04",
       "opponent": "France",
@@ -3994,20 +4005,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2025-06-10",
-      "opponent": "Canada",
-      "home": false,
-      "score": [
-        0,
-        0
-      ],
-      "tournament": "Canadian Shield",
-      "result": "D"
     }
   ],
   "Japan": [
+    {
+      "date": "2026-06-14",
+      "opponent": "Netherlands",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-05-31",
       "opponent": "Iceland",
@@ -4161,20 +4172,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-11-15",
-      "opponent": "Indonesia",
-      "home": false,
-      "score": [
-        4,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Jordan": [
+    {
+      "date": "2026-06-16",
+      "opponent": "Austria",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
     {
       "date": "2026-06-07",
       "opponent": "Colombia",
@@ -4328,17 +4339,6 @@
       ],
       "tournament": "Friendly",
       "result": "L"
-    },
-    {
-      "date": "2025-09-09",
-      "opponent": "Dominican Republic",
-      "home": true,
-      "score": [
-        3,
-        0
-      ],
-      "tournament": "Friendly",
-      "result": "W"
     }
   ],
   "Mexico": [
@@ -4510,6 +4510,17 @@
   ],
   "Morocco": [
     {
+      "date": "2026-06-13",
+      "opponent": "Brazil",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
       "date": "2026-06-07",
       "opponent": "Norway",
       "home": true,
@@ -4662,20 +4673,20 @@
       ],
       "tournament": "Arab Cup",
       "result": "W"
-    },
-    {
-      "date": "2025-12-11",
-      "opponent": "Syria",
-      "home": true,
-      "score": [
-        1,
-        0
-      ],
-      "tournament": "Arab Cup",
-      "result": "W"
     }
   ],
   "Netherlands": [
+    {
+      "date": "2026-06-14",
+      "opponent": "Japan",
+      "home": true,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-08",
       "opponent": "Uzbekistan",
@@ -4829,20 +4840,20 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "D"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Bosnia & Herzegovina",
-      "home": false,
-      "score": [
-        1,
-        1
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "D"
     }
   ],
   "New Zealand": [
+    {
+      "date": "2026-06-15",
+      "opponent": "Iran",
+      "home": false,
+      "score": [
+        2,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-06",
       "opponent": "England",
@@ -4996,20 +5007,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-11-18",
-      "opponent": "Samoa",
-      "home": true,
-      "score": [
-        8,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Norway": [
+    {
+      "date": "2026-06-16",
+      "opponent": "Iraq",
+      "home": false,
+      "score": [
+        4,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-07",
       "opponent": "Morocco",
@@ -5162,17 +5173,6 @@
         0
       ],
       "tournament": "FIFA World Cup qualification",
-      "result": "W"
-    },
-    {
-      "date": "2024-11-17",
-      "opponent": "Kazakhstan",
-      "home": true,
-      "score": [
-        5,
-        0
-      ],
-      "tournament": "UEFA Nations League",
       "result": "W"
     }
   ],
@@ -5679,6 +5679,17 @@
   ],
   "Qatar": [
     {
+      "date": "2026-06-13",
+      "opponent": "Switzerland",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
       "date": "2026-06-06",
       "opponent": "El Salvador",
       "home": true,
@@ -5831,20 +5842,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "L"
-    },
-    {
-      "date": "2025-03-20",
-      "opponent": "North Korea",
-      "home": true,
-      "score": [
-        5,
-        1
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Saudi Arabia": [
+    {
+      "date": "2026-06-15",
+      "opponent": "Uruguay",
+      "home": true,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-09",
       "opponent": "Senegal",
@@ -5998,20 +6009,20 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2025-09-08",
-      "opponent": "Czech Republic",
-      "home": false,
-      "score": [
-        1,
-        1
-      ],
-      "tournament": "Friendly",
-      "result": "D"
     }
   ],
   "Scotland": [
+    {
+      "date": "2026-06-13",
+      "opponent": "Haiti",
+      "home": false,
+      "score": [
+        1,
+        0
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Bolivia",
@@ -6165,20 +6176,20 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "W"
-    },
-    {
-      "date": "2024-11-18",
-      "opponent": "Poland",
-      "home": false,
-      "score": [
-        2,
-        1
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "W"
     }
   ],
   "Senegal": [
+    {
+      "date": "2026-06-16",
+      "opponent": "France",
+      "home": false,
+      "score": [
+        1,
+        3
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
     {
       "date": "2026-06-09",
       "opponent": "Saudi Arabia",
@@ -6328,17 +6339,6 @@
       "home": true,
       "score": [
         4,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
-    },
-    {
-      "date": "2025-10-10",
-      "opponent": "South Sudan",
-      "home": false,
-      "score": [
-        5,
         0
       ],
       "tournament": "FIFA World Cup qualification",
@@ -6681,6 +6681,17 @@
   ],
   "Spain": [
     {
+      "date": "2026-06-15",
+      "opponent": "Cape Verde",
+      "home": true,
+      "score": [
+        0,
+        0
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
       "date": "2026-06-08",
       "opponent": "Peru",
       "home": false,
@@ -6833,20 +6844,20 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "D"
-    },
-    {
-      "date": "2024-11-18",
-      "opponent": "Switzerland",
-      "home": true,
-      "score": [
-        3,
-        2
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "W"
     }
   ],
   "Sweden": [
+    {
+      "date": "2026-06-14",
+      "opponent": "Tunisia",
+      "home": true,
+      "score": [
+        5,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "W"
+    },
     {
       "date": "2026-06-04",
       "opponent": "Greece",
@@ -7000,20 +7011,20 @@
       ],
       "tournament": "Friendly",
       "result": "L"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Azerbaijan",
-      "home": true,
-      "score": [
-        6,
-        0
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "W"
     }
   ],
   "Switzerland": [
+    {
+      "date": "2026-06-13",
+      "opponent": "Qatar",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Australia",
@@ -7167,20 +7178,20 @@
       ],
       "tournament": "Friendly",
       "result": "D"
-    },
-    {
-      "date": "2024-11-18",
-      "opponent": "Spain",
-      "home": false,
-      "score": [
-        2,
-        3
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "L"
     }
   ],
   "Tunisia": [
+    {
+      "date": "2026-06-14",
+      "opponent": "Sweden",
+      "home": false,
+      "score": [
+        1,
+        5
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Belgium",
@@ -7334,20 +7345,20 @@
       ],
       "tournament": "Friendly",
       "result": "D"
-    },
-    {
-      "date": "2025-10-13",
-      "opponent": "Namibia",
-      "home": true,
-      "score": [
-        3,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "W"
     }
   ],
   "Turkey": [
+    {
+      "date": "2026-06-13",
+      "opponent": "Australia",
+      "home": false,
+      "score": [
+        0,
+        2
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "L"
+    },
     {
       "date": "2026-06-06",
       "opponent": "Venezuela",
@@ -7501,17 +7512,6 @@
       ],
       "tournament": "UEFA Nations League",
       "result": "W"
-    },
-    {
-      "date": "2024-11-19",
-      "opponent": "Montenegro",
-      "home": false,
-      "score": [
-        1,
-        3
-      ],
-      "tournament": "UEFA Nations League",
-      "result": "L"
     }
   ],
   "USA": [
@@ -7683,6 +7683,17 @@
   ],
   "Uruguay": [
     {
+      "date": "2026-06-15",
+      "opponent": "Saudi Arabia",
+      "home": false,
+      "score": [
+        1,
+        1
+      ],
+      "tournament": "FIFA World Cup",
+      "result": "D"
+    },
+    {
       "date": "2026-03-31",
       "opponent": "Algeria",
       "home": false,
@@ -7835,17 +7846,6 @@
       ],
       "tournament": "FIFA World Cup qualification",
       "result": "W"
-    },
-    {
-      "date": "2024-10-15",
-      "opponent": "Ecuador",
-      "home": true,
-      "score": [
-        0,
-        0
-      ],
-      "tournament": "FIFA World Cup qualification",
-      "result": "D"
     }
   ],
   "Uzbekistan": [

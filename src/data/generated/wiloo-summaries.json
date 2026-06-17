@@ -1,10 +1,10 @@
 {
   "Spain": {
     "tier": "Favori #1",
-    "summary": "Dernière analyse Wiloo : L'Espagne est considérée comme l'une des favorites pour la Coupe du Monde, avec une cote de 5,50. Wiloo souligne la qualité de leur jeu collectif et leur expérience dans les grands tournois, tout en notant qu'ils doivent surmonter des défis pour atteindre les phases finales. Bien que l'identité collective soit supérieure à la somme des individualités, il reste prudent quant à leur capacité à aller jusqu'au bout. L'historique mondial depuis 2010 reste préoccupant, avec des éliminations précoces en 2014 et 2018. Cependant, l'équipe est attendue au minimum en demi-finale, avec un parcours favorable en phase de groupes. Wiloo évoque également la passion des Espagnols pour le football, soulignant l'importance des discussions autour des matchs et la rivalité entre les clubs, notamment le Real Madrid et le FC Barcelone. Les joueurs clés comme Pedri et Gavi sont cités pour leur potentiel à faire la différence.",
-    "strengths": "Jeu collectif de qualité, expérience dans les grands tournois, profondeur de banc, potentiel des jeunes talents, passion des fans",
-    "weaknesses": "Historique mondial décevant depuis 2010, défis à surmonter pour atteindre les phases finales, charnière centrale fragile",
-    "players": "Pedri, Gavi, Yamal, Rodri, Olmo, Merino Saabal, Nico Williams, Laporte, Cucurella",
+    "summary": "Dernière analyse Wiloo : L'Espagne est considérée comme l'une des favorites pour la Coupe du Monde, avec une cote de 5,50. Cependant, Wiloo a récemment noté des signes de faiblesse lors de leur match contre le Cap Vert, où, malgré une possession écrasante de 75 % et 27 tirs, l'équipe a manqué de créativité, surtout sans son joueur clé, La Masia. Leur jeu s'est révélé très pauvre sur les ailes, avec seulement 13 dribbles tentés, un chiffre très bas pour une équipe supposée être offensive. Les meilleures occasions sont venues de Kukurea, soulignant l'impact de l'absence de La Masia sur leur capacité à combiner efficacement. Bien que l'identité collective soit supérieure à la somme des individualités, Wiloo reste prudent quant à leur potentiel dans le tournoi, suggérant qu'ils doivent retrouver leur dynamisme pour espérer avancer loin. L'historique mondial depuis 2010 reste préoccupant, avec des éliminations précoces en 2014 et 2018, mais l'équipe est attendue au minimum en demi-finale, avec un parcours favorable en phase de groupes.",
+    "strengths": "Jeu collectif de qualité, expérience dans les grands tournois, profondeur de banc, passion des fans",
+    "weaknesses": "Historique mondial décevant depuis 2010, manque de créativité, dépendance à La Masia, charnière centrale fragile",
+    "players": "Pedri, Gavi, Yamal, Rodri, Olmo, Merino Saabal, Nico Williams, Laporte, Cucurella, La Masia",
     "videos": [
       "UJuks6IBJso",
       "ElZSdQyIWeM",
@@ -14,15 +14,16 @@
       "ejWLyTSpgQU",
       "M9fXaUEvLio",
       "6XIL06YEQFk",
-      "g_AtYSt_CK4"
+      "g_AtYSt_CK4",
+      "WIBGXU6A7wo"
     ]
   },
   "France": {
     "tier": "Favori #1",
-    "summary": "Dernière analyse Wiloo : La France est toujours considérée comme l'un des grands favoris de la compétition, avec une cote de 6. Wiloo met en avant la profondeur de l'effectif et la capacité de l'équipe à performer sous pression. Malgré un groupe difficile, il reste confiant quant à leur potentiel pour aller loin dans le tournoi. L'équipe, riche en talents, a souvent brillé dans les grands tournois, mais des inquiétudes persistent concernant la défense. Les joueurs clés comme Mbappé et Griezmann apportent une expérience précieuse. Bien que l'attaque soit exceptionnelle, des problèmes collectifs demeurent, notamment en milieu de terrain. Wiloo évoque également l'importance de Didier Deschamps en tant qu'entraîneur et la passion des Français pour le football, qui se manifeste lors des grands événements. La France devra surmonter ces défis pour espérer décrocher une nouvelle étoile.",
-    "strengths": "Profondeur de l'effectif, talents individuels, expérience des joueurs, capacité à performer sous pression",
-    "weaknesses": "Problèmes défensifs, milieu de terrain faible, bloc passif",
-    "players": "Mbappé, Griezmann, Dembélé, Olise, Doué, Cherki, Saliba, Maignan, Kanté, Konaté",
+    "summary": "Dernière analyse Wiloo : La France est toujours considérée comme l'un des grands favoris de la compétition, avec une cote de 6. Wiloo souligne la force de l'équipe, notamment grâce à Kylian Mbappé, devenu le meilleur buteur de l'histoire des Bleus avec 58 buts. Bien que la France ait montré des atouts offensifs indéniables, il reste prudent quant à leur capacité à maintenir ce niveau face à des adversaires plus coriaces. La victoire contre le Sénégal a mis en lumière des performances contrastées, avec une première mi-temps difficile suivie d'une seconde période améliorée. Dayot Upamecano a été crucial en défense, mais des inquiétudes persistent concernant la solidité défensive. Wiloo reste optimiste sur les chances de la France dans le tournoi, la voyant comme favorite pour le titre, à condition de trouver un bon équilibre tactique et de ne pas sous-estimer les adversaires.",
+    "strengths": "Force offensive, performances de Mbappé, profondeur de l'effectif, capacité à performer sous pression",
+    "weaknesses": "Problèmes défensifs, milieu de terrain faible, manque de précision technique",
+    "players": "Mbappé, Griezmann, Dembélé, Upamecano, Olise, Doué, Cherki, Saliba, Maignan, Kanté, Konaté",
     "videos": [
       "APbBUaBX4NE",
       "CsV10N0o9uE",
@@ -34,72 +35,80 @@
       "f4n4O5KqnbQ",
       "ejWLyTSpgQU",
       "M9fXaUEvLio",
-      "Rq_Cx1GDo9Y"
+      "Rq_Cx1GDo9Y",
+      "4fgUljl3m3s",
+      "fO6DShWohZU",
+      "suoDwJrYiSc"
     ]
   },
   "England": {
     "tier": "Peut gagner",
-    "summary": "Dernière analyse Wiloo : Wiloo place l'Angleterre parmi les prétendants sérieux, avec une cote de 8. Il admire leur talent individuel et leur cohésion d'équipe, mais exprime des doutes sur leur capacité à gérer la pression des grands matchs. Des joueurs comme Harry Kane et Jude Bellingham sont mentionnés comme des atouts majeurs. Wiloo pronostique que l'Angleterre pourrait atteindre les quarts de finale, mais reste sceptique quant à leur capacité à aller plus loin. Malgré ces doutes, l'Angleterre a des atouts indéniables, notamment une défense élite et une puissance athlétique en Premier League. Cependant, la pression des grands matchs pourrait s'avérer décisive pour leur parcours. En parallèle, Wiloo souligne l'importance de Declan Rice, qui cherche à apporter une dimension plus progressive au jeu, tout en restant fidèle aux consignes de l'entraîneur. La défense est solide, mais l'attaque doit retrouver son éclat pour maximiser les chances de succès.",
-    "strengths": "Défense élite : Guehi, Konsa, O'Reilly, Spence, Rice + Anderson (grande trouvaille), talent individuel, cohésion d'équipe, Kane au prime (50 buts saison), puissance athlétique PL, coups de pied arrêtés (Rice-Kane), capacité d'adaptation en cours de match",
-    "weaknesses": "Capacité à gérer la pression des grands matchs, ailes faibles (Saka pas au prime, Madueke 3 contributions PL), Kane pas convaincu en big games (penalty raté vs France), Bellingham : version galactique vs chien collectif — incertain, pas de Trent, Maguire ; Stones peu joué (11% minutes PL), scepticisme sur leur capacité à aller loin, attaque moins flamboyante",
+    "summary": "Dernière analyse Wiloo : Wiloo évoque l'Angleterre comme une équipe à surveiller, mettant en avant leur talent individuel et leur capacité à performer dans des moments cruciaux. Il souligne également la bonne profondeur de banc et l'expérience de certains joueurs qui peuvent faire la différence. Malgré cela, il reste prudent quant à leur gestion de la pression lors des matchs à élimination directe. Wiloo pronostique que l'Angleterre a le potentiel d'aller loin dans le tournoi, mais qu'ils devront surmonter certains défis tactiques. Bien que des doutes subsistent sur leur capacité à gérer la pression des grands matchs, l'Angleterre possède des atouts indéniables, notamment une défense solide et une puissance athlétique en Premier League. Des joueurs comme Harry Kane et Jude Bellingham continuent d'être des atouts majeurs, et Declan Rice joue un rôle clé dans l'évolution du jeu de l'équipe.",
+    "strengths": "Talent individuel, capacité à performer dans des moments cruciaux, bonne profondeur de banc, expérience des joueurs, défense solide, puissance athlétique PL",
+    "weaknesses": "Capacité à gérer la pression des grands matchs, défis tactiques à surmonter",
     "players": "Kane, Bellingham, Rice, Saka, Guehi, Konsa, Anderson, Pickford, Martinelli, Yukeres",
     "videos": [
       "pB8N9H1WnJ0",
       "ElZSdQyIWeM",
       "_Gk-8iWFbdM",
       "f4n4O5KqnbQ",
-      "Em08mpjYtio"
+      "Em08mpjYtio",
+      "4fgUljl3m3s"
     ]
   },
   "Argentina": {
     "tier": "Top 4 mais pas vainqueur",
-    "summary": "Dernière analyse Wiloo : L'Argentine est toujours vue dans le top 4, avec une cote de 10. Wiloo évoque la finale de la Coupe du Monde 2022 entre la France et l'Argentine, soulignant l'importance de cet événement qui a captivé 1,5 milliard de spectateurs. Il parle de l'Argentine comme d'une nation passionnée par le football, mettant en avant des figures emblématiques comme Lionel Messi. La victoire de l'Argentine a renforcé la fierté nationale et a permis à Messi de réaliser son rêve ultime. Bien que l'ossature championne du monde de 2022 soit intacte, Wiloo souligne l'importance de Julian Alvarez, qui a émergé comme un joueur clé lors de la dernière Coupe du Monde. Il met en avant la force collective de l'équipe et l'impact de Messi, tout en notant un bon équilibre entre expérience et jeunesse. Cependant, il reste prudent sur leur capacité à gérer la pression des matchs à élimination directe. L'Argentine pourrait atteindre les quarts de finale, mais le manque de faim après les succès récents et un effectif vieillissant demeurent des préoccupations. Le tableau difficile avec un potentiel affrontement contre l'Espagne ou l'Uruguay dès les 16es reste également un facteur à considérer.",
-    "strengths": "Ossature championne du monde intacte, force collective, impact de Messi, bon équilibre entre expérience et jeunesse, talent de Julian Alvarez, passion nationale pour le football",
-    "weaknesses": "Possible manque de faim (CDM 2022 + 2 Copas), 'malédiction du champion', effectif vieillissant (~10 trentenaires), gestion de la pression en élimination directe, tableau difficile",
+    "summary": "Dernière analyse Wiloo : L'Argentine continue d'être perçue comme un prétendant sérieux, avec une performance impressionnante récemment, notamment grâce à Lionel Messi, qui a marqué un triplé lors de son 200e match avec l'équipe nationale. Wiloo souligne la belle cohésion de l'équipe et leur capacité à combiner efficacement sur le terrain. Cependant, des faiblesses défensives, surtout lors des transitions, sont à prendre en compte. Wiloo s'interroge sur leur capacité à faire face à des équipes mieux organisées. Bien que l'ossature championne du monde de 2022 soit toujours présente, il est crucial que l'Argentine corrige ses lacunes défensives pour rivaliser avec les meilleures équipes. Le tableau difficile avec un potentiel affrontement contre l'Espagne ou l'Uruguay dès les 16es reste également un facteur à considérer. L'Argentine pourrait atteindre les quarts de finale, mais le manque de faim après les succès récents et un effectif vieillissant demeurent des préoccupations.",
+    "strengths": "Ossature championne du monde intacte, force collective, impact de Messi, bon équilibre entre expérience et jeunesse, talent de Julian Alvarez, passion nationale pour le football, belle cohésion, capacité à combiner efficacement",
+    "weaknesses": "Possible manque de faim (CDM 2022 + 2 Copas), 'malédiction du champion', effectif vieillissant (~10 trentenaires), gestion de la pression en élimination directe, tableau difficile, faiblesses défensives lors des transitions",
     "players": "Messi (39 ans), Julian Alvarez, Emiliano Martínez, Enzo, Lautaro, Nico Paz, Lisandro Martínez",
     "videos": [
       "pPgOQu6Jyvo",
       "0-uYW4DVAJk",
       "ElZSdQyIWeM",
-      "ejWLyTSpgQU"
+      "ejWLyTSpgQU",
+      "4fgUljl3m3s"
     ]
   },
   "Brazil": {
     "tier": "4e favori mais inquiétant",
-    "summary": "Dernière analyse Wiloo : Le Brésil est décrit comme une équipe avec de nombreuses interrogations, notamment en raison de la composition de l'équipe de Carlo Ancelotti, surtout après la blessure de Wesley. Bien que Wiloo reconnaisse la qualité individuelle des joueurs brésiliens, comme Vinicius et Paquetá, il souligne que le Brésil a souvent été coupé en deux lors de ses précédents matchs, ce qui pourrait être exploité par leurs adversaires. Il évoque également l'impact d'Ousmane Dembélé, qui a été décisif pour le PSG, mettant en lumière le flair et la créativité des talents brésiliens dans le football moderne. Malgré un potentiel supérieur, il reste sceptique quant à leur capacité à maintenir un bon niveau de jeu, surtout face à des équipes bien organisées. En somme, le Brésil pourrait commencer fort, mais des doutes persistent quant à leur performance sur la durée. Wiloo souligne également que le Brésil, en tant que nation historique du football, doit faire face à des défis récents en termes de résultats en compétitions internationales.",
-    "strengths": "Qualité individuelle des joueurs, profondeur offensive, flair et créativité des talents, héritage historique",
-    "weaknesses": "Animation tactique préoccupante, défense vulnérable, coupé en deux lors des matchs, doutes sur la capacité à maintenir le niveau",
-    "players": "Vinícius Jr, Paquetá, Richarlison, Alex Sandro, Danilo, Ousmane Dembélé",
+    "summary": "Dernière analyse Wiloo : Le Brésil est jugé très décevant lors de ses récents matchs, avec des doutes sur la cohésion et la communication au sein de l'équipe. Des joueurs clés comme Casemiro et Lucas Paquetà n'ont pas été à la hauteur, entraînant un manque de créativité et d'idée sur le terrain. Bien que Vinicius ait été le seul à se démarquer offensivement, cela n'a pas suffi face à un Maroc dynamique. Wiloo souligne que le Brésil, malgré sa qualité individuelle, doit repenser sa stratégie et ses choix de joueurs pour espérer aller loin dans le tournoi. Il reste sceptique quant à leur capacité à maintenir un bon niveau de jeu, surtout face à des équipes bien organisées. En somme, le Brésil pourrait commencer fort, mais des doutes persistent quant à leur performance sur la durée, notamment en raison de leur animation tactique préoccupante et de leur défense vulnérable.",
+    "strengths": "Qualité individuelle des joueurs, profondeur offensive, flair et créativité des talents, héritage historique, Vinicius se démarque",
+    "weaknesses": "Animation tactique préoccupante, défense vulnérable, coupé en deux lors des matchs, doutes sur la capacité à maintenir le niveau, manque de cohésion et de créativité",
+    "players": "Vinícius Jr, Paquetá, Casemiro, Richarlison, Alex Sandro, Danilo",
     "videos": [
       "ZGymNtsO8Zk",
       "VQUcflGdIKc",
       "ElZSdQyIWeM",
       "78Az6tOJNZg",
-      "ejWLyTSpgQU"
+      "ejWLyTSpgQU",
+      "2wDD_qbLL6I"
     ]
   },
   "Portugal": {
-    "tier": "Top 6, sous-performe",
-    "summary": "Dernière analyse Wiloo : Le Portugal est classé 6e favori des bookmakers avec une cote de 10. Malgré une génération 'platine' au prime, l'équipe a souvent été sous-performante dans les grands tournois, suscitant des doutes sur sa capacité à aller loin. Wiloo souligne le talent individuel de joueurs comme Cristiano Ronaldo et Bruno Fernandes, mais reste prudent sur leur constance. Il pense néanmoins qu'ils pourraient surprendre et atteindre les phases finales. Roberto Martínez est critiqué pour sa gestion, notamment avec un système de jeu trop conservateur. Ronaldo, bien qu'étant un atout, est perçu comme un problème technique et vestiaire à 41 ans. En outre, Wiloo met en avant Nuno Mendes comme l'un des meilleurs latéraux de sa génération, dont la progression et les performances récentes sont impressionnantes. Son rôle crucial avec le Portugal en Ligue des Nations et sa capacité à évoluer offensivement sont des atouts majeurs pour l'équipe.",
-    "strengths": "Talent individuel, profondeur offensive, génération platine au prime, performances récentes de Nuno Mendes, capacité d'ouverture de jeu de Mendes",
-    "weaknesses": "Sous-performance dans les grands tournois, Ronaldo pèse sur le vestiaire, constance douteuse, pépins physiques de Mendes",
+    "tier": "Top 6, prétendant sérieux",
+    "summary": "Dernière analyse Wiloo : Le Portugal est désormais considéré comme un prétendant sérieux dans le tournoi, avec une richesse d'effectif et un potentiel offensif impressionnant. Bien que l'équipe ait souvent été sous-performante dans le passé, Wiloo souligne que les joueurs ont la capacité de faire la différence. Il exprime sa curiosité quant à leur comportement face à des adversaires de haut niveau, tout en pronostiquant qu'ils pourraient devenir un concurrent redoutable. Cependant, il insiste sur le fait qu'ils devront être à leur meilleur niveau pour espérer atteindre les phases finales. Malgré les critiques sur la gestion de Roberto Martínez et les doutes concernant la constance de certains joueurs, le talent individuel reste un atout majeur. Nuno Mendes continue d'être un point fort, avec des performances récentes qui renforcent son statut parmi les meilleurs latéraux de sa génération.",
+    "strengths": "Richesse de l'effectif, potentiel offensif, talent individuel, performances récentes de Nuno Mendes",
+    "weaknesses": "Sous-performance dans les grands tournois, constance douteuse, gestion de l'équipe par Martínez",
     "players": "Cristiano Ronaldo, Bruno Fernandes, Vitinha, João Neves, Nuno Mendes, Leão, Dias",
     "videos": [
       "rGlDWc99NAU",
       "ElZSdQyIWeM",
-      "cjHi5IH_ZQo"
+      "cjHi5IH_ZQo",
+      "4fgUljl3m3s"
     ]
   },
   "Belgium": {
-    "tier": "Outsider, quart minimum",
-    "summary": "Dernière analyse Wiloo : Attention à la Belgique, qui pourrait atteindre les quarts de finale grâce à la qualité de son équipe et un parcours potentiel favorable. Wiloo admet qu'il a moins suivi la Belgique récemment, mais souligne que Thibaut Courtois reste un atout majeur, capable de briller en tant que meilleur gardien. Jérémy Doku est mis en avant comme une potentielle superstar de la Coupe du Monde, avec un impact significatif lors de la saison et une capacité à dribbler dans des espaces restreints. Les matchs amicaux contre les États-Unis et le Mexique seront des occasions importantes pour les jeunes talents comme Doku et Charles De Ketelaere de prouver leur valeur et de s'assurer une place dans l'équipe pour le tournoi. Invaincue depuis 1 an sous Rudi Garcia, la Belgique doit impérativement finir 1re avec 9 points pour éviter un échec. Le groupe est relativement abordable avec des équipes comme l'Iran et la Nouvelle-Zélande.",
+    "tier": "Outsider",
+    "summary": "Dernière analyse Wiloo : Wiloo exprime ses inquiétudes concernant la Belgique après leur match contre l'Égypte, où ils ont été tenus en échec malgré une égalisation tardive de Romelu Lukaku. Il note que la Belgique a eu des difficultés à percer le bloc égyptien, et que leur structure de jeu sans ballon était insuffisante, notamment avec un Kevin De Bruyne en dessous de son niveau habituel. L'Égypte a été très agressive et a bien neutralisé les offensives belges, rendant leur performance décevante. Wiloo remet en question les choix tactiques de l'entraîneur Rudi Garcia et craint que la Belgique ne parvienne pas à sortir de son groupe, prédisant même une possible élimination face aux États-Unis en huitièmes de finale. Malgré cela, la Belgique pourrait atteindre les quarts de finale grâce à un parcours potentiel favorable. Wiloo souligne que Thibaut Courtois reste un atout majeur, capable de briller en tant que meilleur gardien. Les matchs amicaux contre les États-Unis et le Mexique seront des occasions importantes pour les jeunes talents comme Doku et Charles De Ketelaere de prouver leur valeur et de s'assurer une place dans l'équipe pour le tournoi.",
     "strengths": "Invaincue depuis 1 an, Axe Courtois–De Bruyne–Tilmans–Doku, Doku en feu, Onana top en défense centrale (3-5-2), Lukaku 90 buts en sélection (5e historique), Meilleur tirage du Mondial, Courtois meilleur gardien",
-    "weaknesses": "Fiascos 2022 (0 but vs Canada) et 2024 (3 buts en 2 ans), De Bruyne en déclin, Animation incertaine, De Ketelaere pas convaincant en pointe, Debast absent 3 premiers matchs",
+    "weaknesses": "Difficultés à percer les blocs adverses, Kevin De Bruyne en déclin, Animation incertaine, Choix tactiques de Garcia remis en question, De Ketelaere pas convaincant en pointe, Debast absent 3 premiers matchs",
     "players": "Courtois, De Bruyne, Doku, Onana, Tilmans, Lukaku, Fernandez Pardo, Nathan Goy, Charles De Ketelaere",
     "videos": [
       "8UttI3Q1vgI",
       "zO7Woa_O1UQ",
-      "7EM9cyNihkQ"
+      "7EM9cyNihkQ",
+      "WIBGXU6A7wo"
     ]
   },
   "Colombia": {
@@ -114,13 +123,14 @@
   },
   "Netherlands": {
     "tier": "Top 8, pas gagnante",
-    "summary": "Dernière analyse Wiloo : La situation du gardien des Pays-Bas, Verbruggen, est incertaine, et son éventuel forfait pourrait poser problème. Wiloo évoque les alternatives, Robin Ruiter et Mark Fleken, soulignant que cette question de gardien est devenue récurrente pour les Néerlandais. Lors de la dernière Coupe du Monde, une situation similaire avait conduit à des choix inattendus, comme celui d'Andries Noppert, qui a eu un parcours international surprenant. Wiloo exprime des préoccupations quant à cette instabilité, qui pourrait affecter la performance de l'équipe. Par ailleurs, la sélection néerlandaise est considérée comme '1/3 d'une équipe élite' avec un milieu de terrain de classe mondiale, mais une attaque défaillante. Ils ne sont pas capables de gagner le Mondial.",
-    "strengths": "Défense solide (Van Dijk, Van de Ven, Verbong), Milieu De Jong–Gravenberch–Reijnders 'potentiellement le meilleur de la compète', Verticalité, Dumfries offensif",
-    "weaknesses": "Incertitude au poste de gardien, Malen pas convaincant malgré 14 buts (4 penalties), Manque de finition et de largeur, Koeman pas top coach, Perdu 0-1 vs Algérie malgré 2.2 xG, Groupe difficile avec le Japon",
+    "summary": "Dernière analyse Wiloo : Les Pays-Bas affichent une solidité défensive impressionnante, notamment grâce à des joueurs comme Virgil Van Dijk et Denzel Dumfries, qui forment une ligne de défense très efficace. Wiloo souligne également la performance de Christeno Summerville, qui a marqué un but et s'est montré très actif sur le terrain. Bien que le match ait commencé de manière conservatrice, l'équipe a su s'imposer en exploitant les coups de pied arrêtés. Cependant, des préoccupations subsistent concernant l'incertitude au poste de gardien, avec Verbruggen dont la situation est incertaine, et les alternatives Ruiter et Fleken. L'attaque néerlandaise reste un point faible, nécessitant une amélioration de la créativité pour surmonter des blocs défensifs solides. Wiloo estime que les Pays-Bas ont un bon potentiel pour avancer dans le tournoi, mais ils doivent travailler sur leur finition et leur largeur offensive.",
+    "strengths": "Défense solide (Van Dijk, Dumfries), Milieu De Jong–Gravenberch–Reijnders 'potentiellement le meilleur de la compète', Exploitation des coups de pied arrêtés, Performance de Summerville",
+    "weaknesses": "Incertitude au poste de gardien, Manque de créativité offensive, Malen pas convaincant malgré 14 buts (4 penalties), Manque de finition et de largeur, Koeman pas top coach, Groupe difficile avec le Japon",
     "players": "Van Dijk, De Jong, Reijnders, Gravenberch, Dumfries, Summerville, Verbruggen, Ruiter, Fleken",
     "videos": [
       "pnRdoDRxAB8",
-      "0-uYW4DVAJk"
+      "0-uYW4DVAJk",
+      "Qu99z2jOJ4k"
     ]
   },
   "Norway": {
@@ -137,23 +147,25 @@
   },
   "Senegal": {
     "tier": "Outsider sous-coté",
-    "summary": "Dernière analyse Wiloo : Le Sénégal, champion d'Afrique 2025, voit le retour de Mané après son absence au Mondial 2022. Wiloo souligne l'importance de préparer la relève avec des jeunes talents comme Barasapokondai, un milieu central de 18 ans qui a récemment fait ses débuts professionnels avec le Bayern. Bien qu'il ne soit pas encore titulaire, son potentiel pourrait avoir un impact significatif sur l'équipe, surtout avec le départ imminent de Gana Gueye. Le Sénégal débute son tournoi contre la France, rappelant leur affrontement de 2002. Les bookmakers sous-estiment l'équipe avec une cote de 125, ce qui pourrait être une erreur.",
-    "strengths": "Leadership de Mané, Qualité athlétique et mentale, Richesse sur les ailes (Diouf, Sarr, Diao, Baye), Milieu solide (Pape Gueye, Habib Diarra, Gana Gueye), Jeunes pépites (Barasapokondai)",
-    "weaknesses": "Charnière centrale inquiétante — Koulibaly blessé, Mamadou Sarr peu utilisé à Chelsea, Abdou Diallo mauvais contre les USA, Défense à 5 catastrophique en amical, Nico Jackson pas convaincant en pointe",
-    "players": "Mané, Diouf, Sarr, Pape Gueye, Habib Diarra, Barasapokondai",
+    "summary": "Dernière analyse Wiloo : Le Sénégal a considérablement évolué depuis leur dernière rencontre avec la France en 2002. L'équipe, championne d'Afrique 2025, vise à dépasser les quarts de finale avec des joueurs clés comme Sadio Mané et Kalidou Koulibaly. Wiloo souligne l'importance du leadership de Mané, qui pourrait être plus efficace en tant qu'attaquant central. Malgré des résultats mitigés lors de leurs matchs de préparation, le Sénégal arrive avec une grande confiance. Bien que des interrogations subsistent sur la défense, la richesse de l'effectif permet d'espérer un bon parcours. Le Sénégal débute son tournoi contre la France, et les bookmakers sous-estiment l'équipe avec une cote de 125, ce qui pourrait être une erreur.",
+    "strengths": "Leadership de Mané, Qualité athlétique et mentale, Richesse sur les ailes (Diouf, Sarr, Diao, Baye), Milieu solide (Pape Gueye, Habib Diarra, Gana Gueye), Jeunes pépites (Barasapokondai), Capacité à créer des problèmes en transition",
+    "weaknesses": "Charnière centrale inquiétante — Koulibaly blessé, Mamadou Sarr peu utilisé à Chelsea, Abdou Diallo mauvais contre les USA, Défense à 5 catastrophique en amical, Interrogations sur la composition de l'équipe",
+    "players": "Mané, Koulibaly, Diouf, Sarr, Pape Gueye, Habib Diarra, Barasapokondai",
     "videos": [
       "t9XVHQB4Z8s",
-      "0-uYW4DVAJk"
+      "0-uYW4DVAJk",
+      "suoDwJrYiSc"
     ]
   },
   "Japan": {
     "tier": "Outsider à éviter",
-    "summary": "Coup de cœur de Wiloo. Progression spectaculaire, approche du top 10 FIFA. 'Préférer affronter le Brésil plutôt que le Japon en 8e.' 6 victoires consécutives sans encaisser (dont Brésil 3-2, Angleterre).",
-    "strengths": "Force collective > individualités. Tactique 3-4-2-1 très offensif (Mitoma, Kubo, Doan, Kamada). Suzuki (Parme) en gardien. Ueda meilleur buteur Eredivisie (25 buts). 6 victoires de suite sans encaisser.",
-    "weaknesses": "Manque de vécu en phases finales de Coupe du Monde. Profondeur du banc questionnée face aux blessures.",
+    "summary": "Dernière analyse Wiloo : Le Japon continue de progresser avec une discipline tactique impressionnante, maintenant une défense solide grâce à son système en 3-4-2-1. Bien que l'équipe ait montré des limites en termes de finition, des joueurs comme Daishi Kamada et Kubo ont été mis en avant pour leur capacité à créer des occasions. Wiloo souligne également la capacité d'adaptation du Japon en cours de match, notamment avec un pressing plus haut après avoir été mené. Le coaching de Moriasu a été efficace, permettant à l'équipe de revenir au score à plusieurs reprises. Malgré un manque d'expérience en phases finales de Coupe du Monde et des interrogations sur la profondeur du banc face aux blessures, le Japon a prouvé qu'il pouvait rivaliser avec des équipes de haut niveau, ce qui en fait un outsider à ne pas sous-estimer.",
+    "strengths": "Discipline tactique, capacité d'adaptation, système défensif solide, créativité de Kamada et Kubo, coaching efficace de Moriasu",
+    "weaknesses": "Manque de finition, manque de vécu en phases finales de Coupe du Monde, profondeur du banc questionnée face aux blessures",
     "players": "Mitoma, Kubo, Ueda, Doan, Kamada, Suzuki",
     "videos": [
-      "ZGymNtsO8Zk"
+      "ZGymNtsO8Zk",
+      "Qu99z2jOJ4k"
     ]
   },
   "Croatia": {
@@ -234,22 +246,24 @@
   },
   "Algeria": {
     "tier": "Sortie de groupe envisageable",
-    "summary": "Retour au Mondial après 2014. Wiloo 'complètement perdu' sur le 11 et l'animation. Victoire 1-0 vs Pays-Bas (but Ajmousa 86e). Potentiel de sortie de groupe.",
-    "strengths": "Ajmousa (11 buts + 6 passes D avec Frosinone) titulaire absolu. Amoura énergique. Lucas Zidane homme du match vs Pays-Bas. Ibrahim Maza crack. Aït-Nouri, Belaïli.",
-    "weaknesses": "Mahrez trop axial, devrait être sur le banc. Manque de verticalité et profondeur. Pas de vrai box-to-box. Animation incertaine (4-3-3 vs 3-5-2 ?).",
+    "summary": "Dernière analyse Wiloo : Wiloo exprime sa déception concernant la performance de l'Algérie, qui, malgré des joueurs talentueux, a montré des lacunes défensives et une approche passive lors de son match contre l'Argentine. Il souligne que l'Algérie a des qualités techniques, mais que leur bloc défensif est trop souvent percé. Wiloo mentionne des joueurs comme Ibrahim Maza, qui a fait une bonne impression, mais il critique le manque d'agressivité et de pression sur le porteur du ballon. Retour au Mondial après 2014. Wiloo 'complètement perdu' sur le 11 et l'animation. Victoire 1-0 vs Pays-Bas (but Ajmousa 86e). Potentiel de sortie de groupe.",
+    "strengths": "Ajmousa (11 buts + 6 passes D avec Frosinone), Amoura énergique, Lucas Zidane homme du match vs Pays-Bas, Ibrahim Maza crack, Aït-Nouri, Belaïli",
+    "weaknesses": "Lacunes défensives, manque d'agressivité, approche passive, Mahrez trop axial, manque de verticalité et profondeur, pas de vrai box-to-box, animation incertaine (4-3-3 vs 3-5-2 ?)",
     "players": "Ajmousa, Amoura, Lucas Zidane, Ibrahim Maza, Aït-Nouri, Belaïli, Mahrez",
     "videos": [
-      "pnRdoDRxAB8"
+      "pnRdoDRxAB8",
+      "4fgUljl3m3s"
     ]
   },
   "Egypt": {
     "tier": "Doit enfin gagner un match de CdM",
-    "summary": "Jamais gagné un match de Coupe du Monde en 7 participations. Qualif 16es réaliste avec groupe favorable (Belgique, Iran, NZ). Dernière 'vraie' CdM de Salah (33 ans).",
-    "strengths": "Salah + Marmoush. Emam Ashour. Hamza Abdelkarim (18 ans, essai Barça). 0-0 Espagne, 4-0 Arabie Saoudite en mars. 7× championne d'Afrique, 120M d'habitants.",
-    "weaknesses": "Malédiction zéro victoire en CdM. Salah 33 ans, 'cramé'. Rivalité avec le Maroc demi-finaliste 2022.",
+    "summary": "Dernière analyse Wiloo : L'Égypte a montré une performance impressionnante contre la Belgique, avec une grande agressivité et une bonne organisation défensive. L'équipe a su neutraliser les menaces belges, notamment en limitant l'impact de Jérémy Doku. De plus, l'Égypte a été très efficace en transition, créant de nombreuses occasions et mettant en difficulté la défense belge. Wiloo estime que l'Égypte pourrait contester la première place du groupe, ce qui augure d'un tournoi prometteur. Cela contraste avec le passé de l'équipe, qui n'a jamais gagné un match de Coupe du Monde en 7 participations. La qualification pour les 16es de finale semble réaliste avec un groupe favorable (Belgique, Iran, NZ). C'est également la dernière 'vraie' Coupe du Monde de Salah, qui a 33 ans.",
+    "strengths": "Salah, Marmoush, Emam Ashour, Hamza Abdelkarim, bonne organisation défensive, efficacité en transition",
+    "weaknesses": "Malédiction zéro victoire en CdM, Salah 33 ans, 'cramé', rivalité avec le Maroc demi-finaliste 2022",
     "players": "Salah, Marmoush, Emam Ashour, Hamza Abdelkarim",
     "videos": [
-      "rGlDWc99NAU"
+      "rGlDWc99NAU",
+      "WIBGXU6A7wo"
     ]
   },
   "Uruguay": {
@@ -335,25 +349,27 @@
   },
   "Morocco": {
     "tier": "Outsider",
-    "summary": "Dernière analyse Wiloo : Le Maroc entre dans une nouvelle ère après sa récente défaite en finale de la Coupe d'Afrique des Nations. Wiloo s'interroge sur l'impact émotionnel de cette défaite sur les joueurs et leur capacité à se relever. Le nouvel entraîneur, Mohamed Wahbi, a fait des choix intéressants pour renforcer l'équipe, notamment en défense, ce qui pourrait améliorer leur solidité. Les matchs amicaux contre l'Équateur et le Paraguay seront des tests cruciaux pour évaluer la progression de l'équipe avant le mondial. Malgré les absences notables d'Abdé et de Naïe Fager, Wiloo reste enthousiaste quant à la capacité du Maroc à créer des occasions, notamment grâce à Brahim Dias et Hakimi sur les ailes. Il exprime cependant des inquiétudes concernant la défense marocaine, qui pourrait être vulnérable face à des adversaires de qualité. Il prédit un score de 2-2 contre le Brésil, soulignant l'équilibre entre les forces individuelles et les faiblesses structurelles des deux équipes. Le Maroc demeure un outsider intéressant avec un potentiel de surprise, bien que la profondeur de l'effectif reste une préoccupation.",
-    "strengths": "capacité à créer des occasions, qualité de jeu en transition, renforcement défensif sous Wahbi",
-    "weaknesses": "impact émotionnel de la défaite, vulnérabilité défensive, profondeur de l'effectif",
-    "players": "Hakimi, Brahim Dias, Boadi, Elinaoui",
+    "summary": "Dernière analyse Wiloo : Le Maroc a montré une performance impressionnante lors de son match contre le Brésil, se terminant sur un score de 1-1. Wiloo souligne l'exceptionnelle prestation du jeune Ayoub Boadi, qui a réalisé quatre tacles réussis et a eu une présence marquante sur le terrain. L'équipe a bien commencé le match, dominant la première mi-temps avec une possession équilibrée et des occasions franches. Cependant, Wiloo critique le manque d'efficacité en seconde période et souligne la nécessité d'améliorer leur plan de jeu. Malgré ces critiques, il reste convaincu que le Maroc a le potentiel de causer des surprises dans le tournoi, notamment grâce à des joueurs comme Boadi et Mazraoui. Il conclut que le Maroc pourrait regretter de ne pas avoir capitalisé sur sa bonne première mi-temps. La défaite en finale de la Coupe d'Afrique des Nations reste un point d'interrogation sur l'impact émotionnel sur les joueurs, mais le nouvel entraîneur, Mohamed Wahbi, continue de renforcer l'équipe, notamment en défense. Les matchs amicaux à venir seront cruciaux pour évaluer leur progression avant le mondial.",
+    "strengths": "capacité à créer des occasions, qualité de jeu en transition, bonne entame de match, potentiel de surprise",
+    "weaknesses": "manque d'efficacité en seconde période, vulnérabilité défensive, impact émotionnel de la défaite",
+    "players": "Hakimi, Brahim Dias, Ayoub Boadi, Mazraoui",
     "videos": [
       "VQUcflGdIKc",
       "ElZSdQyIWeM",
       "P84VNigu9Gc",
-      "7EM9cyNihkQ"
+      "7EM9cyNihkQ",
+      "2wDD_qbLL6I"
     ]
   },
   "United States": {
     "tier": "Outsider",
-    "summary": "Dernière analyse Wiloo : Wiloo considère que les États-Unis ont une bonne chance de faire un bon parcours lors de cette Coupe du Monde, avec des matchs potentiellement favorables en éliminatoires. Il évoque un match contre la Belgique en huitièmes de finale, où il voit les États-Unis comme légèrement outsiders. Bien que l'équipe ait montré des signes de progrès, Wiloo reste prudent quant à leur capacité à se mesurer aux meilleures équipes. Leur parcours pourrait être influencé par des confrontations stratégiques et des performances individuelles clés.",
-    "strengths": "progrès récent, matchs favorables en éliminatoires",
-    "weaknesses": "incertitude face aux meilleures équipes, manque d'expérience",
-    "players": "non spécifiés",
+    "summary": "Dernière analyse Wiloo : Wiloo exprime une grande satisfaction concernant la performance des États-Unis lors de leur match contre le Paraguay, qu'il considère comme la meilleure performance du tournoi jusqu'à présent. Il souligne la puissance athlétique et le dynamisme de l'équipe, avec des joueurs comme Pulisic et Weston McKennie qui ont su exploiter la largeur et la profondeur du jeu. Wiloo note également la variété tactique de l'équipe, capable de s'adapter en fonction des situations de jeu. Cependant, il reste prudent, mentionnant que la qualité de l'adversaire, le Paraguay, n'était pas à la hauteur. Il s'inquiète de la capacité de l'équipe à maintenir cette intensité face à des adversaires plus forts et dans des conditions climatiques difficiles. Bien que l'équipe ait montré des signes de progrès, Wiloo reste prudent quant à leur capacité à se mesurer aux meilleures équipes. Leur parcours pourrait être influencé par des confrontations stratégiques et des performances individuelles clés.",
+    "strengths": "progrès récent, puissance athlétique, dynamisme, variété tactique",
+    "weaknesses": "incertitude face aux meilleures équipes, manque d'expérience, capacité à maintenir l'intensité",
+    "players": "Pulisic, Weston McKennie",
     "videos": [
-      "zO7Woa_O1UQ"
+      "zO7Woa_O1UQ",
+      "0agTmW5IJRI"
     ]
   },
   "Uzbekistan": {
@@ -368,22 +384,24 @@
   },
   "Paraguay": {
     "tier": "Outsider",
-    "summary": "Dernière analyse Wiloo : Le Paraguay est décrit par Wiloo comme un 'petit pousset' du tournoi, avec une histoire riche en Coupes du Monde, mais ayant connu un déclin ces dernières années. Leur qualification après plusieurs absences est célébrée comme un retour significatif. Bien que Wiloo ne s'attende pas à ce que le Paraguay soit une sensation, il pense qu'ils pourraient offrir des matchs intéressants. Les joueurs notables comme Antonio Sanabria et Miguel Almiron apporteront de l'expérience à l'équipe. Le coach Gustavo Alfaro est également mentionné pour sa capacité à rendre l'équipe difficile à jouer, ce qui pourrait jouer en leur faveur durant le tournoi.",
-    "strengths": "expérience des joueurs, capacité tactique du coach",
-    "weaknesses": "déclin récent, manque de sensations fortes",
+    "summary": "Dernière analyse Wiloo : Le Paraguay est désormais considéré comme l'une des équipes les moins performantes du tournoi. Wiloo souligne leur incapacité à rivaliser avec des équipes comme les États-Unis, mettant en avant leur faiblesse défensive et leur manque de créativité. Leur performance a été marquée par un nombre très limité de ballons touchés dans la surface adverse et une incapacité à gérer les dribbles et les mouvements offensifs adverses. Cette situation a conduit à une défaite écrasante, et Wiloo estime que le Paraguay devra sérieusement se remettre en question pour espérer progresser dans le tournoi. Malgré une histoire riche en Coupes du Monde, leur déclin récent est préoccupant et leur qualification est désormais vue comme un défi plutôt qu'une opportunité de briller. Les joueurs comme Antonio Sanabria et Miguel Almiron, bien qu'expérimentés, n'ont pas réussi à insuffler le dynamisme nécessaire à l'équipe.",
+    "strengths": "expérience des joueurs",
+    "weaknesses": "faiblesse défensive, manque de créativité, incapacité à rivaliser avec des équipes fortes",
     "players": "Antonio Sanabria, Miguel Almiron",
     "videos": [
-      "zAc0E6Bppco"
+      "zAc0E6Bppco",
+      "0agTmW5IJRI"
     ]
   },
   "Australia": {
     "tier": "Outsider",
-    "summary": "Dernière analyse Wiloo : Wiloo considère l'Australie comme un 'petit pousset' malgré son classement FIFA relativement élevé. L'équipe a participé aux cinq dernières Coupes du Monde, atteignant les 8e de finale en 2022. Les performances récentes, notamment des victoires contre le Japon et l'Arabie Saoudite, sont encourageantes. Cependant, Wiloo souligne que si l'Australie parvient à se qualifier pour les quarts de finale, cela constituerait une grande surprise, bien que cela reste un défi difficile. L'expérience de joueurs comme Matthew Ryan et Milos Degenek sera cruciale pour l'équipe.",
-    "strengths": "expérience des joueurs, performances récentes positives",
+    "summary": "Dernière analyse Wiloo : Wiloo évoque la performance impressionnante de l'Australie, notamment grâce à leur gardien Patrick Beach, qui a brillé lors de son premier match en Coupe du Monde. L'équipe a aligné de nombreux joueurs novices dans ce tournoi, mais a su faire preuve de résilience. Wiloo note que l'Australie a réussi à battre la Turquie, ce qui est un bon signe pour leur campagne. Bien que l'équipe ait été considérée comme un 'petit pousset' malgré son classement FIFA relativement élevé, les performances récentes, notamment des victoires contre le Japon, l'Arabie Saoudite et la Turquie, sont encourageantes. L'expérience du capitaine Harry Souar, bien que seul vétéran, est cruciale dans la défense. Wiloo est optimiste quant aux chances de l'Australie de continuer à progresser dans le tournoi.",
+    "strengths": "performance impressionnante, résilience, victoire contre la Turquie",
     "weaknesses": "manque de profondeur, défi difficile pour les quarts de finale",
-    "players": "Matthew Ryan, Milos Degenek",
+    "players": "Patrick Beach, Harry Souar, Matthew Ryan, Milos Degenek",
     "videos": [
-      "zAc0E6Bppco"
+      "zAc0E6Bppco",
+      "Qu99z2jOJ4k"
     ]
   },
   "Germany": {
@@ -427,6 +445,16 @@
     "players": "Josué Casimir, Wilson Isidor, Johnny Placide",
     "videos": [
       "Vi-EviTg8Gk"
+    ]
+  },
+  "Cape Verde": {
+    "tier": "Outsider",
+    "summary": "Dernière analyse Wiloo : Le Cap Vert a réalisé une performance historique en tenant en échec l'Espagne lors de son premier match en Coupe du Monde. Wiloo met en avant le gardien Vosinia, qui a été un véritable héros avec des arrêts décisifs. Malgré leur statut de petit pays, le Cap Vert a démontré une grande détermination et une belle organisation défensive face à une équipe espagnole dominatrice. Cette performance pourrait inspirer d'autres petites nations et suscite la curiosité sur l'avenir de cette équipe dans le tournoi. Wiloo se demande comment le Cap Vert va évoluer dans les prochains matchs, soulignant l'importance de leur parcours.",
+    "strengths": "détermination, organisation défensive, performance du gardien",
+    "weaknesses": "manque d'expérience au plus haut niveau",
+    "players": "Vosinia",
+    "videos": [
+      "WIBGXU6A7wo"
     ]
   }
 }

@@ -6,8 +6,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const targetUrl = req.query.url as string;
-  if (!targetUrl || !targetUrl.startsWith('https://www.sofoot.com/')) {
-    return res.status(400).json({ error: 'Missing or invalid ?url= parameter' });
+  if (!targetUrl) {
+    return res.status(400).json({ error: 'Missing ?url= parameter' });
+  }
+
+  let parsed: URL;
+  try {
+    parsed = new URL(targetUrl);
+  } catch {
+    return res.status(400).json({ error: 'Invalid URL' });
+  }
+  if (parsed.protocol !== 'https:' || parsed.hostname !== 'www.sofoot.com') {
+    return res.status(400).json({ error: 'Only www.sofoot.com URLs allowed' });
   }
 
   try {
@@ -28,6 +38,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate');
     return res.status(200).send(html);
   } catch (err) {
-    return res.status(500).json({ error: String(err) });
+    console.error('SoFoot proxy error:', err);
+    return res.status(500).json({ error: 'Internal server error' });
   }
 }

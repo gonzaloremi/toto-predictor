@@ -355,15 +355,17 @@ function executeGetGroupContext(args: { group: string }): string {
   return lines.join('\n');
 }
 
-async function executeSearchSofoot(args: { team: string }): Promise<string> {
+async function executeSearchSofoot(args: { team: string }, accessToken?: string, freeMatchId?: number): Promise<string> {
   const frName = getFr(args.team);
+  const authHeaders: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (accessToken) authHeaders['Authorization'] = `Bearer ${accessToken}`;
+  if (freeMatchId != null) authHeaders['x-free-match-id'] = String(freeMatchId);
 
-  // Step 1: Use Perplexity to discover So Foot article URLs
   let articleUrls: string[] = [];
   try {
     const res = await fetch('/api/perplexity', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: authHeaders,
       body: JSON.stringify({
         model: 'sonar',
         messages: [
@@ -445,7 +447,7 @@ function parseSofootHtml(html: string): string {
   return text.length > 8000 ? text.slice(0, 8000) + '...' : text;
 }
 
-async function executeTool(name: string, args: Record<string, unknown>): Promise<string> {
+async function executeTool(name: string, args: Record<string, unknown>, accessToken?: string, freeMatchId?: number): Promise<string> {
   switch (name) {
     case 'search_wiloo':
       return executeSearchWiloo(args as { teams: string[] });
@@ -456,7 +458,7 @@ async function executeTool(name: string, args: Record<string, unknown>): Promise
     case 'get_group_context':
       return executeGetGroupContext(args as { group: string });
     case 'search_sofoot':
-      return executeSearchSofoot(args as { team: string });
+      return executeSearchSofoot(args as { team: string }, accessToken, freeMatchId);
     default:
       return `Outil inconnu : ${name}`;
   }
@@ -479,10 +481,16 @@ async function callLLM(
   messages: Array<Record<string, unknown>>,
   tools: typeof TOOLS,
   signal?: AbortSignal,
+  accessToken?: string,
+  freeMatchId?: number,
 ): Promise<LLMResponse> {
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (accessToken) headers['Authorization'] = `Bearer ${accessToken}`;
+  if (freeMatchId != null) headers['x-free-match-id'] = String(freeMatchId);
+
   const res = await fetch('/api/openai', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers,
     body: JSON.stringify({ model: 'gpt-4o-mini', messages, tools }),
     signal,
   });
@@ -511,10 +519,16 @@ async function callClaude(
   system: string,
   userContent: string,
   signal?: AbortSignal,
+  accessToken?: string,
+  freeMatchId?: number,
 ): Promise<string> {
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (accessToken) headers['Authorization'] = `Bearer ${accessToken}`;
+  if (freeMatchId != null) headers['x-free-match-id'] = String(freeMatchId);
+
   const res = await fetch('/api/anthropic', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers,
     body: JSON.stringify({
       model: 'claude-opus-4-6',
       system,
@@ -665,6 +679,8 @@ export async function runAgent(
   match: ScheduleMatch,
   onEvent: (event: AgentEvent) => void,
   signal?: AbortSignal,
+  accessToken?: string,
+  freeMatchId?: number,
 ): Promise<void> {
   // ── Phase 1: Data gathering with GPT-4o-mini ──
   const messages: Array<{ role: string; content?: string | null; tool_calls?: unknown[]; tool_call_id?: string; name?: string }> = [
@@ -688,7 +704,7 @@ export async function runAgent(
 
     let response: LLMResponse;
     try {
-      response = await callLLM(messages, TOOLS, signal);
+      response = await callLLM(messages, TOOLS, signal, accessToken, freeMatchId);
     } catch (err) {
       onEvent({ type: 'error', text: err instanceof Error ? err.message : String(err) });
       return;
@@ -725,7 +741,7 @@ export async function runAgent(
 
         onEvent({ type: 'tool_start', toolName: name, toolArgs: JSON.stringify(args, null, 2) });
 
-        const result = await executeTool(name, args);
+        const result = await executeTool(name, args, accessToken, freeMatchId);
         collectedData.push({ toolName: name, result });
         onEvent({ type: 'tool_done', toolName: name, toolResult: result });
 
@@ -783,7 +799,7 @@ Voici toutes les données collectées :
 ${contextParts.join('\n\n')}`;
 
   try {
-    const raw = await callClaude(SYNTHESIS_PROMPT, userPrompt, signal);
+    const raw = await callClaude(SYNTHESIS_PROMPT, userPrompt, signal, accessToken, freeMatchId);
 
     onEvent({ type: 'llm_response', iteration: 0, text: 'Claude Opus 4.6 a terminé la synthèse' });
 

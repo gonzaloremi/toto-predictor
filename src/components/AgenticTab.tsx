@@ -1,11 +1,15 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import type { ScheduleMatch } from '../types';
 import { runAgent, type AgentEvent, type StructuredAnalysis, type AgentSource } from '../api/agent';
+import { simulateFakeAgent } from '../api/fakeAgent';
 import { getFlag, getFr } from '../data/nameMapping';
 import { useAuth } from '../contexts/AuthContext';
 import { useCreditsModal } from './CreditsModal';
 import { supabase } from '../lib/supabase';
 import { useBriefings } from '../hooks/useBriefings';
+import { isNextMatch } from '../utils/nextMatch';
+import { isInAppBrowser } from '../utils/browser';
+import { InAppBrowserModal } from './InAppBrowserModal';
 
 type AgentState = 'idle' | 'running' | 'paused' | 'done' | 'error';
 
@@ -44,29 +48,54 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
     return () => { mountedRef.current = false; };
   }, []);
 
-  const canLaunch = !!user && (hasFullPass || credits > 0);
+  const [showBrowserModal, setShowBrowserModal] = useState(false);
+  const isNextMatchFree = isNextMatch(match.id);
+  const canLaunch = isNextMatchFree || (!!user && (hasFullPass || credits > 0));
   const isLoggedIn = !!user;
 
   useEffect(() => {
-    if (!user) {
-      setLoadingBriefing(false);
-      return;
-    }
-
     let cancelled = false;
     async function loadSaved() {
-      const { data } = await supabase
-        .from('user_briefings')
-        .select('analysis, sources')
-        .eq('user_id', user!.id)
-        .eq('match_id', match.id)
-        .single();
+      // For logged-in users: check their personal user_briefings
+      if (user) {
+        const { data } = await supabase
+          .from('user_briefings')
+          .select('analysis, sources')
+          .eq('user_id', user.id)
+          .eq('match_id', match.id)
+          .single();
+
+        if (cancelled) return;
+        if (data?.analysis) {
+          setAnalysis(data.analysis as StructuredAnalysis);
+          setState('done');
+          setLoadingBriefing(false);
+          return;
+        }
+      }
+
+      // For anonymous users: check localStorage
+      if (!user) {
+        try {
+          const seen = JSON.parse(localStorage.getItem('seen_briefings') || '{}');
+          if (seen[match.id]) {
+            const { data: shared } = await supabase
+              .from('match_briefings')
+              .select('analysis')
+              .eq('match_id', match.id)
+              .single();
+            if (cancelled) return;
+            if (shared?.analysis) {
+              setAnalysis(shared.analysis as StructuredAnalysis);
+              setState('done');
+              setLoadingBriefing(false);
+              return;
+            }
+          }
+        } catch {}
+      }
 
       if (cancelled) return;
-      if (data) {
-        setAnalysis(data.analysis as StructuredAnalysis);
-        setState('done');
-      }
       setLoadingBriefing(false);
     }
 
@@ -84,9 +113,9 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
   }, [log, showTrace]);
 
   const launch = useCallback(async () => {
-    if (!user) return;
+    if (!isNextMatchFree && !user) return;
 
-    if (!hasFullPass) {
+    if (!isNextMatchFree && !hasFullPass) {
       const ok = await consumeCredit();
       if (!ok) return;
     }
@@ -103,7 +132,55 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
     logIdRef.current = 0;
     addPendingMatchId(match.id);
 
-    const capturedUserId = user.id;
+    const capturedUserId = user?.id ?? null;
+
+    // Check if a shared briefing already exists for this match
+    const { data: existing } = await supabase
+      .from('match_briefings')
+      .select('analysis')
+      .eq('match_id', match.id)
+      .single();
+
+    if (existing?.analysis && !controller.signal.aborted) {
+      const cachedAnalysis = existing.analysis as StructuredAnalysis;
+      const handleEvent = (event: AgentEvent) => {
+        if (controller.signal.aborted) return;
+        if (mountedRef.current) addLog(event);
+        if (event.type === 'structured' && event.structured) {
+          if (mountedRef.current) setAnalysis(event.structured);
+        }
+        if (event.type === 'done') {
+          if (mountedRef.current) setState('done');
+          removePendingMatchId(match.id);
+          // Mark as seen for this user
+          if (capturedUserId) {
+            supabase
+              .from('user_briefings')
+              .upsert({
+                user_id: capturedUserId,
+                match_id: match.id,
+                analysis: cachedAnalysis,
+                sources: cachedAnalysis.sources ?? null,
+              }, { onConflict: 'user_id,match_id' })
+              .then(() => addBriefingMatchId(match.id));
+          } else {
+            try {
+              const seen = JSON.parse(localStorage.getItem('seen_briefings') || '{}');
+              seen[match.id] = true;
+              localStorage.setItem('seen_briefings', JSON.stringify(seen));
+            } catch {}
+            addBriefingMatchId(match.id);
+          }
+        }
+      };
+      simulateFakeAgent(cachedAnalysis, handleEvent, controller.signal);
+      return;
+    }
+
+    // No shared briefing — run the real agent
+    const { data: { session: currentSession } } = await supabase.auth.getSession();
+    const accessToken = currentSession?.access_token;
+    const freeMatchId = (!accessToken && isNextMatchFree) ? match.id : undefined;
 
     runAgent(
       match,
@@ -114,15 +191,38 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
           case 'structured':
             if (event.structured) {
               if (mountedRef.current) setAnalysis(event.structured);
-              supabase
-                .from('user_briefings')
-                .upsert({
-                  user_id: capturedUserId,
+              fetch('/api/save-briefing', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  ...(accessToken ? { 'Authorization': `Bearer ${accessToken}` } : {}),
+                  ...(freeMatchId != null ? { 'x-free-match-id': String(freeMatchId) } : {}),
+                },
+                body: JSON.stringify({
                   match_id: match.id,
                   analysis: event.structured,
                   sources: event.structured.sources ?? null,
-                }, { onConflict: 'user_id,match_id' })
-                .then(() => addBriefingMatchId(match.id));
+                }),
+              }).catch(() => {});
+              // Mark as seen for this user
+              if (capturedUserId) {
+                supabase
+                  .from('user_briefings')
+                  .upsert({
+                    user_id: capturedUserId,
+                    match_id: match.id,
+                    analysis: event.structured,
+                    sources: event.structured.sources ?? null,
+                  }, { onConflict: 'user_id,match_id' })
+                  .then(() => addBriefingMatchId(match.id));
+              } else {
+                try {
+                  const seen = JSON.parse(localStorage.getItem('seen_briefings') || '{}');
+                  seen[match.id] = true;
+                  localStorage.setItem('seen_briefings', JSON.stringify(seen));
+                } catch {}
+                addBriefingMatchId(match.id);
+              }
             }
             break;
           case 'text':
@@ -142,8 +242,10 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
         }
       },
       controller.signal,
+      accessToken,
+      freeMatchId,
     );
-  }, [match, addLog, user, hasFullPass, consumeCredit, addBriefingMatchId, addPendingMatchId, removePendingMatchId]);
+  }, [match, addLog, user, hasFullPass, consumeCredit, addBriefingMatchId, addPendingMatchId, removePendingMatchId, isNextMatchFree]);
 
   const pause = useCallback(() => {
     abortRef.current?.abort();
@@ -181,30 +283,36 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
           )}
           {isLoggedIn && !authLoading && (state === 'idle' || state === 'paused' || state === 'done' || state === 'error') && (
             <span className="text-[10px] text-wc-muted">
-              {hasFullPass ? 'Pass illimité ✓' : `${credits} crédit${credits !== 1 ? 's' : ''}`}
+              {isNextMatchFree ? 'Gratuit ✨' : hasFullPass ? 'Pass illimité ✓' : `${credits} crédit${credits !== 1 ? 's' : ''}`}
             </span>
           )}
+          {!isLoggedIn && !isNextMatchFree && !authLoading && (state === 'idle' || state === 'paused' || state === 'done' || state === 'error') && (
+            <span className="text-[10px] text-wc-muted">Gratuit sur le prochain match</span>
+          )}
           {(state === 'idle' || state === 'paused' || state === 'done' || state === 'error') && (
-            !isLoggedIn ? (
-              <button
-                onClick={signInWithGoogle}
-                className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
-              >
-                Se connecter pour lancer
-              </button>
-            ) : !canLaunch && !analysis ? (
-              <button
-                onClick={openCreditsModal}
-                className="flex items-center gap-1.5 text-xs font-bold text-wc-gold border border-wc-gold/40 hover:bg-wc-gold/10 transition px-3 py-1.5 rounded-lg cursor-pointer"
-              >
-                Recharger pour lancer
-              </button>
-            ) : canLaunch ? (
+            canLaunch ? (
               <button
                 onClick={launch}
                 className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
               >
                 {state === 'idle' ? 'Lancer' : 'Relancer'}
+              </button>
+            ) : !isLoggedIn ? (
+              <button
+                onClick={() => {
+                  if (isInAppBrowser()) setShowBrowserModal(true);
+                  else signInWithGoogle();
+                }}
+                className="flex items-center gap-1.5 text-xs font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-3 py-1.5 rounded-lg cursor-pointer"
+              >
+                Se connecter pour lancer
+              </button>
+            ) : !analysis ? (
+              <button
+                onClick={openCreditsModal}
+                className="flex items-center gap-1.5 text-xs font-bold text-wc-gold border border-wc-gold/40 hover:bg-wc-gold/10 transition px-3 py-1.5 rounded-lg cursor-pointer"
+              >
+                Recharger pour lancer
               </button>
             ) : null
           )}
@@ -255,37 +363,7 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
       {/* Idle */}
       {!loadingBriefing && state === 'idle' && log.length === 0 && !analysis && (
         <div className="py-12 text-center space-y-3">
-          {!isLoggedIn ? (
-            <>
-              <p className="text-sm text-wc-muted">
-                Connecte-toi pour lancer l'analyse de{' '}
-                <strong className="text-wc-text">{getFr(match.team1)}</strong> vs <strong className="text-wc-text">{getFr(match.team2)}</strong>
-              </p>
-              <p className="text-xs text-wc-muted/60">3 briefings offerts à l'inscription. Sans carte bancaire.</p>
-              <button
-                onClick={signInWithGoogle}
-                className="inline-flex items-center gap-2 text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-5 py-2.5 rounded-xl cursor-pointer mt-2"
-              >
-                Se connecter avec Google
-              </button>
-            </>
-          ) : !canLaunch ? (
-            <>
-              <p className="text-sm text-wc-text">
-                T'as plus de crédits... et tu vas passer à côté de l'analyse de{' '}
-                <strong className="text-wc-gold">{getFr(match.team1)}</strong> vs <strong className="text-wc-gold">{getFr(match.team2)}</strong> ?
-              </p>
-              <p className="text-xs text-wc-muted/60">
-                Sérieusement, t'es à ça de dominer ton classement MPP. Recharge et reviens en force.
-              </p>
-              <button
-                onClick={openCreditsModal}
-                className="inline-flex items-center gap-2 text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-5 py-2.5 rounded-xl cursor-pointer mt-2"
-              >
-                Recharger mes crédits
-              </button>
-            </>
-          ) : (
+          {canLaunch ? (
             <>
               <p className="text-lg font-bold text-wc-text">
                 {getFlag(match.team1)} {getFr(match.team1)} vs {getFr(match.team2)} {getFlag(match.team2)}
@@ -301,8 +379,41 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
                 Lancer le briefing
               </button>
               <p className="text-[11px] text-wc-muted/50 mt-1">
-                {hasFullPass ? 'Pass illimité ✓' : `${credits} crédit${credits !== 1 ? 's' : ''} restant${credits !== 1 ? 's' : ''}`} · ~45 sec
+                {isNextMatchFree ? 'Gratuit — offert pour le prochain match ✨' : hasFullPass ? 'Pass illimité ✓' : `${credits} crédit${credits !== 1 ? 's' : ''} restant${credits !== 1 ? 's' : ''}`} · ~45 sec
               </p>
+            </>
+          ) : !isLoggedIn ? (
+            <>
+              <p className="text-sm text-wc-muted">
+                Connecte-toi pour débloquer l'analyse de{' '}
+                <strong className="text-wc-text">{getFr(match.team1)}</strong> vs <strong className="text-wc-text">{getFr(match.team2)}</strong>
+              </p>
+              <p className="text-xs text-wc-muted/60">3 briefings offerts à l'inscription. Le prochain match est gratuit sans compte.</p>
+              <button
+                onClick={() => {
+                  if (isInAppBrowser()) setShowBrowserModal(true);
+                  else signInWithGoogle();
+                }}
+                className="inline-flex items-center gap-2 text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-5 py-2.5 rounded-xl cursor-pointer mt-2"
+              >
+                Se connecter avec Google
+              </button>
+            </>
+          ) : (
+            <>
+              <p className="text-sm text-wc-text">
+                T'as plus de crédits... et tu vas passer à côté de l'analyse de{' '}
+                <strong className="text-wc-gold">{getFr(match.team1)}</strong> vs <strong className="text-wc-gold">{getFr(match.team2)}</strong> ?
+              </p>
+              <p className="text-xs text-wc-muted/60">
+                Sérieusement, t'es à ça de dominer ton classement MPP. Recharge et reviens en force.
+              </p>
+              <button
+                onClick={openCreditsModal}
+                className="inline-flex items-center gap-2 text-sm font-bold text-wc-dark bg-wc-gold hover:bg-wc-gold/80 transition px-5 py-2.5 rounded-xl cursor-pointer mt-2"
+              >
+                Recharger mes crédits
+              </button>
             </>
           )}
         </div>
@@ -347,6 +458,8 @@ export default function AgenticTab({ match }: { match: ScheduleMatch }) {
           {getFlag(match.team1)} {getFr(match.team1)} vs {getFr(match.team2)} {getFlag(match.team2)} — GPT-4o-mini + Claude Opus 4.6 | {toolCallCount} outils
         </p>
       )}
+
+      {showBrowserModal && <InAppBrowserModal onClose={() => setShowBrowserModal(false)} />}
     </div>
   );
 }

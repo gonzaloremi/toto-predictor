@@ -1,6 +1,12 @@
 import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 
+const STRIPE_LINKS = {
+  single: import.meta.env.VITE_STRIPE_LINK_1 || '',
+  pack5: import.meta.env.VITE_STRIPE_LINK_5 || '',
+  unlimited: import.meta.env.VITE_STRIPE_LINK_UNLIMITED || '',
+};
+
 interface CreditsModalContextValue {
   isOpen: boolean;
   openCreditsModal: () => void;
@@ -30,34 +36,37 @@ export function CreditsModalProvider({ children }: { children: ReactNode }) {
 
 const TIERS = [
   {
-    id: 'starter',
-    name: 'Starter',
-    credits: '5 crédits',
-    price: '2,99€',
+    id: 'single',
+    name: '1 Briefing',
+    credits: '1 crédit',
+    price: '0,50€',
     highlight: false,
-    description: 'Pour tester tranquille',
+    description: 'Pour un match précis',
+    linkKey: 'single' as const,
   },
   {
-    id: 'serieux',
-    name: 'Sérieux',
-    credits: '15 crédits',
-    price: '7,99€',
+    id: 'pack5',
+    name: '5 Briefings',
+    credits: '5 crédits',
+    price: '1,99€',
     highlight: true,
-    description: 'Le meilleur rapport qualité/prix',
+    description: '0,40€ par briefing — le bon plan',
     badge: 'Populaire',
+    linkKey: 'pack5' as const,
   },
   {
-    id: 'full',
-    name: 'Full Compet',
+    id: 'unlimited',
+    name: 'Briefing illimité',
     credits: 'Pass illimité',
-    price: '19,99€',
+    price: '14,99€',
     highlight: false,
     description: 'Tous les matchs, zéro limite',
+    linkKey: 'unlimited' as const,
   },
 ] as const;
 
 function CreditsModal({ onClose }: { onClose: () => void }) {
-  const { credits, hasFullPass } = useAuth();
+  const { user, credits, hasFullPass } = useAuth();
 
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
@@ -65,8 +74,14 @@ function CreditsModal({ onClose }: { onClose: () => void }) {
     return () => document.removeEventListener('keydown', handleEsc);
   }, [onClose]);
 
-  const handlePurchase = (tierId: string) => {
-    alert(`Paiement Stripe bientôt disponible pour le pack "${tierId}"`);
+  const handlePurchase = (linkKey: 'single' | 'pack5' | 'unlimited') => {
+    const baseUrl = STRIPE_LINKS[linkKey];
+    if (!baseUrl) {
+      alert('Paiement bientôt disponible !');
+      return;
+    }
+    const url = user ? `${baseUrl}?client_reference_id=${user.id}` : baseUrl;
+    window.open(url, '_blank');
   };
 
   return (
@@ -94,6 +109,10 @@ function CreditsModal({ onClose }: { onClose: () => void }) {
           </button>
         </div>
 
+        <p className="text-sm text-wc-text/80 text-center italic">
+          Pour deux pintes t'es assuré de tuer tes potes.
+        </p>
+
         <div className="space-y-3">
           {TIERS.map((tier) => (
             <div
@@ -120,7 +139,7 @@ function CreditsModal({ onClose }: { onClose: () => void }) {
                   <p className="text-[11px] text-wc-muted/70 mt-0.5">{tier.description}</p>
                 </div>
                 <button
-                  onClick={() => handlePurchase(tier.id)}
+                  onClick={() => handlePurchase(tier.linkKey)}
                   className={`shrink-0 text-xs font-bold px-4 py-2 rounded-lg transition cursor-pointer ${
                     tier.highlight
                       ? 'bg-wc-gold text-wc-dark hover:bg-wc-gold/80'

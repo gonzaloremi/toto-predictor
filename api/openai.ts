@@ -1,14 +1,20 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { Readable } from 'stream';
+import { verifyAuthOrFreeMatch } from './_auth';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  const userId = await verifyAuthOrFreeMatch(req);
+  if (!userId) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
   const key = process.env.OPENAI_API_KEY;
   if (!key) {
-    return res.status(500).json({ error: 'OPENAI_API_KEY not configured' });
+    return res.status(500).json({ error: 'Server configuration error' });
   }
 
   const { model, messages, response_format, temperature, stream, tools, tool_choice } = req.body;
@@ -35,8 +41,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
 
     if (!upstream.ok) {
-      const data = await upstream.json();
-      return res.status(upstream.status).json(data);
+      console.error('OpenAI upstream error:', upstream.status);
+      return res.status(upstream.status).json({ error: 'Upstream API error' });
     }
 
     if (stream && upstream.body) {
@@ -59,6 +65,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const data = await upstream.json();
     return res.status(200).json(data);
   } catch (err) {
-    return res.status(500).json({ error: String(err) });
+    console.error('OpenAI proxy error:', err);
+    return res.status(500).json({ error: 'Internal server error' });
   }
 }

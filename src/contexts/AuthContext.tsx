@@ -21,7 +21,7 @@ export function useAuth() {
   return ctx;
 }
 
-async function fetchOrCreateCredits(userId: string): Promise<{ credits: number; hasFullPass: boolean }> {
+async function fetchCredits(userId: string): Promise<{ credits: number; hasFullPass: boolean }> {
   const { data, error } = await supabase
     .from('user_credits')
     .select('credits, has_full_pass')
@@ -30,21 +30,7 @@ async function fetchOrCreateCredits(userId: string): Promise<{ credits: number; 
 
   if (data) return { credits: data.credits, hasFullPass: data.has_full_pass };
 
-  if (error?.code === 'PGRST116') {
-    const { data: inserted, error: insertError } = await supabase
-      .from('user_credits')
-      .insert({ user_id: userId, credits: 3, has_full_pass: false })
-      .select('credits, has_full_pass')
-      .single();
-
-    if (insertError) {
-      console.error('Failed to create credits row:', insertError);
-      return { credits: 0, hasFullPass: false };
-    }
-    return { credits: inserted!.credits, hasFullPass: inserted!.has_full_pass };
-  }
-
-  console.error('Failed to fetch credits:', error);
+  if (error) console.error('Failed to fetch credits:', error);
   return { credits: 0, hasFullPass: false };
 }
 
@@ -55,7 +41,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   const loadCredits = useCallback(async (u: User) => {
-    const result = await fetchOrCreateCredits(u.id);
+    const result = await fetchCredits(u.id);
     setCredits(result.credits);
     setHasFullPass(result.hasFullPass);
   }, []);
@@ -106,24 +92,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (hasFullPass) return true;
     if (credits <= 0) return false;
 
-    const newCredits = credits - 1;
-    const { error } = await supabase
-      .from('user_credits')
-      .update({ credits: newCredits, updated_at: new Date().toISOString() })
-      .eq('user_id', user.id);
+    const { data, error } = await supabase.rpc('consume_credit');
+    if (error || data === false) return false;
 
-    if (error) {
-      console.error('Failed to consume credit:', error);
-      return false;
-    }
-
-    setCredits(newCredits);
+    setCredits((c) => Math.max(0, c - 1));
     return true;
   }, [user, credits, hasFullPass]);
 
   const refreshCredits = useCallback(async () => {
     if (user) await loadCredits(user);
   }, [user, loadCredits]);
+
+  useEffect(() => {
+    if (!user) return;
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') refreshCredits();
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, [user, refreshCredits]);
 
   return (
     <AuthContext.Provider value={{ user, credits, hasFullPass, loading, signInWithGoogle, signOut, consumeCredit, refreshCredits }}>

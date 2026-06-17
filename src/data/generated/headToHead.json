@@ -360,17 +360,26 @@
     ]
   },
   "Qatar_vs_Switzerland": {
-    "totalMatches": 1,
+    "totalMatches": 2,
     "wins": {
       "Qatar": 1,
       "Switzerland": 0,
-      "draws": 0
+      "draws": 1
     },
     "goals": {
-      "Qatar": 1,
-      "Switzerland": 0
+      "Qatar": 2,
+      "Switzerland": 1
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Qatar",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2018-11-14",
         "homeTeam": "Switzerland",
@@ -381,7 +390,17 @@
         "tournament": "Friendly"
       }
     ],
-    "inWorldCup": []
+    "inWorldCup": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Qatar",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Bosnia & Herzegovina_vs_Switzerland": {
     "totalMatches": 1,
@@ -489,17 +508,26 @@
     "inWorldCup": []
   },
   "Brazil_vs_Morocco": {
-    "totalMatches": 3,
+    "totalMatches": 4,
     "wins": {
       "Brazil": 2,
       "Morocco": 1,
-      "draws": 0
+      "draws": 1
     },
     "goals": {
-      "Brazil": 6,
-      "Morocco": 2
+      "Brazil": 7,
+      "Morocco": 3
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Brazil",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2023-03-25",
         "homeTeam": "Morocco",
@@ -530,6 +558,15 @@
     ],
     "inWorldCup": [
       {
+        "date": "2026-06-13",
+        "homeTeam": "Brazil",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
+      {
         "date": "1998-06-16",
         "homeTeam": "Brazil",
         "score": [
@@ -541,18 +578,38 @@
     ]
   },
   "Haiti_vs_Scotland": {
-    "totalMatches": 0,
+    "totalMatches": 1,
     "wins": {
       "Haiti": 0,
-      "Scotland": 0,
+      "Scotland": 1,
       "draws": 0
     },
     "goals": {
       "Haiti": 0,
-      "Scotland": 0
+      "Scotland": 1
     },
-    "lastMeetings": [],
-    "inWorldCup": []
+    "lastMeetings": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Haiti",
+        "score": [
+          0,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ],
+    "inWorldCup": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Haiti",
+        "score": [
+          0,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Morocco_vs_Scotland": {
     "totalMatches": 1,
@@ -911,17 +968,26 @@
     ]
   },
   "Australia_vs_Turkey": {
-    "totalMatches": 2,
+    "totalMatches": 3,
     "wins": {
-      "Australia": 0,
+      "Australia": 1,
       "Turkey": 2,
       "draws": 0
     },
     "goals": {
-      "Australia": 1,
+      "Australia": 3,
       "Turkey": 4
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Australia",
+        "score": [
+          2,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2004-05-24",
         "homeTeam": "Australia",
@@ -941,7 +1007,17 @@
         "tournament": "Friendly"
       }
     ],
-    "inWorldCup": []
+    "inWorldCup": [
+      {
+        "date": "2026-06-13",
+        "homeTeam": "Australia",
+        "score": [
+          2,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Australia_vs_USA": {
     "totalMatches": 4,
@@ -1129,32 +1205,72 @@
     "inWorldCup": []
   },
   "Curaçao_vs_Germany": {
-    "totalMatches": 0,
+    "totalMatches": 1,
     "wins": {
       "Curaçao": 0,
-      "Germany": 0,
+      "Germany": 1,
       "draws": 0
     },
     "goals": {
-      "Curaçao": 0,
-      "Germany": 0
+      "Curaçao": 1,
+      "Germany": 7
     },
-    "lastMeetings": [],
-    "inWorldCup": []
+    "lastMeetings": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Germany",
+        "score": [
+          7,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ],
+    "inWorldCup": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Germany",
+        "score": [
+          7,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Ecuador_vs_Ivory Coast": {
-    "totalMatches": 0,
+    "totalMatches": 1,
     "wins": {
       "Ecuador": 0,
-      "Ivory Coast": 0,
+      "Ivory Coast": 1,
       "draws": 0
     },
     "goals": {
       "Ecuador": 0,
-      "Ivory Coast": 0
+      "Ivory Coast": 1
     },
-    "lastMeetings": [],
-    "inWorldCup": []
+    "lastMeetings": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Ivory Coast",
+        "score": [
+          1,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ],
+    "inWorldCup": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Ivory Coast",
+        "score": [
+          1,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Germany_vs_Ivory Coast": {
     "totalMatches": 1,
@@ -1252,17 +1368,26 @@
     ]
   },
   "Japan_vs_Netherlands": {
-    "totalMatches": 3,
+    "totalMatches": 4,
     "wins": {
       "Japan": 0,
       "Netherlands": 2,
-      "draws": 1
+      "draws": 2
     },
     "goals": {
-      "Japan": 2,
-      "Netherlands": 6
+      "Japan": 4,
+      "Netherlands": 8
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Netherlands",
+        "score": [
+          2,
+          2
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2013-11-16",
         "homeTeam": "Netherlands",
@@ -1293,6 +1418,15 @@
     ],
     "inWorldCup": [
       {
+        "date": "2026-06-14",
+        "homeTeam": "Netherlands",
+        "score": [
+          2,
+          2
+        ],
+        "tournament": "FIFA World Cup"
+      },
+      {
         "date": "2010-06-19",
         "homeTeam": "Netherlands",
         "score": [
@@ -1304,17 +1438,26 @@
     ]
   },
   "Sweden_vs_Tunisia": {
-    "totalMatches": 4,
+    "totalMatches": 5,
     "wins": {
-      "Sweden": 2,
+      "Sweden": 3,
       "Tunisia": 1,
       "draws": 1
     },
     "goals": {
-      "Sweden": 3,
-      "Tunisia": 2
+      "Sweden": 8,
+      "Tunisia": 3
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Sweden",
+        "score": [
+          5,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2003-02-12",
         "homeTeam": "Tunisia",
@@ -1352,7 +1495,17 @@
         "tournament": "Friendly"
       }
     ],
-    "inWorldCup": []
+    "inWorldCup": [
+      {
+        "date": "2026-06-14",
+        "homeTeam": "Sweden",
+        "score": [
+          5,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Netherlands_vs_Sweden": {
     "totalMatches": 25,
@@ -1633,17 +1786,26 @@
     "inWorldCup": []
   },
   "Belgium_vs_Egypt": {
-    "totalMatches": 4,
+    "totalMatches": 5,
     "wins": {
       "Belgium": 1,
       "Egypt": 3,
-      "draws": 0
+      "draws": 1
     },
     "goals": {
-      "Belgium": 4,
-      "Egypt": 7
+      "Belgium": 5,
+      "Egypt": 8
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Belgium",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2022-11-18",
         "homeTeam": "Egypt",
@@ -1681,20 +1843,39 @@
         "tournament": "Friendly"
       }
     ],
-    "inWorldCup": []
+    "inWorldCup": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Belgium",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Iran_vs_New Zealand": {
-    "totalMatches": 2,
+    "totalMatches": 3,
     "wins": {
       "Iran": 1,
       "New Zealand": 0,
-      "draws": 1
+      "draws": 2
     },
     "goals": {
-      "Iran": 3,
-      "New Zealand": 0
+      "Iran": 5,
+      "New Zealand": 2
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Iran",
+        "score": [
+          2,
+          2
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2003-10-12",
         "homeTeam": "Iran",
@@ -1714,7 +1895,17 @@
         "tournament": "Friendly"
       }
     ],
-    "inWorldCup": []
+    "inWorldCup": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Iran",
+        "score": [
+          2,
+          2
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Belgium_vs_Iran": {
     "totalMatches": 0,
@@ -1811,31 +2002,60 @@
     "inWorldCup": []
   },
   "Cape Verde_vs_Spain": {
-    "totalMatches": 0,
+    "totalMatches": 1,
     "wins": {
       "Cape Verde": 0,
       "Spain": 0,
-      "draws": 0
+      "draws": 1
     },
     "goals": {
       "Cape Verde": 0,
       "Spain": 0
     },
-    "lastMeetings": [],
-    "inWorldCup": []
+    "lastMeetings": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Spain",
+        "score": [
+          0,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ],
+    "inWorldCup": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Spain",
+        "score": [
+          0,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Saudi Arabia_vs_Uruguay": {
-    "totalMatches": 3,
+    "totalMatches": 4,
     "wins": {
       "Saudi Arabia": 1,
       "Uruguay": 1,
-      "draws": 1
+      "draws": 2
     },
     "goals": {
-      "Saudi Arabia": 4,
-      "Uruguay": 4
+      "Saudi Arabia": 5,
+      "Uruguay": 5
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Saudi Arabia",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2018-06-20",
         "homeTeam": "Uruguay",
@@ -1865,6 +2085,15 @@
       }
     ],
     "inWorldCup": [
+      {
+        "date": "2026-06-15",
+        "homeTeam": "Saudi Arabia",
+        "score": [
+          1,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2018-06-20",
         "homeTeam": "Uruguay",
@@ -2081,17 +2310,26 @@
     ]
   },
   "France_vs_Senegal": {
-    "totalMatches": 2,
+    "totalMatches": 3,
     "wins": {
-      "France": 0,
+      "France": 1,
       "Senegal": 2,
       "draws": 0
     },
     "goals": {
-      "France": 0,
-      "Senegal": 3
+      "France": 3,
+      "Senegal": 4
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "France",
+        "score": [
+          3,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2002-05-31",
         "homeTeam": "France",
@@ -2113,6 +2351,15 @@
     ],
     "inWorldCup": [
       {
+        "date": "2026-06-16",
+        "homeTeam": "France",
+        "score": [
+          3,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      },
+      {
         "date": "2002-05-31",
         "homeTeam": "France",
         "score": [
@@ -2124,18 +2371,38 @@
     ]
   },
   "Iraq_vs_Norway": {
-    "totalMatches": 0,
+    "totalMatches": 1,
     "wins": {
       "Iraq": 0,
-      "Norway": 0,
+      "Norway": 1,
       "draws": 0
     },
     "goals": {
-      "Iraq": 0,
-      "Norway": 0
+      "Iraq": 1,
+      "Norway": 4
     },
-    "lastMeetings": [],
-    "inWorldCup": []
+    "lastMeetings": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "Iraq",
+        "score": [
+          1,
+          4
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ],
+    "inWorldCup": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "Iraq",
+        "score": [
+          1,
+          4
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "France_vs_Iraq": {
     "totalMatches": 0,
@@ -2295,17 +2562,26 @@
     "inWorldCup": []
   },
   "Algeria_vs_Argentina": {
-    "totalMatches": 1,
+    "totalMatches": 2,
     "wins": {
       "Algeria": 0,
-      "Argentina": 1,
+      "Argentina": 2,
       "draws": 0
     },
     "goals": {
       "Algeria": 3,
-      "Argentina": 4
+      "Argentina": 7
     },
     "lastMeetings": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "Argentina",
+        "score": [
+          3,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      },
       {
         "date": "2007-06-05",
         "homeTeam": "Algeria",
@@ -2316,21 +2592,51 @@
         "tournament": "Friendly"
       }
     ],
-    "inWorldCup": []
+    "inWorldCup": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "Argentina",
+        "score": [
+          3,
+          0
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Austria_vs_Jordan": {
-    "totalMatches": 0,
+    "totalMatches": 1,
     "wins": {
-      "Austria": 0,
+      "Austria": 1,
       "Jordan": 0,
       "draws": 0
     },
     "goals": {
-      "Austria": 0,
-      "Jordan": 0
+      "Austria": 3,
+      "Jordan": 1
     },
-    "lastMeetings": [],
-    "inWorldCup": []
+    "lastMeetings": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "Austria",
+        "score": [
+          3,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ],
+    "inWorldCup": [
+      {
+        "date": "2026-06-16",
+        "homeTeam": "Austria",
+        "score": [
+          3,
+          1
+        ],
+        "tournament": "FIFA World Cup"
+      }
+    ]
   },
   "Argentina_vs_Austria": {
     "totalMatches": 2,
