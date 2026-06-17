@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import type { VercelRequest } from '@vercel/node';
-import { isNextMatch } from './_next-match';
+import { isNextMatch } from './_next-match.js';
 
 const supabaseUrl = process.env.VITE_SUPABASE_URL || 'https://faydwdlxexnzvnzcbdrp.supabase.co';
 
