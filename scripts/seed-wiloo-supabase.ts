@@ -11,8 +11,8 @@ import { createClient } from '@supabase/supabase-js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SUMMARIES_PATH = join(__dirname, '..', 'src', 'data', 'generated', 'wiloo-summaries.json');
 
-const supabaseUrl = 'https://faydwdlxexnzvnzcbdrp.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZheWR3ZGx4ZXhuenZuemNiZHJwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNDIwODIsImV4cCI6MjA5NjkxODA4Mn0.gz0rTuUgZcsWMnU_4EhARVQIQfHOoOSwUlva4KfivrI';
+const supabaseUrl = process.env.VITE_SUPABASE_URL!;
+const supabaseKey = process.env.VITE_SUPABASE_ANON_KEY!;
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 

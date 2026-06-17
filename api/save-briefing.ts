@@ -13,7 +13,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  const supabaseUrl = process.env.VITE_SUPABASE_URL || 'https://faydwdlxexnzvnzcbdrp.supabase.co';
+  const supabaseUrl = process.env.VITE_SUPABASE_URL!;
 
   if (!serviceRoleKey) {
     return res.status(500).json({ error: 'Server configuration error' });

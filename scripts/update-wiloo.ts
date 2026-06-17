@@ -20,8 +20,8 @@ const TRANSCRIPTS_PATH = join(ROOT, 'src', 'data', 'generated', 'wiloo-transcrip
 const SUMMARIES_PATH = join(ROOT, 'src', 'data', 'generated', 'wiloo-summaries.json');
 const NEW_TRANSCRIPTS_PATH = join(ROOT, 'src', 'data', 'generated', 'wiloo-new-transcripts.json');
 
-const supabaseUrl = 'https://faydwdlxexnzvnzcbdrp.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZheWR3ZGx4ZXhuenZuemNiZHJwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNDIwODIsImV4cCI6MjA5NjkxODA4Mn0.gz0rTuUgZcsWMnU_4EhARVQIQfHOoOSwUlva4KfivrI';
+const supabaseUrl = process.env.VITE_SUPABASE_URL!;
+const supabaseKey = process.env.VITE_SUPABASE_ANON_KEY!;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 interface Transcript {

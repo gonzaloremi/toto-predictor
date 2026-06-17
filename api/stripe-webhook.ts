@@ -26,7 +26,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const stripeSecret = process.env.STRIPE_SECRET_KEY;
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
   const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  const supabaseUrl = process.env.VITE_SUPABASE_URL || 'https://faydwdlxexnzvnzcbdrp.supabase.co';
+  const supabaseUrl = process.env.VITE_SUPABASE_URL!;
 
   if (!stripeSecret || !webhookSecret || !serviceRoleKey) {
     return res.status(500).json({ error: 'Missing env vars' });
